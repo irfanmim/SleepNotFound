@@ -8,6 +8,6 @@ public:
 	void render();
 private:
 	string s;
-}
+};
 
 #endif
