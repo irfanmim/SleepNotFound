@@ -18,6 +18,7 @@ public:
 	  * @param y ordinat dari koordinat Cell
 	  */
 	Cell(int x,int y);
+	void printCoor();
 protected:
 	Point loc; /** Koordinat suatu Cell */
 };

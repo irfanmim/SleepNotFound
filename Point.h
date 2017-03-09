@@ -4,6 +4,7 @@
 class Point{
 	public:
 		Point(int x, int y);
+		void printPoint();
 		int getX();
 		int getY();
 		void setX(int x);
