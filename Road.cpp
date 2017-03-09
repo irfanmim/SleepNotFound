@@ -1,9 +1,11 @@
 #include "Road.h"
+#include <iostream>
+using namespace std;
+
+Road::Road(int x,int y):Facility(x,y){
 	
-	Road::Road(int x,int y):Cell(x,y){
-		
-	}
-		
-	void Road::render(){
-		cout<<" ";
-	}
+}
+	
+void Road::render(){
+	cout << " ";
+}

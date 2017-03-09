@@ -3,7 +3,8 @@
 #include "Cell.h"
 
 class Facility: public Cell{
-	
+public:
+	Facility(int x,int y);
 };
 
 #endif

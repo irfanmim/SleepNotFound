@@ -9,6 +9,7 @@ public:
 	Zoo();
 	Zoo(int w,int h);
 	void initialize();
+	void show();
 	~Zoo();
 private:
 	int width;

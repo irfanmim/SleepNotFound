@@ -7,7 +7,7 @@
   */
 class Road: public Facility{
 
-	public
+	public:
 	/** @brief Constructor.
 	  * Konstruktor kelas Road.
 	  */  
