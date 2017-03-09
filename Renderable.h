@@ -1,13 +1,11 @@
 #ifndef RENDERABLE_H
 #define RENDERABLE_H
+#include <string>
+using namespace std;
 
 class Renderable{
 public:
-	Renderable();
-	Renderable(string s);
-	void render();
-private:
-	string s;
+	virtual void render()=0;
 };
 
 #endif
