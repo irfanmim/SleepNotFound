@@ -1,14 +1,19 @@
 #ifndef ZOO_H
 #define ZOO_H
 #include "Cell.h"
-#include "Road.h"
+#define DEF_WIDTH 35
+#define DEF_HEIGHT 25
 
 class Zoo{
-	private:
-		int width;
-		int height;
-		Cell *** area;
-		Road * path;
+public:
+	Zoo();
+	Zoo(int w,int h);
+	void initialize();
+	~Zoo();
+private:
+	int width;
+	int height;
+	Cell *** member;
 };
 
 #endif
