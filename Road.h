@@ -7,7 +7,7 @@
   */
 class Road: public Facility{
 
-	
+	public
 	/** @brief Constructor.
 	  * Konstruktor kelas Road.
 	  */  
@@ -15,9 +15,9 @@ class Road: public Facility{
 	  */    
 	/** @param y Parameter y untuk loc.
 	  */ 
-	Road(int x,int y);
-	
+		Road(int x,int y);
+		
 
-	void render();
+		void render();
 };
 #endif
