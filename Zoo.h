@@ -7,7 +7,7 @@ class Zoo{
 	private:
 		int width;
 		int height;
-		Cell ** area;
+		Cell *** area;
 		Road * path;
 };
 
