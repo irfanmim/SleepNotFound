@@ -4,8 +4,6 @@
 class Point{
 	public:
 		Point(int x, int y);
-		Point(const Point& P);
-		void printPoint();
 		int getX();
 		int getY();
 		void setX(int x);
