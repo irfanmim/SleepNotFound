@@ -6,6 +6,7 @@ class Herbivore{
 		Herbivore(float weight);
 		static int nHerbivore;
 		static int total_hFood;
+		int getFood() const;
 	protected :
 		float hFood;
 };

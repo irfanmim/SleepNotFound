@@ -14,6 +14,7 @@ class Animal{
 	/** @brief Method interaksi animal.
 	  * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
 	  */	
+		int getWeight() const;
 		virtual void interact()=0;
 		int getNbAnimal();
 		static int NbAnimal; /** Jumlah animal dalam zoo */

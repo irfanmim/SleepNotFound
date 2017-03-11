@@ -8,6 +8,7 @@ public:
 	Omnivore(float weight);
 	static int nOmnivore;
 	static int total_oFood;
+	int getFood() const;
 protected :
 	float oFood;
 };

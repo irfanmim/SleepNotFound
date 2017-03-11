@@ -6,6 +6,9 @@ using namespace std;
 
 int Carnivore :: nCarnivore = 0;
 int Carnivore::  total_cFood = 0;
+int Carnivore :: getFood() const {
+	return cFood;
+}
 Carnivore :: Carnivore(float weight) : cFood(weight * factor) {
 	nCarnivore++;
 	total_cFood += cFood;

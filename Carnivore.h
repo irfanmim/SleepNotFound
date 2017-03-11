@@ -10,6 +10,7 @@ public:
 	  * Membuat objek hewan karnivora dan mengincrement atribut nCarnivore
 	  */
 	Carnivore(float weight);
+	int getFood() const;
 	static int nCarnivore; 	/** Jumlah hewan karnivora */
 	static int total_cFood;
 protected:
