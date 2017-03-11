@@ -13,4 +13,3 @@
 #Finally, to check the currently set proxy:
 
 #git config --global --get http.proxy
-
