@@ -14,14 +14,14 @@ Animal::Animal(int x, int y, int w) : loc(x, y), weight(w) {
 	NbAnimal++;
 }
 
-FlyingAnimal::FlyingAnimal(int x, int y, int w) : loc(x, y), weight(w){
+FlyingAnimal::FlyingAnimal(int x, int y, int w) : Animal(x,y,w){
 
 }
 
-WaterAnimal::WaterAnimal(int x, int y, int w) : loc(x, y), weight(w){
+WaterAnimal::WaterAnimal(int x, int y, int w) : Animal(x,y,w){
 	
 }
 
-LandAnimal::LandAnimal(int x, int y, int w) : loc(x, y), weight(w){
+LandAnimal::LandAnimal(int x, int y, int w) : Animal(x,y,w){
 	
 }
