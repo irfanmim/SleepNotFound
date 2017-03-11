@@ -3,11 +3,11 @@
 
 class Herbivore{
 	public:
-		Herbivore(int weight);
+		Herbivore(float weight);
 		static int nHerbivore;
 		static int total_hFood;
 	protected :
-		int hFood;
+		float hFood;
 };
 
 #endif

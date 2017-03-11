@@ -1,4 +1,4 @@
-#inlcude <iostream>
+#include <iostream>
 #include "Herbivore.h"
 using namespace std;
 
@@ -7,8 +7,8 @@ using namespace std;
 int Herbivore :: nHerbivore = 0;
 int Herbivore :: total_hFood = 0;
 
-Herbivore::Herbivore(int weight) : hFood(weight * factor) {
+Herbivore::Herbivore(float weight) : hFood(weight * factor) {
 	nHerbivore++;
-	total_hFood += hfood;
+	total_hFood += hFood;
 }
 

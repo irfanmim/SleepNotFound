@@ -6,8 +6,8 @@ class Point{
 		Point(int x, int y);
 		Point(const Point& P);
 		void printPoint();
-		int getX();
-		int getY();
+		int getX() const;
+		int getY() const;
 		void setX(int x);
 		void setY(int y);
 		void add(int x,int y);

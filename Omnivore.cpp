@@ -6,7 +6,7 @@ using namespace std;
 
 int Omnivore::nOmnivore = 0;
 int Omnivore :: total_oFood = 0;
-Omnivore :: Omnivore(int weight) : Herbivore(weight), Carnivore(weight) {
+Omnivore :: Omnivore(float weight) : Herbivore(factor * weight), Carnivore(factor * weight) {
 	oFood = hFood + cFood;
 	nOmnivore++;
 	total_oFood += oFood;

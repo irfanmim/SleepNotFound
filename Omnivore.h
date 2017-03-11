@@ -5,11 +5,11 @@
 
 class Omnivore : public Herbivore, public Carnivore {
 public:
-	Omnivore(int weight);
+	Omnivore(float weight);
 	static int nOmnivore;
 	static int total_oFood;
 protected :
-	int oFood;
+	float oFood;
 };
 
 #endif
