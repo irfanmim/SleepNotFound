@@ -8,7 +8,7 @@ class Zoo{
 public:
 	Zoo();
 	Zoo(int w,int h);
-	void initialize();
+	void initialize(char ** c,int row,int col);
 	void show();
 	~Zoo();
 private:

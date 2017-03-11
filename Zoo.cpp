@@ -17,18 +17,16 @@ Zoo::Zoo(int w,int h):width(w),height(h){
 	}
 }
 
-void Zoo::initialize(){
-	for(int i = 0;i < height;i++){
-		for(int j = 0;j < width;j++){
-			if(j%2 == 0){
-				member[i][j] = new Road(i,j);
-			}else{
-				member[i][j] = new Park(i,j);
+void Zoo::initialize(char ** c,int row,int col){
+	for(int i = 0;i < row;i++){
+		for(int j = 0;j < col;j++){
+			switch(c[i][j]){
+				case '#': member[i][j] = new Road(i,j);break;
+				case 'R': member[i][j] = new Entrance(i,j);break;
+				case 'W': member[i][j] = new Exit(i,j);break;
 			}
 		}
 	}
-	delete member[0][0];
-	member[0][0] = new Entrance(0,0);
 }
 
 void Zoo::show(){
