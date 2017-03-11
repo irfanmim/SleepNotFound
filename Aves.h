@@ -1,19 +1,21 @@
 #ifndef AVES_H
 #define AVES_H
+#include <string>
 #include "Taxonomy.h"
 
+using namespace std;
 /** @class Aves
-  * Hewan yang tinggal di AirHabitat
+  * Base class
   */
 class Aves : public Taxonomy{
 	public:
 	/** @brief Constructor.
-	  * Menciptakan sebuah objek aves
-	  * Menginisialisasi taxName dengan "Aves"
+	  * Konstruktor kelas Aves
 	  */  
-		Aves();
-		
-		
+		Aves(string tax_name);
+	/** @brief method showName.
+	  * Menampilkan nama taksonomi.
+	  */  
+		void showTaxName();		
 };
-
 #endif

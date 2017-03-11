@@ -1,18 +1,18 @@
-#ifndef PISCES_H
-#define PISCES_H
+#ifndef AMPHIBIA_H
+#define AMPHIBIA_H
 #include <string>
 #include "Taxonomy.h"
 
 using namespace std;
-/** @class Pisces
+/** @class Amphibia
   * Base class
   */
-class Pisces : public Taxonomy{
+class Amphibia : public Taxonomy{
 	public:
 	/** @brief Constructor.
-	  * Konstruktor kelas Pisces
+	  * Konstruktor kelas Amphibia
 	  */  
-		Pisces(string tax_name);
+		Amphibia(string tax_name);
 	/** @brief method showName.
 	  * Menampilkan nama taksonomi.
 	  */  
