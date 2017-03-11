@@ -27,7 +27,7 @@ Road::Road(int x,int y):Facility(x,y){
 }
 	
 void Road::render(){
-	cout << "R";
+	cout << " ";
 }
 
 Entrance::Entrance(int x,int y):Road(x,y){

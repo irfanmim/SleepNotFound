@@ -11,11 +11,16 @@ int main(){
 	for(int i = 0;i < row;i++){
 		zoo[i] = new char[col];
 	}
-	getMatrix(zoo,row,col,infile);
+	try{
+		getMatrix(zoo,row,col,infile);
+	}catch(int x){
+		cout << "Row or column mismatch" << endl;
+	}
 	
 	Zoo z(col,row);
 	z.initialize(zoo,row,col);
 	z.show();
+
 	for(int i = 0;i < row;i++){
 		delete [] zoo[i];
 	}
