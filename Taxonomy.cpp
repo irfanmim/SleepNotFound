@@ -1,9 +1,23 @@
 #include "Taxonomy.h"
 #include <iostream>
-#include <string>
-using namespace std;
+using namespace std; 
 
-Taxonomy::Taxonomy(string tax_name):taxName(tax_name){
-	
+void Reptile::showTaxName(){
+	cout << "Reptilia" << endl;
 }
-  
+
+void Aves::showTaxName(){
+	cout << "Aves" << endl;
+}
+
+void Pisces::showTaxName(){
+	cout << "Pisces" << endl;
+}
+
+void Amphibi::showTaxName(){
+	cout << "Amphibia" << endl;
+}
+
+void Mammal::showTaxName(){
+	cout << "Mammalia" << endl;
+}
