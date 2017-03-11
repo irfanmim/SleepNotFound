@@ -3,27 +3,71 @@
 #include "Animal.h"
 #include "Consumption.h"
 
+/** @class Bat
+  * Real class bat
+  */
 class Bat : public Animal, public Carnivore{
 public :
+	/** @brief Constructor.
+	  * @param x absis lokasi
+	  * @param y oridnat lokasi
+	  * @param weight berat badan
+	  * Konstruktor kelas bat
+	  */  
 	Bat(int x, int y, int weight);
+	/** @brief Method interaksi bat
+	  */
 	void interact();
 };
 
+/** @class Cendrawasih
+  * Real class cendrawasih
+  */
 class Cendrawasih : public Animal, public Omnivore{
 public :
+	/** @brief Constructor.
+	  * @param x absis lokasi
+	  * @param y oridnat lokasi
+	  * @param weight berat badan
+	  * Konstruktor kelas cendrawasih
+	  */  
 	Cendrawasih(int x, int y, int weight);
+	/** @brief Method interaksi cendrawasih
+	  */
 	void interact();
 };
 
+/** @class Eagle
+  * Real class eagle
+  */
 class Eagle : public Animal, public Carnivore{
 public :
+	/** @brief Constructor.
+	  * @param x absis lokasi
+	  * @param y oridnat lokasi
+	  * @param weight berat badan
+	  * Konstruktor kelas eagle
+	  */  
 	Eagle(int x, int y, int weight);
+	/** @brief Method interaksi eagle
+	  */
 	void interact();
 };
 
+/** @class Kolibri
+  * Real class kolibri
+  */
 class Kolibri : public Animal, public Omnivore{
 public :
+	/** @brief Constructor.
+	  * @param x absis lokasi
+	  * @param y oridnat lokasi
+	  * @param weight berat badan
+	  * Konstruktor kelas kolibri
+	  */  
 	Kolibri(int x, int y, int weight);
+	/** @brief Method interaksi kolibri
+	  */
 	void interact();
 };
 
