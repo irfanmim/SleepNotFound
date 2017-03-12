@@ -1,9 +1,14 @@
 #include <iostream>
 #include "RealAnimal.h"
-using namespace std;
+#include "AnimalArray.h"
 
+using namespace std;
+	
 int main () {
-	Whale p;
+	int count_true;
+	int score; 
+	int count_false;
+	AnimalArray AA;
 	
 	cout << p.getNama()<<endl;
 	p.printClue();
