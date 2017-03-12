@@ -1,8 +1,8 @@
 <map id="Aves" name="Aves">
-<area shape="rect" id="node3" href="$classCendrawasih.html" title="Cendrawasih" alt="" coords="5,155,104,181"/>
-<area shape="rect" id="node4" href="$classEagle.html" title="Eagle" alt="" coords="129,155,183,181"/>
-<area shape="rect" id="node5" href="$classKolibri.html" title="Kolibri" alt="" coords="208,155,267,181"/>
-<area shape="rect" id="node6" href="$classOstrich.html" title="Ostrich" alt="" coords="291,155,355,181"/>
-<area shape="rect" id="node7" href="$classPeacock.html" title="Peacock" alt="" coords="379,155,453,181"/>
-<area shape="rect" id="node2" href="$classTaxonomy.html" title="Taxonomy" alt="" coords="196,5,279,32"/>
+<area shape="rect" id="node3" href="$classCendrawasih.html" title="{Cendrawasih\n||+ Cendrawasih()\l+ interact()\l}" alt="" coords="5,256,124,348"/>
+<area shape="rect" id="node4" href="$classEagle.html" title="{Eagle\n||+ Eagle()\l+ interact()\l}" alt="" coords="149,256,234,348"/>
+<area shape="rect" id="node5" href="$classKolibri.html" title="{Kolibri\n||+ Kolibri()\l+ interact()\l}" alt="" coords="258,256,343,348"/>
+<area shape="rect" id="node6" href="$classOstrich.html" title="{Ostrich\n||+ Ostrich()\l+ interact()\l}" alt="" coords="367,256,453,348"/>
+<area shape="rect" id="node7" href="$classPeacock.html" title="{Peacock\n||+ Peacock()\l+ interact()\l}" alt="" coords="477,256,570,348"/>
+<area shape="rect" id="node2" href="$classTaxonomy.html" title="{Taxonomy\n||+ showTaxName()\l}" alt="" coords="235,5,366,83"/>
 </map>

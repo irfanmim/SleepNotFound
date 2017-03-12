@@ -1,7 +1,7 @@
 <map id="Peacock" name="Peacock">
-<area shape="rect" id="node2" href="$classLandAnimal.html" title="LandAnimal" alt="" coords="5,171,96,197"/>
-<area shape="rect" id="node3" href="$classAnimal.html" title="Animal" alt="" coords="18,95,81,121"/>
-<area shape="rect" id="node4" href="$classPoint.html" title="Point" alt="" coords="23,5,75,32"/>
-<area shape="rect" id="node5" href="$classAves.html" title="Aves" alt="" coords="121,171,173,197"/>
-<area shape="rect" id="node6" href="$classTaxonomy.html" title="Taxonomy" alt="" coords="105,95,188,121"/>
+<area shape="rect" id="node2" href="$classLandAnimal.html" title="{LandAnimal\n||+ LandAnimal()\l}" alt="" coords="10,404,121,481"/>
+<area shape="rect" id="node3" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l|+ Animal()\l+ interact()\l+ getNbAnimal()\l}" alt="" coords="5,248,123,355"/>
+<area shape="rect" id="node4" href="$classPoint.html" title="{Point\n||+ Point()\l+ Point()\l+ printPoint()\l+ getX()\l+ getY()\l+ setX()\l+ setY()\l+ add()\l}" alt="" coords="15,5,113,185"/>
+<area shape="rect" id="node5" href="$classAves.html" title="{Aves\n||+ showTaxName()\l}" alt="" coords="147,404,277,481"/>
+<area shape="rect" id="node6" href="$classTaxonomy.html" title="{Taxonomy\n||+ showTaxName()\l}" alt="" coords="147,263,277,340"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="Park" name="Park">
-<area shape="rect" id="node2" href="$classFacility.html" title="Facility" alt="" coords="17,155,81,181"/>
-<area shape="rect" id="node3" href="$classCell.html" title="Cell" alt="" coords="27,80,72,107"/>
-<area shape="rect" id="node4" href="$classRenderable.html" title="Renderable" alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node2" href="$classFacility.html" title="{Facility\n||+ Facility()\l}" alt="" coords="11,300,95,377"/>
+<area shape="rect" id="node3" href="$classCell.html" title="{Cell\n|# loc\l|+ Cell()\l+ Cell()\l+ render()\l+ printCoor()\l}" alt="" coords="5,131,100,252"/>
+<area shape="rect" id="node4" href="$classRenderable.html" title="{Renderable\n||+ render()\l}" alt="" coords="9,5,97,83"/>
 </map>
