@@ -1,7 +1,7 @@
 #ifndef WATER_ANIMAL_H
 #define WATER_ANIMAL_H
 #include "Animal.h"
-#include "Taxonomy"
+#include "Taxonomy.h"
 #include "Consumption.h"
 
 /** @class Dolphin
