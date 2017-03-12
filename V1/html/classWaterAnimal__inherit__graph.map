@@ -1,0 +1,7 @@
+<map id="WaterAnimal" name="WaterAnimal">
+<area shape="rect" id="node3" href="$classDolphin.html" title="Dolphin" alt="" coords="5,155,72,181"/>
+<area shape="rect" id="node4" href="$classMantaray.html" title="Mantaray" alt="" coords="97,155,173,181"/>
+<area shape="rect" id="node5" href="$classShark.html" title="Shark" alt="" coords="197,155,253,181"/>
+<area shape="rect" id="node6" href="$classWhale.html" title="Whale" alt="" coords="277,155,336,181"/>
+<area shape="rect" id="node2" href="$classAnimal.html" title="Animal" alt="" coords="149,5,211,32"/>
+</map>

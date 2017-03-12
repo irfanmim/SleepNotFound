@@ -1,0 +1,7 @@
+<map id="FlyingAnimal" name="FlyingAnimal">
+<area shape="rect" id="node3" href="$classBat.html" title="Bat" alt="" coords="5,155,48,181"/>
+<area shape="rect" id="node4" href="$classCendrawasih.html" title="Cendrawasih" alt="" coords="72,155,171,181"/>
+<area shape="rect" id="node5" href="$classEagle.html" title="Eagle" alt="" coords="195,155,250,181"/>
+<area shape="rect" id="node6" href="$classKolibri.html" title="Kolibri" alt="" coords="275,155,333,181"/>
+<area shape="rect" id="node2" href="$classAnimal.html" title="Animal" alt="" coords="141,5,203,32"/>
+</map>

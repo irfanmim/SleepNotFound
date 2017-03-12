@@ -10,7 +10,7 @@ public:
 /** @brief Constructor.
   * Konstruktor kelas animal
   */  
-	Animal(int x, int y);
+	Animal(int x, int y, int w);
 /** @brief Method interaksi animal.
   * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
   */	

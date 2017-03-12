@@ -1,0 +1,7 @@
+<map id="Habitat" name="Habitat">
+<area shape="rect" id="node4" href="$classAirHabitat.html" title="AirHabitat" alt="" coords="5,229,85,256"/>
+<area shape="rect" id="node5" href="$classLandHabitat.html" title="LandHabitat" alt="" coords="110,229,202,256"/>
+<area shape="rect" id="node6" href="$classWaterHabitat.html" title="WaterHabitat" alt="" coords="227,229,325,256"/>
+<area shape="rect" id="node2" href="$classCell.html" title="Cell" alt="" coords="133,80,179,107"/>
+<area shape="rect" id="node3" href="$classRenderable.html" title="Renderable" alt="" coords="112,5,200,32"/>
+</map>

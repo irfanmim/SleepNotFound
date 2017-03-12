@@ -1,0 +1,7 @@
+<map id="Ostrich" name="Ostrich">
+<area shape="rect" id="node2" href="$classLandAnimal.html" title="LandAnimal" alt="" coords="5,171,96,197"/>
+<area shape="rect" id="node3" href="$classAnimal.html" title="Animal" alt="" coords="18,95,81,121"/>
+<area shape="rect" id="node4" href="$classPoint.html" title="Point" alt="" coords="23,5,75,32"/>
+<area shape="rect" id="node5" href="$classAves.html" title="Aves" alt="" coords="121,171,173,197"/>
+<area shape="rect" id="node6" href="$classTaxonomy.html" title="Taxonomy" alt="" coords="105,95,188,121"/>
+</map>

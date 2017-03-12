@@ -1,0 +1,6 @@
+<map id="Road" name="Road">
+<area shape="rect" id="node2" href="$classFacility.html" title="Facility" alt="" coords="64,171,128,197"/>
+<area shape="rect" id="node3" href="$classCell.html" title="Cell" alt="" coords="73,95,119,121"/>
+<area shape="rect" id="node4" href="$classRenderable.html" title="Renderable" alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node5" href="$classPoint.html" title="Point" alt="" coords="118,5,170,32"/>
+</map>
