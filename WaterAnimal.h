@@ -1,12 +1,13 @@
 #ifndef WATER_ANIMAL_H
 #define WATER_ANIMAL_H
 #include "Animal.h"
+#include "Taxonomy"
 #include "Consumption.h"
 
 /** @class Dolphin
   * Real class dolphin
   */
-class Dolphin : public WaterAnimal, public Carnivore{
+class Dolphin : public WaterAnimal, public Carnivore, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -23,7 +24,7 @@ public :
 /** @class Shark
   * Real class shark
   */
-class Shark : public WaterAnimal, public Carnivore{
+class Shark : public WaterAnimal, public Carnivore, public Pisces{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -40,7 +41,7 @@ public :
 /** @class Mantaray
   * Real class mantaray
   */
-class Mantaray : public WaterAnimal, public Carnivore{
+class Mantaray : public WaterAnimal, public Carnivore, public Pisces{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -57,7 +58,7 @@ public :
 /** @class Whale
   * Real class whale
   */
-class Whale : public WaterAnimal, public Carnivore{
+class Whale : public WaterAnimal, public Carnivore, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi

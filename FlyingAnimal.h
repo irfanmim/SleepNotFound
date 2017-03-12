@@ -1,12 +1,13 @@
 #ifndef FLYING_ANIMAL_H
 #define FLYING_ANIMAL_H
 #include "Animal.h"
+#include "Taxonomy.h"
 #include "Consumption.h"
 
 /** @class Bat
   * Real class bat
   */
-class Bat : public FlyingAnimal, public Carnivore{
+class Bat : public FlyingAnimal, public Carnivore, public Mammal{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -23,7 +24,7 @@ public :
 /** @class Cendrawasih
   * Real class cendrawasih
   */
-class Cendrawasih : public FlyingAnimal, public Omnivore{
+class Cendrawasih : public FlyingAnimal, public Omnivore, public Aves{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -40,7 +41,7 @@ public :
 /** @class Eagle
   * Real class eagle
   */
-class Eagle : public FlyingAnimal, public Carnivore{
+class Eagle : public FlyingAnimal, public Carnivore, public Aves{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -57,7 +58,7 @@ public :
 /** @class Kolibri
   * Real class kolibri
   */
-class Kolibri : public FlyingAnimal, public Omnivore{
+class Kolibri : public FlyingAnimal, public Omnivore, public Aves{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
