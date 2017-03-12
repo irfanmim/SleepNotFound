@@ -10,7 +10,7 @@ class Tiger : public Animal, public Carnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas tiger
 	  */  
@@ -27,7 +27,7 @@ class Peacock : public Animal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas peacock
 	  */  
@@ -44,7 +44,7 @@ class Panda : public Animal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas panda
 	  */  
@@ -61,7 +61,7 @@ class Ostrich : public Animal, public Omnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas ostrich
 	  */  
@@ -78,7 +78,7 @@ class Orangutan : public Animal, public Omnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas orangutan
 	  */  
@@ -95,7 +95,7 @@ class Lion : public Animal, public Carnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas lion
 	  */  
@@ -112,7 +112,7 @@ class Komodo : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas komodo
 	  */  
@@ -129,7 +129,7 @@ class Kangaroo : public Animal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas kangaroo
 	  */  
@@ -146,7 +146,7 @@ class Hyena : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas hyena
 	  */  
@@ -163,7 +163,7 @@ class Gorilla : public Animal, public Omnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas gorilla
 	  */  
@@ -180,7 +180,7 @@ class Coala : public Animal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas coala
 	  */  
@@ -197,7 +197,7 @@ class Chimpanzee : public Animal, public Omnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas chimpanzee
 	  */  
@@ -214,7 +214,7 @@ class Cheetah : public Animal, public Carnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas cheetah
 	  */  

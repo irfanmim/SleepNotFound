@@ -10,7 +10,7 @@ class Dolphin : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas dolphin
 	  */
@@ -27,7 +27,7 @@ class Shark : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas shark
 	  */
@@ -44,7 +44,7 @@ class Mantaray : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas mantaray
 	  */
@@ -61,7 +61,7 @@ class Whale : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas whale
 	  */

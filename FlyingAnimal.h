@@ -10,7 +10,7 @@ class Bat : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas bat
 	  */  
@@ -27,7 +27,7 @@ class Cendrawasih : public Animal, public Omnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas cendrawasih
 	  */  
@@ -44,7 +44,7 @@ class Eagle : public Animal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas eagle
 	  */  
@@ -61,7 +61,7 @@ class Kolibri : public Animal, public Omnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
-	  * @param y oridnat lokasi
+	  * @param y ordinat lokasi
 	  * @param weight berat badan
 	  * Konstruktor kelas kolibri
 	  */  
