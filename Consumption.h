@@ -24,7 +24,7 @@ protected :
 	float hFood;
 };
 
-/** @class Carnovire
+/** @class Carnivore
   * Base class carnivore
   */
 class Carnivore{

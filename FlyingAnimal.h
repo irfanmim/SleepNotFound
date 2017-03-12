@@ -6,7 +6,7 @@
 /** @class Bat
   * Real class bat
   */
-class Bat : public Animal, public Carnivore{
+class Bat : public FlyingAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -23,7 +23,7 @@ public :
 /** @class Cendrawasih
   * Real class cendrawasih
   */
-class Cendrawasih : public Animal, public Omnivore{
+class Cendrawasih : public FlyingAnimal, public Omnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -40,7 +40,7 @@ public :
 /** @class Eagle
   * Real class eagle
   */
-class Eagle : public Animal, public Carnivore{
+class Eagle : public FlyingAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -57,7 +57,7 @@ public :
 /** @class Kolibri
   * Real class kolibri
   */
-class Kolibri : public Animal, public Omnivore{
+class Kolibri : public FlyingAnimal, public Omnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi

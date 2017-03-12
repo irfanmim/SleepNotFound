@@ -6,7 +6,7 @@
 /** @class Tiger
   * Real class tiger
   */
-class Tiger : public Animal, public Carnivore {
+class Tiger : public LandAnimal, public Carnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -23,7 +23,7 @@ public :
 /** @class Peacock
   * Real class peacock
   */
-class Peacock : public Animal, public Herbivore {
+class Peacock : public LandAnimal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -40,7 +40,7 @@ public :
 /** @class Panda
   * Real class panda
   */
-class Panda : public Animal, public Herbivore {
+class Panda : public LandAnimal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -57,7 +57,7 @@ public :
 /** @class Ostrich
   * Real class ostrich
   */
-class Ostrich : public Animal, public Omnivore{
+class Ostrich : public LandAnimal, public Omnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -74,7 +74,7 @@ public :
 /** @class Orangutan
   * Real class orangutan
   */
-class Orangutan : public Animal, public Omnivore {
+class Orangutan : public LandAnimal, public Omnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -91,7 +91,7 @@ public :
 /** @class Lion
   * Real class lion
   */
-class Lion : public Animal, public Carnivore {
+class Lion : public LandAnimal, public Carnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -108,7 +108,7 @@ public :
 /** @class Komodo
   * Real class komodo
   */
-class Komodo : public Animal, public Carnivore{
+class Komodo : public LandAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -125,7 +125,7 @@ public :
 /** @class Kangaroo
   * Real class kangaroo
   */
-class Kangaroo : public Animal, public Herbivore {
+class Kangaroo : public LandAnimal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -142,7 +142,7 @@ public :
 /** @class Hyena
   * Real class hyena
   */
-class Hyena : public Animal, public Carnivore{
+class Hyena : public LandAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -159,7 +159,7 @@ public :
 /** @class Gorilla
   * Real class gorilla
   */
-class Gorilla : public Animal, public Omnivore {
+class Gorilla : public LandAnimal, public Omnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -176,7 +176,7 @@ public :
 /** @class Coala
   * Real class coala
   */
-class Coala : public Animal, public Herbivore {
+class Coala : public LandAnimal, public Herbivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -193,7 +193,7 @@ public :
 /** @class Chimpanzee
   * Real class chimpanzee
   */
-class Chimpanzee : public Animal, public Omnivore {
+class Chimpanzee : public LandAnimal, public Omnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -210,7 +210,7 @@ public :
 /** @class Cheetah
   * Real class cheetah
   */
-class Cheetah : public Animal, public Carnivore {
+class Cheetah : public LandAnimal, public Carnivore {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi

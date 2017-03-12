@@ -6,7 +6,7 @@
 /** @class Dolphin
   * Real class dolphin
   */
-class Dolphin : public Animal, public Carnivore{
+class Dolphin : public WaterAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -23,7 +23,7 @@ public :
 /** @class Shark
   * Real class shark
   */
-class Shark : public Animal, public Carnivore{
+class Shark : public WaterAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -40,7 +40,7 @@ public :
 /** @class Mantaray
   * Real class mantaray
   */
-class Mantaray : public Animal, public Carnivore{
+class Mantaray : public WaterAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -57,7 +57,7 @@ public :
 /** @class Whale
   * Real class whale
   */
-class Whale : public Animal, public Carnivore{
+class Whale : public WaterAnimal, public Carnivore{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
