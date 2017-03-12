@@ -25,9 +25,12 @@ public:
 	Cage& operator=(const Cage& c);
 	void wakeAllAnimal();
 private:
-	Habitat ** h; /** List of habitat yang dilingkupi */
-	int na; /** Jumlah sel animal dalam cage */
-	int nh; /** Jumlah habitat dalam cage */
+	/** List of habitat yang dilingkupi */
+	Habitat ** h;
+	/** Jumlah sel animal dalam cage */ 
+	int na; 
+	/** Jumlah habitat dalam cage */
+	int nh; 
 };
 
 #endif
