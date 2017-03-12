@@ -1,0 +1,22 @@
+Lanjutin implementasi render di Cell dan anak anaknya
+Animal beserta Omnivor (implementasi dan deklarasi)
+Inisiasi Zoo (file eksternal)
+Tour
+Animate
+Food amount ada di tiap Herbivore, di Herbivore ada method untuk ++ static food_amount, misal ketika buat jerapah, food amount dihitung di jerapah, lalu di ++ menggunakan method static yang tadi
+Cage
+
+Monyet(int n):Animal(n),Omnivore(n){
+
+}
+
+static int her_food;
+
+Omnivore(int n){
+	for
+}
+
+Herbivore(int n){
+	food_amount = n * 0.5;
+
+}
