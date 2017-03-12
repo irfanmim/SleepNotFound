@@ -14,6 +14,7 @@ public:
 	  * Konstruktor kelas habitat
 	  */  
 	Habitat(int x,int y);
+	~Habitat();
 	Animal * getAnimal();
 	void setAnimal(Animal * an);
 	void resetAnimal();

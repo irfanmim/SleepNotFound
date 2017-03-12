@@ -6,6 +6,11 @@ Habitat::Habitat(int x,int y):Cell(x,y),a(NULL){
 
 }
 
+Habitat::~Habitat(){
+	delete a;
+}
+
+
 Animal * Habitat::getAnimal(){
 	return a;
 }
