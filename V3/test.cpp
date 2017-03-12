@@ -1,29 +1,34 @@
 #include "parse.h"
 #include "Zoo.h"
+#include "Cage.h"
 #include <iostream>
 using namespace std;
 
 int main(){
 	int row,col;
+	string s,a;
 	ifstream infile("Zoo.txt");
-	getRowCol(row,col,infile);
-	char ** zoo = new char*[row];
-	for(int i = 0;i < row;i++){
-		zoo[i] = new char[col];
-	}
 	try{
-		getMatrix(zoo,row,col,infile);
+		getline(infile,s);
+		if(s!="#Zoo"){throw 1;}
+		char ** zoo = parseZoo(row,col,infile);
+		Zoo z(col,row);
+		z.initialize(zoo,row,col);
+		for(int i = 0;i < row;i++){
+			delete [] zoo[i];
+		}
+		delete [] zoo;
+		
+		getline(infile,s);
+		if(s!="#Cage"){throw 1;}
+		int nh;
+		Habitat ** h = parseCage(nh,infile,z);
+		z.show();
 	}catch(int x){
-		cout << "Row or column mismatch" << endl;
+		switch(x){
+			case 1:cout << "File format error" << endl;break;
+			case 2:cout << "Row or column mismatch" << endl;break;
+		}
 	}
-	
-	Zoo z(col,row);
-	z.initialize(zoo,row,col);
-	z.show();
-
-	for(int i = 0;i < row;i++){
-		delete [] zoo[i];
-	}
-	delete [] zoo;
 	return 0;
 }

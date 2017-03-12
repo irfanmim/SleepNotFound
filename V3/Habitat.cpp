@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-Habitat::Habitat(int x,int y):Cell(x,y),a(NULL){
+Habitat::Habitat(int x,int y,bool s):Cell(x,y),a(NULL),isInCage(s){
 
 }
 
@@ -27,26 +27,51 @@ void Habitat::wakeAnimal(){
 	a -> interact();
 }
 
-WaterHabitat::WaterHabitat(int x,int y):Habitat(x,y){
+bool Habitat::getCageStatus() const{
+	return isInCage;
+}
+
+void Habitat::setCageStatus(bool s){
+	isInCage = s;
+}
+
+
+WaterHabitat::WaterHabitat(int x,int y,bool s):Habitat(x,y,s){
 
 }
 
-AirHabitat::AirHabitat(int x,int y):Habitat(x,y){
+AirHabitat::AirHabitat(int x,int y,bool s):Habitat(x,y,s){
 
 }
 
-LandHabitat::LandHabitat(int x,int y):Habitat(x,y){
+LandHabitat::LandHabitat(int x,int y,bool s):Habitat(x,y,s){
 	
 }
 
 void WaterHabitat::render(){
-	cout << "W";
+	if(isInCage){
+		cout << "W";
+	}else{
+		cout << "w";
+	}
 }
 
 void AirHabitat::render(){
-	cout << "A";
+	if(isInCage){
+		if(a==NULL){
+			cout << "A";
+		}else{
+			cout << " ";
+		}
+	}else{
+		cout << "a";
+	}
 }
 
 void LandHabitat::render(){
-	cout << "L";
+	if(isInCage){
+		cout << "L";
+	}else{
+		cout << "l";
+	}
 }

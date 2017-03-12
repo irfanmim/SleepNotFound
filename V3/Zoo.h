@@ -10,6 +10,8 @@ public:
 	Zoo(int w,int h);
 	void initialize(char ** c,int row,int col);
 	void show();
+	Cell * getMember(int i,int j);
+	void setMember(int i,int j,Cell * c);
 	~Zoo();
 private:
 	int width;

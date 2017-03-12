@@ -18,19 +18,27 @@ Zoo::Zoo(int w,int h):width(w),height(h){
 	}
 }
 
+Cell * Zoo::getMember(int i,int j){
+	return member[i][j];
+}
+
+void Zoo::setMember(int i,int j,Cell * c){
+	member[i][j] = c;
+}
+
 void Zoo::initialize(char ** c,int row,int col){
 	for(int i = 0;i < row;i++){
 		for(int j = 0;j < col;j++){
 			switch(c[i][j]){
-				case 'S': member[i][j] = new Restaurant(i,j);break;
-				case 'R': member[i][j] = new Road(i,j);break;
-				case 'P': member[i][j] = new Park(i,j);break;
-				case 'E': member[i][j] = new Entrance(i,j);break;
-				case 'B': member[i][j] = new Exit(i,j);break;
-				case 'A': member[i][j] = new AirHabitat(i,j);break;
-				case 'W': member[i][j] = new WaterHabitat(i,j);break;
-				case 'L': member[i][j] = new LandHabitat(i,j);break;
-				default: member[i][j] = new Cell(i,j);break;
+				case 'S': setMember(i,j,new Restaurant(i,j));break;
+				case 'R': setMember(i,j,new Road(i,j));break;
+				case 'P': setMember(i,j,new Park(i,j));break;
+				case 'E': setMember(i,j,new Entrance(i,j));break;
+				case 'B': setMember(i,j,new Exit(i,j));break;
+				case 'a': setMember(i,j,new AirHabitat(i,j,false));break;
+				case 'w': setMember(i,j,new WaterHabitat(i,j,false));break;
+				case 'l': setMember(i,j,new LandHabitat(i,j,false));break;
+				default: setMember(i,j,new Cell(i,j));break;
 			}
 		}
 	}

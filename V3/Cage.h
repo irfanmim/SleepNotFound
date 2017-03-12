@@ -1,6 +1,7 @@
 #ifndef CAGE_H
 #define CAGE_H
 #include "Habitat.h"
+#include <vector>
 
 /** @class Cage
   * Kelas yang merepresentasikan kandang dalam zoo.
@@ -23,6 +24,7 @@ public:
   	/** @brief Operator=.
 	  */
 	Cage& operator=(const Cage& c);
+	bool isCoorInCage(int x,int y);
 	void wakeAllAnimal();
 private:
 	Habitat ** h; /** List of habitat yang dilingkupi */
@@ -30,4 +32,11 @@ private:
 	int nh; /** Jumlah habitat dalam cage */
 };
 
+class CageList{
+public:
+	void addCage(Cage c);
+	Cage& getCage(int i);
+private:
+	vector<Cage> cagelist;
+};
 #endif

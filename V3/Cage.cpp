@@ -44,6 +44,20 @@ Cage& Cage::operator=(const Cage& c){
 	return *this;
 }
 
+bool Cage::isCoorInCage(int x,int y){
+	bool found = false;
+	int i = 0;
+	while(i < nh && !found){
+		if((h[i]->getLoc().getX()==x)&&(h[i]->getLoc().getY()==y)){
+			found = true;
+		}else{
+			i++;
+		}
+	}
+	return found;
+}
+
+
 void Cage::wakeAllAnimal(){
 	for(int i = 0;i < nh;i++){
 		if(h[i]->getAnimal()!=NULL){
@@ -51,3 +65,12 @@ void Cage::wakeAllAnimal(){
 		}
 	}
 }
+
+void CageList::addCage(Cage c){
+	cagelist.push_back(c);
+}
+
+Cage& CageList::getCage(int i){
+	return cagelist[i];
+}
+

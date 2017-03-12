@@ -1,1 +1,27 @@
-1. renderable.h dan point.h belum ada dokumentasi
+1. renderable.h dan point.h belum di doxygen
+2. daftar huruf animal
+	b bat
+	c cendrawasih
+	e eagle
+	k kolibri
+	h cheetah
+
+	m chimpanzee
+	a coala
+	g gorilla
+	y hyena
+	n kangaroo
+
+	d komodo
+	i lion
+	r orangutan
+	s ostrich
+	p panda
+	P peacock
+	
+	t tiger
+	D dolphin
+	M mantaray
+	S shark
+	W whale
+	
