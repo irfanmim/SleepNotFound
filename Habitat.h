@@ -1,6 +1,7 @@
 #ifndef HABITAT_H
 #define HABITAT_H
 #include "Cell.h"
+#include "Animal.h"
 
 /** @class Habitat
   * ABC habitat
@@ -13,6 +14,12 @@ public:
 	  * Konstruktor kelas habitat
 	  */  
 	Habitat(int x,int y);
+	Animal * getAnimal();
+	void setAnimal(Animal * an);
+	void resetAnimal();
+	void wakeAnimal();
+protected:
+	Animal * a;
 };
 
 /** @class WaterHabitat
