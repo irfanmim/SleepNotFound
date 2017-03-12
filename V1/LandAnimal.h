@@ -59,7 +59,6 @@ public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas ostrich
 	  */  
 	Ostrich(int x, int y);
@@ -71,15 +70,14 @@ public :
 /** @class Orangutan
   * Real class orangutan
   */
-class Orangutan : public LandAnimal, public Omnivore, public Mammal {
+class Orangutan : public LandAnimal, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas orangutan
 	  */  
-	Orangutan(int x, int y, int weight);
+	Orangutan(int x, int y);
 	/** @brief Method interaksi orangutan
 	  */
 	void interact();
@@ -88,7 +86,7 @@ public :
 /** @class Lion
   * Real class lion
   */
-class Lion : public LandAnimal, public Carnivore, public Mammal {
+class Lion : public LandAnimal, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
