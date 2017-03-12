@@ -2,26 +2,22 @@
 
 int Animal::NbAnimal = 0;
 
-int Animal::getWeight() const {
-	return weight;
-}
-
 int Animal::getNbAnimal() {
 	return NbAnimal;
 }
 
-Animal::Animal(int x, int y, int w) : loc(x, y), weight(w) {
+Animal::Animal(int x, int y) : loc(x, y) {
 	NbAnimal++;
 }
 
-FlyingAnimal::FlyingAnimal(int x, int y, int w) : Animal(x,y,w){
+FlyingAnimal::FlyingAnimal(int x, int y) : Animal(x,y){
 
 }
 
-WaterAnimal::WaterAnimal(int x, int y, int w) : Animal(x,y,w){
+WaterAnimal::WaterAnimal(int x, int y) : Animal(x,y){
 	
 }
 
-LandAnimal::LandAnimal(int x, int y, int w) : Animal(x,y,w){
+LandAnimal::LandAnimal(int x, int y) : Animal(x,y){
 	
 }
