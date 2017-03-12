@@ -7,7 +7,8 @@ Ostrich :: Ostrich () {
 	consumption = "Omnivora";
 	habitat = "Darat";
 	nama = "Burung Unta";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini hidup di daerah kering dan identik dengan padang pasir.");
+	clue.push_back("Identik dengan padang pasir.");
 }
 
 string Ostrich :: getTaxonomy() const {return nama;}

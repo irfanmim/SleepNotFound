@@ -7,7 +7,8 @@ Tiger :: Tiger () {
 	consumption = "Karnivora";
 	habitat = "Darat";
 	nama = "Harimau";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini mempunyai kemiripan dengan Raja Hutan");
+	clue.push_back("Hewan ini tanpa surai.");
 }
 
 string Tiger :: getTaxonomy() const {return nama;}

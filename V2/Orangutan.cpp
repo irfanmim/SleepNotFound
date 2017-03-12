@@ -7,7 +7,8 @@ Orangutan :: Orangutan () {
 	consumption = "Orangutan";
 	habitat = "Darat";
 	nama = "Orangutan";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini mirip dengan manusia.");
+	clue.push_back("Biasanya bergelantungan di pepohonan.");
 }
 
 string Orangutan :: getTaxonomy() const {return nama;}

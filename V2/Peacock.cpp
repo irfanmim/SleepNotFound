@@ -7,7 +7,8 @@ Peacock :: Peacock () {
 	consumption = "Herbivora";
 	habitat = "Darat";
 	nama = "Burung Merak";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Satwa ini memiliki bulu ekor yang indah.");
+	clue.push_back("Termasuk burung yang tidak bisa terbang.");
 }
 
 string Peacock :: getTaxonomy() const {return nama;}

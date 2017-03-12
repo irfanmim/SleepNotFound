@@ -7,7 +7,8 @@ Cheetah :: Cheetah () {
 	consumption = "Karnivora";
 	habitat = "Darat";
 	nama = "Cheetah";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Biasa disebut pemburu tercepat.");
+	clue.push_back("Hewan ini berasal dari Afrika.");
 }
 
 string Cheetah :: getTaxonomy() const {return nama;}

@@ -7,7 +7,7 @@ Cendrawasih :: Cendrawasih () {
 	consumption = "Omnivora";
 	habitat = "Udara";
 	nama = "Cendrawasih";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Burung khas Indonesia ini disebut sebagai \"The Bird of Paradise\" karena keindahannya.");
 }
 
 string Cendrawasih :: getTaxonomy() const {return nama;}

@@ -7,7 +7,8 @@ Chimpanzee :: Chimpanzee () {
 	consumption = "Omnivora";
 	habitat = "Darat";
 	nama = "Chimpanzee";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Primata ini sering dianggap sebagai hewan paling cerdas di darat.");
+	clue.push_back("Dan mirip dengan manusia.");
 }
 
 string Chimpanzee :: getTaxonomy() const {return nama;}

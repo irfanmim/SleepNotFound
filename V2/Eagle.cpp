@@ -7,7 +7,8 @@ Eagle :: Eagle () {
 	consumption = "Karnivora";
 	habitat = "Udara";
 	nama = "Elang";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini merupakan salah satu burung paling ditakuti di udara.");
+	clue.push_back("Biasanya memangsa hewan-hewan darat kecil.");
 }
 
 string Eagle :: getTaxonomy() const {return nama;}

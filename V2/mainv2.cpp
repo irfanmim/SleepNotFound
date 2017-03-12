@@ -3,10 +3,10 @@
 using namespace std;
 
 int main () {
-	Gorilla G;
+	Whale p;
 	
-	cout << G.getNama();
-	G.printClue();
+	cout << p.getNama()<<endl;
+	p.printClue();
 	
 	return 0;
 }

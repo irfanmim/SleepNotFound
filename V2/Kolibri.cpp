@@ -7,7 +7,8 @@ Kolibri :: Kolibri () {
 	consumption = "Omnivora";
 	habitat = "Udara";
 	nama = "Kolibri";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Burung ini memiliki paruh yang panjang.");
+	clue.push_back("Burung ini biasanya memakan biji-bijian.");
 }
 
 string Kolibri :: getTaxonomy() const {return nama;}

@@ -7,7 +7,8 @@ Hyena :: Hyena () {
 	consumption = "Omnivora";
 	habitat = "Darat";
 	nama = "Hyena";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Satwa yang satu ini berukuran kecil");
+	clue.push_back("Namun cukup ganas dan berbahaya, serta lincah mencari mangsa");
 }
 
 string Hyena :: getTaxonomy() const {return nama;}

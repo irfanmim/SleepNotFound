@@ -7,7 +7,8 @@ Kangaroo :: Kangaroo () {
 	consumption = "Herbivora";
 	habitat = "Darat";
 	nama = "Kangguru";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan dengan ciri khas kantung dan biasanya melompat-lompat.");
+	clue.push_back("Identik dengan Australia.");
 }
 
 string Kangaroo :: getTaxonomy() const {return nama;}

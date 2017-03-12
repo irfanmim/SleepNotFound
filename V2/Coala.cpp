@@ -7,7 +7,8 @@ Coala :: Coala () {
 	consumption = "Herbivora";
 	habitat = "Darat";
 	nama = "Koala";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Identik dengan Australia.");
+	clue.push_back("Hewan ini biasanya memakan daun eucalyptus.");
 }
 
 string Coala :: getTaxonomy() const {return nama;}

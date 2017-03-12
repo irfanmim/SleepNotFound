@@ -7,7 +7,8 @@ Whale :: Whale () {
 	consumption = "Karnivora";
 	habitat = "Air";
 	nama = "Ikan Paus";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Mamalia ini hidup di laut.");
+	clue.push_back("Mirip dengan lumba-lumba, hanya saja lebih besar.");
 }
 
 string Whale :: getTaxonomy() const {return nama;}

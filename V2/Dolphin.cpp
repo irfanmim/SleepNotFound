@@ -7,7 +7,8 @@ Dolphin :: Dolphin () {
 	consumption = "Karnivora";
 	habitat = "Air";
 	nama = "Lumba-Lumba";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini unik karena sering menjadi penyelamat manusia yang tenggelam di tengah laut.");
+	clue.push_back("Hewan ini menyusui anaknya");
 }
 
 string Dolphin :: getTaxonomy() const {return nama;}

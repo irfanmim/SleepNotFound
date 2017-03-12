@@ -7,7 +7,8 @@ Panda :: Panda () {
 	consumption = "Herbivora";
 	habitat = "Darat";
 	nama = "Panda";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Satwa ini berbulu hitam dan putih");
+	clue.push_back("Wajahnya yang imut kadang membuat orang merasa iba.");
 }
 
 string Panda :: getTaxonomy() const {return nama;}

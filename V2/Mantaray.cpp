@@ -7,7 +7,8 @@ Mantaray :: Mantaray () {
 	consumption = "Karnivora";
 	habitat = "Air";
 	nama = "Ikan Pari";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Ikan ini memiliki bentuk yang unik.");
+	clue.push_back("Bentuknya yang gepeng dan ekornya yang panjang beracun menjadi ciri khasnya.");
 }
 
 string Mantaray :: getTaxonomy() const {return nama;}

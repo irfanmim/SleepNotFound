@@ -7,7 +7,8 @@ Lion :: Lion () {
 	consumption = "Karnivora";
 	habitat = "Darat";
 	nama = "Singa";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini mempunyai keganasan yang tinggi.");
+	clue.push_back("Sehingga tidak heran hewan ini mendapat sebutan Raja Hutan");
 }
 
 string Lion :: getTaxonomy() const {return nama;}

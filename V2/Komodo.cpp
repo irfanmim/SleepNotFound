@@ -7,7 +7,8 @@ Komodo :: Komodo () {
 	consumption = "Karnivora";
 	habitat = "Darat";
 	nama = "Komodo";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini identik dengan Indonesia.");
+	clue.push_back("Reptil ini termasuk hewan langka dan dilindungi.");
 }
 
 string Komodo :: getTaxonomy() const {return nama;}

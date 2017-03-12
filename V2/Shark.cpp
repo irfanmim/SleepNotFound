@@ -7,7 +7,8 @@ Shark :: Shark () {
 	consumption = "Karnivora";
 	habitat = "Air";
 	nama = "Ikan Hiu";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini memiliki taring yang tajam.");
+	clue.push_back("Hewan merupakan ikan yang ditakuti di laut.");
 }
 
 string Shark :: getTaxonomy() const {return nama;}

@@ -7,7 +7,8 @@ Bat :: Bat () {
 	consumption = "Karnivora";
 	habitat = "Udara";
 	nama = "Kelelawar";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini biasa beraktivitas di malam hari.");
+	clue.push_back("Hewan ini memiliki gelombang suara ultrasonik yang unik.");
 }
 
 string Bat :: getTaxonomy() const {return nama;}

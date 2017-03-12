@@ -7,7 +7,8 @@ Gorilla :: Gorilla () {
 	consumption = "Omnivora";
 	habitat = "Darat";
 	nama = "Gorila";
-	clue.push_back("Clue ke-n");
+	clue.push_back("Hewan ini termasuk kera besar dan ada filmnya juga.");
+	clue.push_back("Haha");
 }
 
 string Gorilla :: getTaxonomy() const {return nama;}
