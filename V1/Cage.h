@@ -23,6 +23,7 @@ public:
   	/** @brief Operator=.
 	  */
 	Cage& operator=(const Cage& c);
+	
 	void wakeAllAnimal();
 private:
 	/** List of habitat yang dilingkupi */
