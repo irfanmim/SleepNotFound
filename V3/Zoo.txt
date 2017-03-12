@@ -2,14 +2,14 @@
 10
 10
 ----------
-BRaaa-----
+(Raaa-----
 -Raaaww---
 -RRwwww---
 --RRR---W-
 ---lRaa---
 -lllRaa---
 -lllR-----
--lllRRRRRE
+-lllRRRRR)
 -lll------
 #
 #Cage
@@ -19,3 +19,11 @@ BRaaa-----
 1 4
 2 2
 #
+#Cage
+4
+3 3 W 19
+3 4 W 21
+3 5
+3 6
+#
+#end

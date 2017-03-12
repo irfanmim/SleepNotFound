@@ -74,3 +74,6 @@ Cage& CageList::getCage(int i){
 	return cagelist[i];
 }
 
+int CageList::getSize(){
+	return cagelist.size();
+}

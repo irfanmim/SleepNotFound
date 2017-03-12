@@ -22,7 +22,13 @@ int main(){
 		getline(infile,s);
 		if(s!="#Cage"){throw 1;}
 		int nh;
-		Habitat ** h = parseCage(nh,infile,z);
+		CageList cl;
+		while(s=="#Cage"){
+			Habitat ** h = parseCage(nh,infile,z);
+			Cage c(h,nh);
+			cl.addCage(c);
+			getline(infile,s);
+		}
 		z.show();
 	}catch(int x){
 		switch(x){

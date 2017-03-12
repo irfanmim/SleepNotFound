@@ -36,6 +36,7 @@ class CageList{
 public:
 	void addCage(Cage c);
 	Cage& getCage(int i);
+	int getSize();
 private:
 	vector<Cage> cagelist;
 };
