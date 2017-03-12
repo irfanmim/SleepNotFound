@@ -2,20 +2,18 @@
 #define WATER_ANIMAL_H
 #include "Animal.h"
 #include "Taxonomy.h"
-#include "Consumption.h"
 
 /** @class Dolphin
   * Real class dolphin
   */
-class Dolphin : public WaterAnimal, public Carnivore, public Mammal {
+class Dolphin : public WaterAnimal, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas dolphin
 	  */
-	Dolphin(int x, int y, int weight);
+	Dolphin(int x, int y);
 	/** @brief Method interaksi dolphin
 	  */
 	void interact();
@@ -24,15 +22,14 @@ public :
 /** @class Shark
   * Real class shark
   */
-class Shark : public WaterAnimal, public Carnivore, public Pisces{
+class Shark : public WaterAnimal, public Pisces{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas shark
 	  */
-	Shark(int x, int y, int weight);
+	Shark(int x, int y);
 	/** @brief Method interaksi shark
 	  */
 	void interact();
@@ -41,15 +38,14 @@ public :
 /** @class Mantaray
   * Real class mantaray
   */
-class Mantaray : public WaterAnimal, public Carnivore, public Pisces{
+class Mantaray : public WaterAnimal, public Pisces{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas mantaray
 	  */
-	Mantaray(int x, int y, int weight);
+	Mantaray(int x, int y);
 	/** @brief Method interaksi mantaray
 	  */
 	void interact();
@@ -58,15 +54,14 @@ public :
 /** @class Whale
   * Real class whale
   */
-class Whale : public WaterAnimal, public Carnivore, public Mammal {
+class Whale : public WaterAnimal, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas whale
 	  */
-	Whale(int x, int y, int weight);
+	Whale(int x, int y);
 	/** @brief Method interaksi whale
 	  */
 	void interact();

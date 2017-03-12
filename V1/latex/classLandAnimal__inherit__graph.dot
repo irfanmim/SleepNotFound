@@ -1,0 +1,35 @@
+digraph "LandAnimal"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="LandAnimal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Animal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAnimal.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="Cheetah",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCheetah.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Chimpanzee",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classChimpanzee.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="Coala",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCoala.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="Gorilla",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGorilla.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="Hyena",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classHyena.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="Kangaroo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classKangaroo.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Komodo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classKomodo.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="Lion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLion.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Orangutan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOrangutan.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Ostrich",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOstrich.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="Panda",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPanda.html"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="Peacock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPeacock.html"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="Tiger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTiger.html"];
+}
