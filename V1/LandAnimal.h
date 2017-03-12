@@ -2,20 +2,18 @@
 #define LAND_ANIMAL_H
 #include "Animal.h"
 #include "Taxonomy.h"
-#include "Consumption.h"
 
 /** @class Tiger
   * Real class tiger
   */
-class Tiger : public LandAnimal, public Carnivore, public Mammal {
+class Tiger : public LandAnimal, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas tiger
 	  */  
-	Tiger(int x, int y, int weight);
+	Tiger(int x, int y);
 	/** @brief Method interaksi tiger
 	  */
 	void interact();
@@ -24,15 +22,14 @@ public :
 /** @class Peacock
   * Real class peacock
   */
-class Peacock : public LandAnimal, public Herbivore, public Aves {
+class Peacock : public LandAnimal, public Aves {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas peacock
 	  */  
-	Peacock(int x, int y, int weight);
+	Peacock(int x, int y);
 	/** @brief Method interaksi peacock
 	  */
 	void interact();
@@ -41,15 +38,14 @@ public :
 /** @class Panda
   * Real class panda
   */
-class Panda : public LandAnimal, public Herbivore, public Mammal {
+class Panda : public LandAnimal, public Mammal {
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
 	  * @param y ordinat lokasi
-	  * @param weight berat badan
 	  * Konstruktor kelas panda
 	  */  
-	Panda(int x, int y, int weight);
+	Panda(int x, int y);
 	/** @brief Method interaksi panda
 	  */
 	void interact();
@@ -58,7 +54,7 @@ public :
 /** @class Ostrich
   * Real class ostrich
   */
-class Ostrich : public LandAnimal, public Omnivore, public Aves{
+class Ostrich : public LandAnimal, public Aves{
 public :
 	/** @brief Constructor.
 	  * @param x absis lokasi
@@ -66,7 +62,7 @@ public :
 	  * @param weight berat badan
 	  * Konstruktor kelas ostrich
 	  */  
-	Ostrich(int x, int y, int weight);
+	Ostrich(int x, int y);
 	/** @brief Method interaksi ostrich
 	  */
 	void interact();
