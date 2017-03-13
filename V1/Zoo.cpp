@@ -6,11 +6,10 @@
 #include "WaterAnimal.h"
 #include "parse.h"
 #include <iostream>
-#include <vector>
 #include <fstream>
+#include <vector>
 #include <stdlib.h>
-#include <time.h>
-#include <windows.h>
+#include <unistd.h>
 using namespace std;
 
 Zoo::Zoo(ifstream& infile){
@@ -122,7 +121,7 @@ bool Zoo::isInPath(int x,int y){
 	bool found = false;
 	int i = 0;
 	while(i < path.size() && !found){
-		if(path[i]->getLoc().getX()==x && path[i]->getLoc().getY()==y){
+		if(path[i]->getX()==x && path[i]->getY()==y){
 			found = true;
 		}else{
 			i++;
@@ -131,45 +130,46 @@ bool Zoo::isInPath(int x,int y){
 	return found;
 }
 
-
 void Zoo::tour(){
 	int n = rand() % ent.size();
 	Road * p = ent[n];
 	while(p != getExit()){
-		system("cls");
+		system("clear");
+		p -> setIsHere(true);
 		show();
+		p -> setIsHere(false);
 		p -> setVisited(true);
 		vector<Road *> cand;
-		if(isInPath(p->getLoc().getX()-1,p->getLoc().getY())){
-			if(((Road *)member[p->getLoc().getX()-1][p->getLoc().getY()])->isVisited()){
+		if(isInPath(p->getX()-1,p->getY())){
+			if(((Road *)member[p->getX()-1][p->getY()])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()-1][p->getLoc().getY()]);
+				cand.push_back((Road *)member[p->getX()-1][p->getY()]);
 			}
 		}
-		if(isInPath(p->getLoc().getX()+1,p->getLoc().getY())){
-			if(((Road *)member[p->getLoc().getX()+1][p->getLoc().getY()])->isVisited()){
+		if(isInPath(p->getX()+1,p->getY())){
+			if(((Road *)member[p->getX()+1][p->getY()])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()+1][p->getLoc().getY()]);
+				cand.push_back((Road *)member[p->getX()+1][p->getY()]);
 			}
 		}
-		if(isInPath(p->getLoc().getX(),p->getLoc().getY()-1)){
-			if(((Road *)member[p->getLoc().getX()][p->getLoc().getY()-1])->isVisited()){
+		if(isInPath(p->getX(),p->getY()-1)){
+			if(((Road *)member[p->getX()][p->getY()-1])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()][p->getLoc().getY()-1]);
+				cand.push_back((Road *)member[p->getX()][p->getY()-1]);
 			}
 		}
-		if(isInPath(p->getLoc().getX(),p->getLoc().getY()+1)){
-			if(((Road *)member[p->getLoc().getX()][p->getLoc().getY()+1])->isVisited()){
+		if(isInPath(p->getX(),p->getY()+1)){
+			if(((Road *)member[p->getX()][p->getY()+1])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()][p->getLoc().getY()+1]);
+				cand.push_back((Road *)member[p->getX()][p->getY()+1]);
 			}
 		}
 		if(cand.size()>0){
 			int a[4];
-			a[0] = cl.searchByCoor(p->getLoc().getX()-1,p->getLoc().getY());
-			a[1] = cl.searchByCoor(p->getLoc().getX()+1,p->getLoc().getY());
-			a[2] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()-1);
-			a[3] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()+1);
+			a[0] = cl.searchByCoor(p->getX()-1,p->getY());
+			a[1] = cl.searchByCoor(p->getX()+1,p->getY());
+			a[2] = cl.searchByCoor(p->getX(),p->getY()-1);
+			a[3] = cl.searchByCoor(p->getX(),p->getY()+1);
 			for(int i = 0;i < 4;i++){
 				if(a[i]!=-1){
 					cl.getCage(a[i]).wakeAllAnimal();
@@ -177,7 +177,7 @@ void Zoo::tour(){
 			}
 			n = rand() % cand.size();
 			p = cand[n];
-			Sleep(2000);
+			sleep(1.5);
 		}else{
 			break;
 		}
