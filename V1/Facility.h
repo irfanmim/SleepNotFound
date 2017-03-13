@@ -61,9 +61,16 @@ public:
 	/** @brief Method virtual render.
 	  */
 	virtual void render();
+	/** @brief Method yang mengembalikan boolean sudah dilewati atau belum
+	  */
 	bool isVisited();
+	/** @brief Method untuk men-set nilai visited
+	  */
 	void setVisited(bool s);
+	/** @brief Method untuk men-set nilai IsHere
+	  */
 	void setIsHere(bool s);
+
 private:
 	bool visited;
 	bool IsHere;
