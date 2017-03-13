@@ -11,7 +11,7 @@ Restaurant::Restaurant(int x,int y):Facility(x,y){
 }
 	
 void Restaurant::render(){
-	cout << "S";
+	cout << "$";
 }
 
 Park::Park(int x,int y):Facility(x,y){
@@ -19,7 +19,7 @@ Park::Park(int x,int y):Facility(x,y){
 }
 	
 void Park::render(){
-	cout << "P";
+	cout << "^";
 }
 
 Road::Road(int x,int y):Facility(x,y),visited(false),IsHere(false){
@@ -55,7 +55,7 @@ Entrance::Entrance(int x,int y):Road(x,y){
 }
 
 void Entrance::render(){
-	cout << "E";
+	cout << ")";
 }
 
 Exit::Exit(int x,int y):Road(x,y){
@@ -63,5 +63,5 @@ Exit::Exit(int x,int y):Road(x,y){
 }
 
 void Exit::render(){
-	cout << "B";
+	cout << "(";
 }
