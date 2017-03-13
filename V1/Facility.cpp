@@ -22,12 +22,25 @@ void Park::render(){
 	cout << "P";
 }
 
-Road::Road(int x,int y):Facility(x,y){
+Road::Road(int x,int y):Facility(x,y),visited(false){
 	
 }
-	
+
+bool Road::isVisited(){
+	return visited;
+}
+
+void Road::setVisited(bool s){
+	visited = s;
+}
+
+
 void Road::render(){
-	cout << " ";
+	if(visited){
+		cout << "-";
+	}else{
+		cout << " ";
+	}
 }
 
 Entrance::Entrance(int x,int y):Road(x,y){
@@ -39,7 +52,7 @@ void Entrance::render(){
 }
 
 Exit::Exit(int x,int y):Road(x,y){
-
+	
 }
 
 void Exit::render(){

@@ -1,46 +1,40 @@
 #ifndef ZOO_H
 #define ZOO_H
 #include "Cell.h"
+#include "Habitat.h"
+#include "Facility.h"
+#include "Cage.h"
+#include <fstream>
+#include <vector>
+using namespace std;
+
 #define DEF_WIDTH 35
 #define DEF_HEIGHT 25
 
-/** @class Zoo
-  * Kelas yang merepresentasikan kebun binatang.
-  */
 class Zoo{
-	public:
-
-		/** @brief Constructor tidak berparameter.
-	  	  * Membuat objek zoo dengan width DED_WIDTH dan height DEF_HEIGHT
-	  	  */		
-		Zoo();
-		
-		/** @brief Constructor berparameter.
-	  	  * Membuat objek zoo dengan width dan height dari masukan
-	  	  * @param w Nilai width
-	  	  * @param h Nilai height
-	  	  */		
-		Zoo(int w,int h);
-		
-		/** @brief Destruktor
-		  */
-		~Zoo();
-
-		/** @brief Method untuk mengisi zoo dengan binatang
-		  * @param c Matriks of character yang merepresentasikan file eksternal
-		  * @param row Banyaknya baris 
-		  * @param col Banyaknya kolom
-	      */
-		void initialize(char ** c,int row,int col);
-
-		/** @brief Method untuk print Zoo
-	      */		
-		void show();
-		
-	private:
-		int width;
-		int height;
-		Cell *** member;
+public:
+	Zoo(ifstream& infile);
+	void initialize(int row,int col,ifstream& infile);
+	void show();
+	Cell * getMember(int i,int j);
+	void setMember(int i,int j,Cell * c);
+	Habitat ** parseCage(int& nh,ifstream& infile);
+	Road * getExit();
+	void initializeCage(ifstream& infile);
+	bool isInPath(int x,int y);
+	void tour();
+	int getHeight() const;
+	int getWidth() const;
+	void clearPath();
+	~Zoo();
+private:
+	int width;
+	int height;
+	Cell *** member;
+	vector<Road *> ent;
+	Road * ext;
+	vector<Road *> path;
+	CageList cl;
 };
 
 #endif

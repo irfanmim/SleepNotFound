@@ -19,6 +19,7 @@ public:
 	  */
 	Cell(int x,int y);
 	virtual void render();
+	Point& getLoc();
 	void printCoor();
 protected:
 	Point loc; /** Koordinat suatu Cell */

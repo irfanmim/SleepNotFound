@@ -61,6 +61,10 @@ public:
 	/** @brief Method virtual render.
 	  */
 	virtual void render();
+	bool isVisited();
+	void setVisited(bool s);
+private:
+	bool visited;
 };
 
 /** @class Entrance

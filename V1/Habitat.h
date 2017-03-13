@@ -13,14 +13,17 @@ public:
 	  * @param y oridnat lokasi
 	  * Konstruktor kelas habitat
 	  */  
-	Habitat(int x,int y);
+	Habitat(int x,int y,bool s);
 	~Habitat();
 	Animal * getAnimal();
 	void setAnimal(Animal * an);
 	void resetAnimal();
 	void wakeAnimal();
+	bool getCageStatus() const;
+	void setCageStatus(bool s);
 protected:
 	Animal * a;
+	bool isInCage;
 };
 
 /** @class WaterHabitat
@@ -33,7 +36,7 @@ public:
 	  * @param y oridnat lokasi
 	  * Konstruktor waterhabitat
 	  */
-	WaterHabitat(int x,int y);
+	WaterHabitat(int x,int y,bool s);
 	/** @brief Method render.
 	  */
 	void render();
@@ -49,7 +52,7 @@ public:
 	  * @param y oridnat lokasi
 	  * Konstruktor airhabitat
 	  */
-	AirHabitat(int x,int y);
+	AirHabitat(int x,int y,bool s);
 	/** @brief Method render.
 	  */
 	void render();
@@ -65,7 +68,7 @@ public:
 	  * @param y oridnat lokasi
 	  * Konstruktor landhabitat
 	  */
-	LandHabitat(int x,int y);
+	LandHabitat(int x,int y,bool s);
 	/** @brief Method render.
 	  */
 	void render();

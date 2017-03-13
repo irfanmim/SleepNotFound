@@ -18,3 +18,7 @@ void Cell::render(){
 void Cell::printCoor(){
 	loc.printPoint();
 }
+
+Point& Cell::getLoc(){
+	return loc;
+}
