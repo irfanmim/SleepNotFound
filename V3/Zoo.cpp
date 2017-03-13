@@ -5,12 +5,11 @@
 #include "LandAnimal.h"
 #include "WaterAnimal.h"
 #include "parse.h"
-#include "Consumption.h"
 #include <iostream>
-#include <vector>
 #include <fstream>
+#include <vector>
 #include <stdlib.h>
-#include <time.h>
+#include <unistd.h>
 using namespace std;
 
 Zoo::Zoo(ifstream& infile){
@@ -77,27 +76,27 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 		h[i]->setCageStatus(true);
 		h[i]->resetAnimal();
 		switch(an){
-			case 'b': h[i]->setAnimal(new Bat(x,y,w));break;
-			case 'c': h[i]->setAnimal(new Cendrawasih(x,y,w));break;
-			case 'e': h[i]->setAnimal(new Eagle(x,y,w));break;
-			case 'k': h[i]->setAnimal(new Kolibri(x,y,w));break;
-			case 'h': h[i]->setAnimal(new Cheetah(x,y,w));break;
-			case 'm': h[i]->setAnimal(new Chimpanzee(x,y,w));break;
-			case 'a': h[i]->setAnimal(new Coala(x,y,w));break;
-			case 'g': h[i]->setAnimal(new Gorilla(x,y,w));break;
-			case 'y': h[i]->setAnimal(new Hyena(x,y,w));break;
-			case 'n': h[i]->setAnimal(new Kangaroo(x,y,w));break;
-			case 'd': h[i]->setAnimal(new Komodo(x,y,w));break;
-			case 'i': h[i]->setAnimal(new Lion(x,y,w));break;
-			case 'r': h[i]->setAnimal(new Orangutan(x,y,w));break;
-			case 's': h[i]->setAnimal(new Ostrich(x,y,w));break;
-			case 'p': h[i]->setAnimal(new Panda(x,y,w));break;
-			case 'P': h[i]->setAnimal(new Peacock(x,y,w));break;
-			case 't': h[i]->setAnimal(new Tiger(x,y,w));break;
-			case 'D': h[i]->setAnimal(new Dolphin(x,y,w));break;
-			case 'M': h[i]->setAnimal(new Mantaray(x,y,w));break;
-			case 'S': h[i]->setAnimal(new Shark(x,y,w));break;
-			case 'W': h[i]->setAnimal(new Whale(x,y,w));break;
+			case 'b': h[i]->setAnimal(new Bat(x,y));break;
+			case 'c': h[i]->setAnimal(new Cendrawasih(x,y));break;
+			case 'e': h[i]->setAnimal(new Eagle(x,y));break;
+			case 'k': h[i]->setAnimal(new Kolibri(x,y));break;
+			case 'h': h[i]->setAnimal(new Cheetah(x,y));break;
+			case 'm': h[i]->setAnimal(new Chimpanzee(x,y));break;
+			case 'a': h[i]->setAnimal(new Coala(x,y));break;
+			case 'g': h[i]->setAnimal(new Gorilla(x,y));break;
+			case 'y': h[i]->setAnimal(new Hyena(x,y));break;
+			case 'n': h[i]->setAnimal(new Kangaroo(x,y));break;
+			case 'd': h[i]->setAnimal(new Komodo(x,y));break;
+			case 'i': h[i]->setAnimal(new Lion(x,y));break;
+			case 'r': h[i]->setAnimal(new Orangutan(x,y));break;
+			case 's': h[i]->setAnimal(new Ostrich(x,y));break;
+			case 'p': h[i]->setAnimal(new Panda(x,y));break;
+			case 'P': h[i]->setAnimal(new Peacock(x,y));break;
+			case 't': h[i]->setAnimal(new Tiger(x,y));break;
+			case 'D': h[i]->setAnimal(new Dolphin(x,y));break;
+			case 'M': h[i]->setAnimal(new Mantaray(x,y));break;
+			case 'S': h[i]->setAnimal(new Shark(x,y));break;
+			case 'W': h[i]->setAnimal(new Whale(x,y));break;
 		}
 		i++;
 	}
@@ -122,7 +121,7 @@ bool Zoo::isInPath(int x,int y){
 	bool found = false;
 	int i = 0;
 	while(i < path.size() && !found){
-		if(path[i]->getLoc().getX()==x && path[i]->getLoc().getY()==y){
+		if(path[i]->getX()==x && path[i]->getY()==y){
 			found = true;
 		}else{
 			i++;
@@ -131,43 +130,46 @@ bool Zoo::isInPath(int x,int y){
 	return found;
 }
 
-
 void Zoo::tour(){
 	int n = rand() % ent.size();
 	Road * p = ent[n];
 	while(p != getExit()){
+		system("clear");
+		p -> setIsHere(true);
+		show();
+		p -> setIsHere(false);
 		p -> setVisited(true);
 		vector<Road *> cand;
-		if(isInPath(p->getLoc().getX()-1,p->getLoc().getY())){
-			if(((Road *)member[p->getLoc().getX()-1][p->getLoc().getY()])->isVisited()){
+		if(isInPath(p->getX()-1,p->getY())){
+			if(((Road *)member[p->getX()-1][p->getY()])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()-1][p->getLoc().getY()]);
+				cand.push_back((Road *)member[p->getX()-1][p->getY()]);
 			}
 		}
-		if(isInPath(p->getLoc().getX()+1,p->getLoc().getY())){
-			if(((Road *)member[p->getLoc().getX()+1][p->getLoc().getY()])->isVisited()){
+		if(isInPath(p->getX()+1,p->getY())){
+			if(((Road *)member[p->getX()+1][p->getY()])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()+1][p->getLoc().getY()]);
+				cand.push_back((Road *)member[p->getX()+1][p->getY()]);
 			}
 		}
-		if(isInPath(p->getLoc().getX(),p->getLoc().getY()-1)){
-			if(((Road *)member[p->getLoc().getX()][p->getLoc().getY()-1])->isVisited()){
+		if(isInPath(p->getX(),p->getY()-1)){
+			if(((Road *)member[p->getX()][p->getY()-1])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()][p->getLoc().getY()-1]);
+				cand.push_back((Road *)member[p->getX()][p->getY()-1]);
 			}
 		}
-		if(isInPath(p->getLoc().getX(),p->getLoc().getY()+1)){
-			if(((Road *)member[p->getLoc().getX()][p->getLoc().getY()+1])->isVisited()){
+		if(isInPath(p->getX(),p->getY()+1)){
+			if(((Road *)member[p->getX()][p->getY()+1])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getLoc().getX()][p->getLoc().getY()+1]);
+				cand.push_back((Road *)member[p->getX()][p->getY()+1]);
 			}
 		}
 		if(cand.size()>0){
 			int a[4];
-			a[0] = cl.searchByCoor(p->getLoc().getX()-1,p->getLoc().getY());
-			a[1] = cl.searchByCoor(p->getLoc().getX()+1,p->getLoc().getY());
-			a[2] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()-1);
-			a[3] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()+1);
+			a[0] = cl.searchByCoor(p->getX()-1,p->getY());
+			a[1] = cl.searchByCoor(p->getX()+1,p->getY());
+			a[2] = cl.searchByCoor(p->getX(),p->getY()-1);
+			a[3] = cl.searchByCoor(p->getX(),p->getY()+1);
 			for(int i = 0;i < 4;i++){
 				if(a[i]!=-1){
 					cl.getCage(a[i]).wakeAllAnimal();
@@ -175,10 +177,12 @@ void Zoo::tour(){
 			}
 			n = rand() % cand.size();
 			p = cand[n];
+			sleep(1.5);
 		}else{
 			break;
 		}
 	}
+	clearPath();
 }
 
 void Zoo::show(){
@@ -200,7 +204,6 @@ Zoo::~Zoo(){
 Road * Zoo::getExit(){
 	return ext;
 }
-
 void Zoo::showFood(){
 	cout << Carnivore::total_cFood << endl;
 	cout << Herbivore::total_hFood << endl;
@@ -213,4 +216,10 @@ int Zoo::getHeight() const{
 
 int Zoo::getWidth() const{
 	return width;
+}
+
+void Zoo::clearPath(){
+	for(int i = 0;i < path.size();i++){
+		path[i]->setVisited(false);
+	}
 }

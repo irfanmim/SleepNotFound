@@ -18,13 +18,14 @@ public:
 	void show();
 	Cell * getMember(int i,int j);
 	void setMember(int i,int j,Cell * c);
-	int getHeight() const;
-	int getWidth() const;
 	Habitat ** parseCage(int& nh,ifstream& infile);
 	Road * getExit();
 	void initializeCage(ifstream& infile);
 	bool isInPath(int x,int y);
 	void tour();
+	int getHeight() const;
+	int getWidth() const;
+	void clearPath();
 	void showFood();
 	~Zoo();
 private:
