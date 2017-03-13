@@ -38,7 +38,7 @@ Cage& Cage::operator=(const Cage& c){
 	h = new Habitat*[nh];
 	na = 0;
 	for(int i = 0;i < nh;i++){
-		h[i] = c.h[i];
+		h[i] = new Habitat(*(c.h[i]));
 		if(h[i]->getAnimal()!=NULL){
 			na++;
 		}
@@ -50,7 +50,7 @@ bool Cage::isCoorInCage(int x,int y){
 	bool found = false;
 	int i = 0;
 	while(i < nh && !found){
-		if((h[i]->getLoc().getX()==x)&&(h[i]->getLoc().getY()==y)){
+		if((h[i]->getX()==x)&&(h[i]->getY()==y)){
 			found = true;
 		}else{
 			i++;
