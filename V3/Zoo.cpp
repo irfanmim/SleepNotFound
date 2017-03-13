@@ -91,7 +91,7 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 			case 'r': h[i]->setAnimal(new Orangutan(x,y,w));break;
 			case 's': h[i]->setAnimal(new Ostrich(x,y,w));break;
 			case 'p': h[i]->setAnimal(new Panda(x,y,w));break;
-			case 'P': h[i]->setAnimal(new Peacock(x,y,w));break;
+			case '&': h[i]->setAnimal(new Peacock(x,y,w));break;
 			case 't': h[i]->setAnimal(new Tiger(x,y,w));break;
 			case 'O': h[i]->setAnimal(new Dolphin(x,y,w));break;
 			case 'M': h[i]->setAnimal(new Mantaray(x,y,w));break;
@@ -221,4 +221,42 @@ void Zoo::clearPath(){
 
 void Zoo::showFood(){
 	
+}
+
+void Zoo::moveAnimal(){
+	for(int i = 0;i < cl.getSize();i++){
+		vector<Habitat *> an;
+		for(int j = 0;j < cl.getCage(i).getNH();j++){
+			if(cl.getCage(i).getHabitat(j)->getAnimal()!=NULL){
+				an.push_back(cl.getCage(i).getHabitat(j));
+			}
+		}
+		cout << an.size() << endl;
+/*
+		for(int j = 0;j < an.size();j++){
+			int n;
+			vector<Habitat *> cand;
+			if(cl.getCage(i).isCoorInCage(an[i]->getX()-1,an[i]->getY())){
+				if(((Habitat *)member[an[i]->getX()-1][an[i]->getY()])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[an[i]->getX()-1][an[i]->getY()]);
+				}
+			}
+			if(cl.getCage(i).isCoorInCage(an[i]->getX()+1,an[i]->getY())){
+				if(((Habitat *)member[an[i]->getX()+1][an[i]->getY()])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[an[i]->getX()+1][an[i]->getY()]);
+				}
+			}
+			if(cl.getCage(i).isCoorInCage(an[i]->getX(),an[i]->getY()-1)){
+				if(((Habitat *)member[an[i]->getX()][an[i]->getY()-1])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[an[i]->getX()][an[i]->getY()-1]);
+				}
+			}
+			if(cl.getCage(i).isCoorInCage(an[i]->getX(),an[i]->getY()+1)){
+				if(((Habitat *)member[an[i]->getX()][an[i]->getY()+1])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[an[i]->getX()][an[i]->getY()+1]);
+				}
+			}
+
+		}*/
+	}
 }

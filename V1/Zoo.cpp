@@ -91,12 +91,12 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 			case 'r': h[i]->setAnimal(new Orangutan(x,y));break;
 			case 's': h[i]->setAnimal(new Ostrich(x,y));break;
 			case 'p': h[i]->setAnimal(new Panda(x,y));break;
-			case 'P': h[i]->setAnimal(new Peacock(x,y));break;
+			case '&': h[i]->setAnimal(new Peacock(x,y));break;
 			case 't': h[i]->setAnimal(new Tiger(x,y));break;
-			case 'D': h[i]->setAnimal(new Dolphin(x,y));break;
+			case 'O': h[i]->setAnimal(new Dolphin(x,y));break;
 			case 'M': h[i]->setAnimal(new Mantaray(x,y));break;
 			case 'S': h[i]->setAnimal(new Shark(x,y));break;
-			case 'W': h[i]->setAnimal(new Whale(x,y));break;
+			case 'Q': h[i]->setAnimal(new Whale(x,y));break;
 		}
 		i++;
 	}
