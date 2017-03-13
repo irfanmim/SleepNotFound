@@ -1,30 +1,88 @@
 #Zoo
-10
-10
-----------
-(Raaa---R-
--Raaaww-R-
--RRwwww-R-
---RRRRRRR-
----lRaa---
--lllRaa---
--lllR-----
--lllRRRRR)
--lll------
+17
+33
+====(============================
+=$$$RR==============Raaaaaaaaaaaa
+=$$$RRllwwrr====RRRRR==========aa
+=$$=RRllwwrr===RRlllllll=========
+=$==RRllwwrr===RRlllllll====RRRRR
+=^^^RRwwwwrr===RRllllll=====Rllll
+=^^=RRRRRRRRRRRRRlllll======Rllll
+=^^=RRwww======RR==ll=======RRlll
+=^^=RRwww======RR=llaaaa=====R===
+=^^=RRwwwwaaaaaRR===aaaa====RR===
+=^^^RRwwwwaaaaaRRRR==aaa===Raaa==
+===RRRwwwwaaaaaRRRRRRRaa===RRaa==
+===RRwwwwwaaaaaR===aaRaa===RRaa==
+===RRwwwwaaaaaaR==aaaRaa===Raaa==
+===RRwwwaa=====R==aaaRaa===RRR===
+=RRR=wwaaa=====R==aaaRRRRRRRRRwww
+=)===aaaaaaaaaa)==============www
 #
 #Cage
 #Entry
-4
-1 2 b 2
-1 3
-1 4
-2 2
+5
+2 6 m 20
+3 6 g 5
+4 6
+2 7
+3 7
+#
+#Entry
+10
+7 6 d 91
+8 6 d 88
+9 6
+10 6
+7 7 y 18
+8 7 y 19
+9 7
+7 8 h 37
+8 8 h 36
+9 8
+#
+#Entry
+3
+16 5 k 9
+16 6 c 54
+16 7
+#
+#Entry
+2
+13 14 e 21
+12 14 e 22
+#
+#Entry
+9
+6 17
+6 18 n 85
+6 19
+5 17
+4 17 p 88
+4 20 P 15
+3 17 a 17
+3 18 h 65
+3 19 o 89
 #
 #Entry
 4
-3 3 W 19
-3 4 W 21
-3 5
-3 6
+14 22 k 17
+14 23 k 18
+13 22 k 6
+13 23 k 7
+#
+#Entry
+4
+13 28 e 34
+13 29 e 24
+12 29 e 23
+12 30 e 19
+#
+#Entry
+4
+6 31 t 78
+6 32 t 67
+7 31 t 66
+7 32 t 56
 #
 #end
