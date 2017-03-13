@@ -19,6 +19,10 @@ void Cell::printCoor(){
 	loc.printPoint();
 }
 
-Point& Cell::getLoc(){
-	return loc;
+int Cell::getX(){
+	return loc.getX();
+}
+
+int Cell::getY(){
+	return loc.getY();
 }
