@@ -1,5 +1,11 @@
 1. renderable.h dan point.h belum di doxygen
-2. daftar huruf animal
+2. daftar huruf facility
+	$ restaurant
+	^ park
+	R road
+	) entrance
+	( exit
+3. daftar huruf animal
 	b bat
 	c cendrawasih
 	e eagle
