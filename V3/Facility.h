@@ -61,6 +61,10 @@ public:
 	/** @brief Method virtual render.
 	  */
 	virtual void render();
+	void setNext(Road * ne);
+	Road * next();
+private:
+	Road * n;
 };
 
 /** @class Entrance

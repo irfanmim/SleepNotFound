@@ -23,9 +23,17 @@ void Park::render(){
 }
 
 Road::Road(int x,int y):Facility(x,y){
-	
+	n = NULL;
 }
-	
+
+void Road::setNext(Road * ne){
+	n = ne;
+}
+
+Road * Road::next(){
+	return n;
+}
+
 void Road::render(){
 	cout << " ";
 }
@@ -39,7 +47,7 @@ void Entrance::render(){
 }
 
 Exit::Exit(int x,int y):Road(x,y){
-
+	
 }
 
 void Exit::render(){
