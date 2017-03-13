@@ -19,7 +19,6 @@ public:
 	Cell * getMember(int i,int j);
 	void setMember(int i,int j,Cell * c);
 	Habitat ** parseCage(int& nh,ifstream& infile);
-	Road * getEntrance();
 	Road * getExit();
 	void initializeCage(ifstream& infile);
 	bool isInPath(int x,int y);
@@ -30,7 +29,7 @@ private:
 	int width;
 	int height;
 	Cell *** member;
-	Road * ent;
+	vector<Road *> ent;
 	Road * ext;
 	vector<Road *> path;
 	CageList cl;

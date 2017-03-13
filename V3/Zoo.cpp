@@ -44,7 +44,7 @@ void Zoo::initialize(int row,int col,ifstream& infile){
 				case '*': setMember(i,j,new Park(i,j));break;
 				case ')': 
 					setMember(i,j,new Entrance(i,j));
-					ent = (Road *)member[i][j];
+					ent.push_back((Road *)member[i][j]);
 					path.push_back((Road *)member[i][j]);break;
 				case '(':
 					setMember(i,j,new Exit(i,j));
@@ -133,8 +133,9 @@ bool Zoo::isInPath(int x,int y){
 
 
 void Zoo::tour(){
-	Road * p = ent;
-	while(true){
+	int n = rand() % ent.size();
+	Road * p = ent[n];
+	while(p != getExit()){
 		p -> setVisited(true);
 		vector<Road *> cand;
 		if(isInPath(p->getLoc().getX()-1,p->getLoc().getY())){
@@ -172,7 +173,7 @@ void Zoo::tour(){
 					cl.getCage(a[i]).wakeAllAnimal();
 				}
 			}
-			int n = rand() % cand.size();
+			n = rand() % cand.size();
 			p = cand[n];
 		}else{
 			break;
@@ -194,10 +195,6 @@ Zoo::~Zoo(){
 		delete [] member[i];
 	}
 	delete [] member;
-}
-
-Road * Zoo::getEntrance(){
-	return ent;
 }
 
 Road * Zoo::getExit(){
