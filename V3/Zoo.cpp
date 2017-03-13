@@ -206,3 +206,11 @@ void Zoo::showFood(){
 	cout << Herbivore::total_hFood << endl;
 	cout << Omnivore::total_oFood << endl;
 }
+
+int Zoo::getHeight() const{
+	return height;
+}
+
+int Zoo::getWidth() const{
+	return width;
+}
