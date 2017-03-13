@@ -41,6 +41,7 @@ void getEntry(string s,int& x,int& y,int& w,char& an){
 		an = s[i];
 		i++;
 		if(i == s.length()){throw 1;}
+		i++;
 		while(s[i]!=' ' && i < s.length()){
 			if(s[i]<48 || s[i]>57){throw 1;}
 			n *= 10;

@@ -1,10 +1,12 @@
 #include "Cage.h"
+#include <iostream>
+using namespace std;
 
 Cage::Cage(Habitat ** hl,int n):nh(n){
 	h = new Habitat*[nh];
 	na = 0;
 	for(int i = 0;i < nh;i++){
-		h[i] = hl[i];
+		h[i] = new Habitat(*(hl[i]));
 		if(h[i]->getAnimal()!=NULL){
 			na++;
 		}
@@ -16,7 +18,7 @@ Cage::Cage(const Cage& c){
 	h = new Habitat*[nh];
 	na = 0;
 	for(int i = 0;i < nh;i++){
-		h[i] = c.h[i];
+		h[i] = new Habitat(*(c.h[i]));
 		if(h[i]->getAnimal()!=NULL){
 			na++;
 		}
@@ -76,4 +78,16 @@ Cage& CageList::getCage(int i){
 
 int CageList::getSize(){
 	return cagelist.size();
+}
+
+int CageList::searchByCoor(int x,int y){
+	int i = 0;
+	bool found = false;
+	while(i < cagelist.size() && !found){
+		found = cagelist[i].isCoorInCage(x,y);
+		if(!found){
+			i++;
+		}
+	}
+	return (found)?i:-1;
 }

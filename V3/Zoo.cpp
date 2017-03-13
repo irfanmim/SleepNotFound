@@ -5,6 +5,7 @@
 #include "LandAnimal.h"
 #include "WaterAnimal.h"
 #include "parse.h"
+#include "Consumption.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -69,6 +70,7 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 		getEntry(temp,x,y,w,an);
 		h[i] = (Habitat *)member[x][y];
 		h[i]->setCageStatus(true);
+		h[i]->resetAnimal();
 		switch(an){
 			case 'b': h[i]->setAnimal(new Bat(x,y,w));break;
 			case 'c': h[i]->setAnimal(new Cendrawasih(x,y,w));break;
@@ -91,7 +93,6 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 			case 'M': h[i]->setAnimal(new Mantaray(x,y,w));break;
 			case 'S': h[i]->setAnimal(new Shark(x,y,w));break;
 			case 'W': h[i]->setAnimal(new Whale(x,y,w));break;
-			default:h[i]->setAnimal(NULL);
 		}
 		i++;
 	}
@@ -130,6 +131,16 @@ void Zoo::initializeRoad(ifstream& infile){
 void Zoo::tour(){
 	Road * p = ent;
 	while(p!=NULL){
+		int a[4];
+		a[0] = cl.searchByCoor(p->getLoc().getX()-1,p->getLoc().getY());
+		a[1] = cl.searchByCoor(p->getLoc().getX()+1,p->getLoc().getY());
+		a[2] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()-1);
+		a[3] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()+1);
+		for(int i = 0;i < 4;i++){
+			if(a[i]!=-1){
+				cl.getCage(a[i]).wakeAllAnimal();
+			}
+		}
 		p = p -> next();
 	}
 }
@@ -156,4 +167,10 @@ Road * Zoo::getEntrance(){
 
 Road * Zoo::getExit(){
 	return ext;
+}
+
+void Zoo::showFood(){
+	cout << Carnivore::getFood() << endl;
+	cout << Herbivore::getFood() << endl;
+	cout << Omnivore::getFood() << endl;
 }

@@ -11,14 +11,14 @@ public:
 	  * @param weight
 	  * Konstruktor herbivore dengan parameter berat badan 
 	  */
-	Herbivore(float weight);
+	Herbivore(int weight);
 	/** Jumlah hewan herbivora */
 	static int nHerbivore; 
 	/** Jumlah total makanan herbivora */
-	static int total_hFood;
+	static float total_hFood;
 	/** @brief Method getFood mengembalikan makanan herbivora
 	  */
-	int getFood() const;
+	float getFood() const;
 protected :
 	/** Makanan herbivora */
 	float hFood;
@@ -33,14 +33,14 @@ public:
 	  * @param weight
 	  * Konstruktor carnivore dengan parameter berat badan 
 	  */
-	Carnivore(float weight);
+	Carnivore(int weight);
 	/** @brief Method getFood mengembalikan makanan karnivora
 	  */
-	int getFood() const;
+	float getFood() const;
 	/** Jumlah hewan karnivora */
 	static int nCarnivore; 	
 	/** Jumlah total makanan karnivora */
-	static int total_cFood;
+	static float total_cFood;
 protected:
 	/** Makanan karnivora */
 	float cFood;
@@ -55,14 +55,14 @@ public:
 	  * @param weight
 	  * Konstruktor omnivore dengan parameter berat badan 
 	  */
-	Omnivore(float weight);
+	Omnivore(int weight);
 	/** @brief Method getFood mengembalikan makanan omnivora
 	  */
-	int getFood() const;
+	float getFood() const;
 	/** Jumlah hewan omnivora */
 	static int nOmnivore; 
 	/** Jumlah total makanan omnivora */
-	static int total_oFood;
+	static float total_oFood;
 protected :
 	/** Makanan omnivora */
 	float oFood;

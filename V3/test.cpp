@@ -14,6 +14,7 @@ int main(){
 		z.initializeRoad(infile);
 		z.tour();
 		z.show();
+		z.showFood();
 
 		infile.close();
 	}catch(int x){

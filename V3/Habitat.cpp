@@ -58,11 +58,7 @@ void WaterHabitat::render(){
 
 void AirHabitat::render(){
 	if(isInCage){
-		if(a==NULL){
-			cout << "A";
-		}else{
-			cout << " ";
-		}
+		cout << "A";
 	}else{
 		cout << "a";
 	}

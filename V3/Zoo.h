@@ -23,7 +23,7 @@ public:
 	void initializeCage(ifstream& infile);
 	void initializeRoad(ifstream& infile);
 	void tour();
-
+	void showFood();
 	~Zoo();
 private:
 	int width;
