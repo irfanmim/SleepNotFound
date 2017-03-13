@@ -5,6 +5,7 @@
 #include "Facility.h"
 #include "Cage.h"
 #include <fstream>
+#include <vector>
 using namespace std;
 
 #define DEF_WIDTH 35
@@ -21,7 +22,7 @@ public:
 	Road * getEntrance();
 	Road * getExit();
 	void initializeCage(ifstream& infile);
-	void initializeRoad(ifstream& infile);
+	bool isInPath(int x,int y);
 	void tour();
 	void showFood();
 	~Zoo();
@@ -31,6 +32,7 @@ private:
 	Cell *** member;
 	Road * ent;
 	Road * ext;
+	vector<Road *> path;
 	CageList cl;
 };
 

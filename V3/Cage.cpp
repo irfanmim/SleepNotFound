@@ -68,6 +68,10 @@ void Cage::wakeAllAnimal(){
 	}
 }
 
+Habitat * Cage::getHabitat(int i) const{
+	return h[i];
+}
+
 void CageList::addCage(Cage c){
 	cagelist.push_back(c);
 }

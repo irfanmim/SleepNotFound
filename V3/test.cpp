@@ -11,7 +11,6 @@ int main(){
 	try{
 		Zoo z(infile);
 		z.initializeCage(infile);
-		z.initializeRoad(infile);
 		z.tour();
 		z.show();
 		z.showFood();

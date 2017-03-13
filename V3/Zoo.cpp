@@ -7,7 +7,10 @@
 #include "parse.h"
 #include "Consumption.h"
 #include <iostream>
+#include <vector>
 #include <fstream>
+#include <stdlib.h>
+#include <time.h>
 using namespace std;
 
 Zoo::Zoo(ifstream& infile){
@@ -37,14 +40,16 @@ void Zoo::initialize(int row,int col,ifstream& infile){
 		for(int j = 0;j < col;j++){
 			switch(c[i][j]){
 				case '$': setMember(i,j,new Restaurant(i,j));break;
-				case 'R': setMember(i,j,new Road(i,j));break;
+				case 'R': setMember(i,j,new Road(i,j));path.push_back((Road *)member[i][j]);break;
 				case '*': setMember(i,j,new Park(i,j));break;
 				case ')': 
 					setMember(i,j,new Entrance(i,j));
-					ent = (Road *)member[i][j];break;
+					ent = (Road *)member[i][j];
+					path.push_back((Road *)member[i][j]);break;
 				case '(':
 					setMember(i,j,new Exit(i,j));
-					ext = (Road *)member[i][j];break;
+					ext = (Road *)member[i][j];
+					path.push_back((Road *)member[i][j]);break;
 				case 'a': setMember(i,j,new AirHabitat(i,j,false));break;
 				case 'w': setMember(i,j,new WaterHabitat(i,j,false));break;
 				case 'l': setMember(i,j,new LandHabitat(i,j,false));break;
@@ -113,35 +118,65 @@ void Zoo::initializeCage(ifstream& infile){
 	}
 }
 
-void Zoo::initializeRoad(ifstream& infile){
-	string s;
-	int x,y,w;
-	char an;
-	getline(infile,s);
-	if(s!="#Road"){throw 1;}
-	Road * p = ent;
-	while(getline(infile,s) && s!="#"){
-		getEntry(s,x,y,w,an);
-		p -> setNext((Road *)member[x][y]);
-		p = (Road *)member[x][y];
+bool Zoo::isInPath(int x,int y){
+	bool found = false;
+	int i = 0;
+	while(i < path.size() && !found){
+		if(path[i]->getLoc().getX()==x && path[i]->getLoc().getY()==y){
+			found = true;
+		}else{
+			i++;
+		}
 	}
-	p -> setNext(ext);
+	return found;
 }
+
 
 void Zoo::tour(){
 	Road * p = ent;
-	while(p!=NULL){
-		int a[4];
-		a[0] = cl.searchByCoor(p->getLoc().getX()-1,p->getLoc().getY());
-		a[1] = cl.searchByCoor(p->getLoc().getX()+1,p->getLoc().getY());
-		a[2] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()-1);
-		a[3] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()+1);
-		for(int i = 0;i < 4;i++){
-			if(a[i]!=-1){
-				cl.getCage(a[i]).wakeAllAnimal();
+	while(true){
+		p -> setVisited(true);
+		vector<Road *> cand;
+		if(isInPath(p->getLoc().getX()-1,p->getLoc().getY())){
+			if(((Road *)member[p->getLoc().getX()-1][p->getLoc().getY()])->isVisited()){
+			}else{
+				cand.push_back((Road *)member[p->getLoc().getX()-1][p->getLoc().getY()]);
 			}
 		}
-		p = p -> next();
+		if(isInPath(p->getLoc().getX()+1,p->getLoc().getY())){
+			if(((Road *)member[p->getLoc().getX()+1][p->getLoc().getY()])->isVisited()){
+			}else{
+				cand.push_back((Road *)member[p->getLoc().getX()+1][p->getLoc().getY()]);
+			}
+		}
+		if(isInPath(p->getLoc().getX(),p->getLoc().getY()-1)){
+			if(((Road *)member[p->getLoc().getX()][p->getLoc().getY()-1])->isVisited()){
+			}else{
+				cand.push_back((Road *)member[p->getLoc().getX()][p->getLoc().getY()-1]);
+			}
+		}
+		if(isInPath(p->getLoc().getX(),p->getLoc().getY()+1)){
+			if(((Road *)member[p->getLoc().getX()][p->getLoc().getY()+1])->isVisited()){
+			}else{
+				cand.push_back((Road *)member[p->getLoc().getX()][p->getLoc().getY()+1]);
+			}
+		}
+		if(cand.size()>0){
+			int a[4];
+			a[0] = cl.searchByCoor(p->getLoc().getX()-1,p->getLoc().getY());
+			a[1] = cl.searchByCoor(p->getLoc().getX()+1,p->getLoc().getY());
+			a[2] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()-1);
+			a[3] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()+1);
+			for(int i = 0;i < 4;i++){
+				if(a[i]!=-1){
+					cl.getCage(a[i]).wakeAllAnimal();
+				}
+			}
+			int n = rand() % cand.size();
+			p = cand[n];
+		}else{
+			break;
+		}
 	}
 }
 
@@ -170,7 +205,7 @@ Road * Zoo::getExit(){
 }
 
 void Zoo::showFood(){
-	cout << Carnivore::getFood() << endl;
-	cout << Herbivore::getFood() << endl;
-	cout << Omnivore::getFood() << endl;
+	cout << Carnivore::total_cFood << endl;
+	cout << Herbivore::total_hFood << endl;
+	cout << Omnivore::total_oFood << endl;
 }
