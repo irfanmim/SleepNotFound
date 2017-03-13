@@ -1,20 +1,16 @@
 #include "parse.h"
 #include "Zoo.h"
 #include "Cage.h"
+#include "driver.h"
+#include <fstream>
 #include <iostream>
 using namespace std;
 
-int main(){
-	int row,col;
-	string s;
+int main () {
 	ifstream infile("Zoo.txt");
 	try{
-		Zoo z(infile);
-		z.initializeCage(infile);
-		z.tour();
-		z.show();
-		z.showFood();
-
+		Driver zoomain(infile);
+		zoomain.DisplayMenu();
 		infile.close();
 	}catch(int x){
 		switch(x){

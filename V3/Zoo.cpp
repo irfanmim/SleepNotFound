@@ -76,27 +76,27 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 		h[i]->setCageStatus(true);
 		h[i]->resetAnimal();
 		switch(an){
-			case 'b': h[i]->setAnimal(new Bat(x,y));break;
-			case 'c': h[i]->setAnimal(new Cendrawasih(x,y));break;
-			case 'e': h[i]->setAnimal(new Eagle(x,y));break;
-			case 'k': h[i]->setAnimal(new Kolibri(x,y));break;
-			case 'h': h[i]->setAnimal(new Cheetah(x,y));break;
-			case 'm': h[i]->setAnimal(new Chimpanzee(x,y));break;
-			case 'a': h[i]->setAnimal(new Coala(x,y));break;
-			case 'g': h[i]->setAnimal(new Gorilla(x,y));break;
-			case 'y': h[i]->setAnimal(new Hyena(x,y));break;
-			case 'n': h[i]->setAnimal(new Kangaroo(x,y));break;
-			case 'd': h[i]->setAnimal(new Komodo(x,y));break;
-			case 'i': h[i]->setAnimal(new Lion(x,y));break;
-			case 'r': h[i]->setAnimal(new Orangutan(x,y));break;
-			case 's': h[i]->setAnimal(new Ostrich(x,y));break;
-			case 'p': h[i]->setAnimal(new Panda(x,y));break;
-			case 'P': h[i]->setAnimal(new Peacock(x,y));break;
-			case 't': h[i]->setAnimal(new Tiger(x,y));break;
-			case 'D': h[i]->setAnimal(new Dolphin(x,y));break;
-			case 'M': h[i]->setAnimal(new Mantaray(x,y));break;
-			case 'S': h[i]->setAnimal(new Shark(x,y));break;
-			case 'W': h[i]->setAnimal(new Whale(x,y));break;
+			case 'b': h[i]->setAnimal(new Bat(x,y,w));break;
+			case 'c': h[i]->setAnimal(new Cendrawasih(x,y,w));break;
+			case 'e': h[i]->setAnimal(new Eagle(x,y,w));break;
+			case 'k': h[i]->setAnimal(new Kolibri(x,y,w));break;
+			case 'h': h[i]->setAnimal(new Cheetah(x,y,w));break;
+			case 'm': h[i]->setAnimal(new Chimpanzee(x,y,w));break;
+			case 'a': h[i]->setAnimal(new Coala(x,y,w));break;
+			case 'g': h[i]->setAnimal(new Gorilla(x,y,w));break;
+			case 'y': h[i]->setAnimal(new Hyena(x,y,w));break;
+			case 'n': h[i]->setAnimal(new Kangaroo(x,y,w));break;
+			case 'd': h[i]->setAnimal(new Komodo(x,y,w));break;
+			case 'i': h[i]->setAnimal(new Lion(x,y,w));break;
+			case 'r': h[i]->setAnimal(new Orangutan(x,y,w));break;
+			case 's': h[i]->setAnimal(new Ostrich(x,y,w));break;
+			case 'p': h[i]->setAnimal(new Panda(x,y,w));break;
+			case 'P': h[i]->setAnimal(new Peacock(x,y,w));break;
+			case 't': h[i]->setAnimal(new Tiger(x,y,w));break;
+			case 'O': h[i]->setAnimal(new Dolphin(x,y,w));break;
+			case 'M': h[i]->setAnimal(new Mantaray(x,y,w));break;
+			case 'S': h[i]->setAnimal(new Shark(x,y,w));break;
+			case 'Q': h[i]->setAnimal(new Whale(x,y,w));break;
 		}
 		i++;
 	}
@@ -204,11 +204,6 @@ Zoo::~Zoo(){
 Road * Zoo::getExit(){
 	return ext;
 }
-void Zoo::showFood(){
-	cout << Carnivore::total_cFood << endl;
-	cout << Herbivore::total_hFood << endl;
-	cout << Omnivore::total_oFood << endl;
-}
 
 int Zoo::getHeight() const{
 	return height;
@@ -222,4 +217,8 @@ void Zoo::clearPath(){
 	for(int i = 0;i < path.size();i++){
 		path[i]->setVisited(false);
 	}
+}
+
+void Zoo::showFood(){
+	
 }

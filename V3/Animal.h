@@ -15,8 +15,9 @@ public:
   * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
   */	
 	int getWeight() const;
+	static int getNbAnimal();
+	virtual void renderAnimal()=0;
 	virtual void interact()=0;
-	int getNbAnimal();
 	static int NbAnimal; /** Jumlah animal dalam zoo */
 protected:
 	Point loc; /** Lokasi setiap animal dalam matriks Zoo */

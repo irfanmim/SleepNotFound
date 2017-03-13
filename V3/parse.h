@@ -1,6 +1,5 @@
 #ifndef PARSE_H
 #define PARSE_H
-#include "Zoo.h"
 #include <fstream>
 using namespace std;
 

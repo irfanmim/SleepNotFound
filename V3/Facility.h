@@ -63,8 +63,11 @@ public:
 	virtual void render();
 	bool isVisited();
 	void setVisited(bool s);
+	void setIsHere(bool s);
+
 private:
 	bool visited;
+	bool IsHere;
 };
 
 /** @class Entrance

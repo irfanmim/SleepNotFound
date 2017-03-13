@@ -18,6 +18,7 @@ public :
 	Tiger(int x, int y, int weight);
 	/** @brief Method interaksi tiger
 	  */
+	void renderAnimal();
 	void interact();
 };
 
@@ -35,6 +36,7 @@ public :
 	Peacock(int x, int y, int weight);
 	/** @brief Method interaksi peacock
 	  */
+	void renderAnimal();
 	void interact();
 };
 
@@ -53,6 +55,7 @@ public :
 	/** @brief Method interaksi panda
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Ostrich
@@ -70,6 +73,7 @@ public :
 	/** @brief Method interaksi ostrich
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Orangutan
@@ -87,6 +91,7 @@ public :
 	/** @brief Method interaksi orangutan
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Lion
@@ -104,6 +109,7 @@ public :
 	/** @brief Method interaksi lion
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Komodo
@@ -121,6 +127,7 @@ public :
 	/** @brief Method interaksi komodo
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Kangaroo
@@ -138,6 +145,7 @@ public :
 	/** @brief Method interaksi kangaroo
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Hyena
@@ -155,6 +163,7 @@ public :
 	/** @brief Method interaksi hyena
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Gorilla
@@ -172,6 +181,7 @@ public :
 	/** @brief Method interaksi gorilla
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Coala
@@ -189,6 +199,7 @@ public :
 	/** @brief Method interaksi coala
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Chimpanzee
@@ -206,6 +217,7 @@ public :
 	/** @brief Method interaksi chimpanzee
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Cheetah
@@ -223,6 +235,7 @@ public :
 	/** @brief Method interaksi cheetah
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 #endif

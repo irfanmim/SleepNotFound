@@ -19,6 +19,7 @@ public :
 	/** @brief Method interaksi dolphin
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Shark
@@ -36,6 +37,7 @@ public :
 	/** @brief Method interaksi shark
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Mantaray
@@ -53,6 +55,7 @@ public :
 	/** @brief Method interaksi mantaray
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Whale
@@ -70,6 +73,7 @@ public :
 	/** @brief Method interaksi whale
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 #endif

@@ -19,6 +19,7 @@ public :
 	/** @brief Method interaksi bat
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Cendrawasih
@@ -36,6 +37,7 @@ public :
 	/** @brief Method interaksi cendrawasih
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Eagle
@@ -53,6 +55,7 @@ public :
 	/** @brief Method interaksi eagle
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 /** @class Kolibri
@@ -70,6 +73,7 @@ public :
 	/** @brief Method interaksi kolibri
 	  */
 	void interact();
+	void renderAnimal();
 };
 
 #endif
