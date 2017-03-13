@@ -23,11 +23,11 @@
 	r orangutan
 	s ostrich
 	p panda
-	P peacock
+	& peacock
 	
 	t tiger
-	D dolphin
+	O dolphin
 	M mantaray
 	S shark
-	W whale
+	Q whale
 	
