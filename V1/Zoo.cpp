@@ -70,7 +70,7 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 	Habitat ** h = new Habitat*[nh];
 	int i = 0;
 	while(getline(infile,temp) && temp!="#"){
-		if(i >= nh){throw 1;}
+		//if(i >= nh){throw 2;}
 		getEntry(temp,x,y,w,an);
 		h[i] = (Habitat *)member[x][y];
 		h[i]->setCageStatus(true);

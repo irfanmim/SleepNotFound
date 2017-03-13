@@ -1,6 +1,0 @@
-<map id="Entrance" name="Entrance">
-<area shape="rect" id="node2" href="$classRoad.html" title="{Road\n||+ Road()\l+ render()\l}" alt="" coords="13,425,92,517"/>
-<area shape="rect" id="node3" href="$classFacility.html" title="{Facility\n||+ Facility()\l}" alt="" coords="11,300,95,377"/>
-<area shape="rect" id="node4" href="$classCell.html" title="{Cell\n|# loc\l|+ Cell()\l+ Cell()\l+ render()\l+ printCoor()\l}" alt="" coords="5,131,100,252"/>
-<area shape="rect" id="node5" href="$classRenderable.html" title="{Renderable\n||+ render()\l}" alt="" coords="9,5,97,83"/>
-</map>

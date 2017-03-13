@@ -1,5 +1,0 @@
-<map id="AirHabitat" name="AirHabitat">
-<area shape="rect" id="node2" href="$classHabitat.html" title="{Habitat\n|# a\l|+ Habitat()\l+ ~Habitat()\l+ getAnimal()\l+ setAnimal()\l+ resetAnimal()\l+ wakeAnimal()\l}" alt="" coords="5,300,119,451"/>
-<area shape="rect" id="node3" href="$classCell.html" title="{Cell\n|# loc\l|+ Cell()\l+ Cell()\l+ render()\l+ printCoor()\l}" alt="" coords="15,131,109,252"/>
-<area shape="rect" id="node4" href="$classRenderable.html" title="{Renderable\n||+ render()\l}" alt="" coords="18,5,106,83"/>
-</map>
