@@ -7,15 +7,22 @@
   */
 class Animal{
 public:
-/** @brief Constructor.
-  * Konstruktor kelas animal
-  */  
+  /** @brief Constructor.
+    * Konstruktor kelas animal
+    * @param x Posisi koordinat x
+    * @param y Posisi koordinat y
+    */  
 	Animal(int x, int y);
-/** @brief Method interaksi animal.
-  * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
-  */	
+
+  /** @brief Method interaksi animal.
+    * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
+    */	
 	virtual void interact()=0;
+
+  /** @brief Method untuk mengembalikan jumlah animal yang 
+    */
 	int getNbAnimal();
+
 	/** Jumlah animal dalam zoo */
 	static int NbAnimal; 
 protected:
