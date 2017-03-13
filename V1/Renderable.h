@@ -9,7 +9,7 @@ using namespace std;
 class Renderable{
 public:
 
-	/** @brief Pure Virtual Function render
+	/** @brief Pure Virtual function render
 	  */
 	virtual void render()=0;
 };

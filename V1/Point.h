@@ -7,9 +7,9 @@
 class Point{
 	public:
 		/** @brief Constructor berparameter.
+	  	  * @param x Koordinat x
+	  	  * @param y Koordinat y
 	  	  * Membuat objek cage dengan koordinat yang terdefinisi
-	  	  * @param x koordinat x
-	  	  * @param y koordinat y
 	  	  */
 		Point(int x, int y);
 
@@ -46,7 +46,11 @@ class Point{
 		void add(int x,int y);
 	
 	private:
+		/*absis dari point
+		 */
 		int x;
+		/*ordinat dari point
+		 */
 		int y;
 };
 
