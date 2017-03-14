@@ -1,6 +1,7 @@
 #ifndef CAGE_H
 #define CAGE_H
 #include "../Habitat/Habitat.h"
+#include "../CageList/CageList.h"
 #include <vector>
 
 /** @class Cage
@@ -26,10 +27,10 @@ public:
 	Cage& operator=(const Cage& ca);
 	bool isCoorInCage(int x,int y);
 	void wakeAllAnimal();
-	Cell * getCell(int i) const;
+	Cell * getCells() const;
 	int getHabByCoor(int x,int y) const;
 	int getNH() const;
-
+	void moveAllAnimal();
 private:
 	//Habitat ** h; /** List of habitat yang dilingkupi */
 	int na; /** Jumlah sel animal dalam cage */
@@ -38,4 +39,13 @@ private:
 	Animal * a;
 };
 
+class CageList{
+public:
+	void addCage(Cage c);
+	Cage& getCage(int i);
+	int getSize();
+	int searchByCoor(int x,int y);
+private:
+	vector<Cage> cagelist;
+};
 #endif

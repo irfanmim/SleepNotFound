@@ -3,6 +3,7 @@
 #include "../Cell/Cell.h"
 #include "../Habitat/Habitat.h"
 #include "../Cage/Cage.h"
+#include "../CageList/CageList.h"
 #include <fstream>
 #include <vector>
 using namespace std;
@@ -40,6 +41,6 @@ private:
 };
 
 
-bool searchInVector(const vector<Habitat *>& v,Habitat * h);
+bool searchInVector(const vector<Cell *>& v,Cell * h);
 
 #endif

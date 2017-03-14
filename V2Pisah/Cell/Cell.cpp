@@ -15,6 +15,7 @@ Cell::Cell():loc(0,0){
 	road_visited = false;
 	isInCage = false;
 	isHabitat = false;
+	moving = false;
 }
 
 Cell::Cell(int x,int y):loc(x,y){
@@ -30,6 +31,7 @@ Cell::Cell(int x,int y):loc(x,y){
 	road_visited = false;
 	isInCage = false;
 	isHabitat = false;
+	moving = false;
 }
 
 void Cell::render(){
@@ -55,7 +57,12 @@ void Cell::render(){
 	}
 	else if (airhabitat == true) {
 		if (isInCage) {
-			cout << "A";
+			if (isAnimalExist() && isMoving()) {
+				cout << getAnimalchar();
+			}
+			else {
+				cout << "A";
+			}
 		}
 		else {
 			cout << "a";
@@ -63,7 +70,12 @@ void Cell::render(){
 	}
 	else if (waterhabitat == true) {
 		if (isInCage) {
-			cout << "W";
+			if (isAnimalExist() && isMoving()) {
+					cout << getAnimalchar();
+				}
+				else {
+					cout << "W";
+				}
 		}
 		else {
 			cout << "w";
@@ -71,7 +83,12 @@ void Cell::render(){
 	}
 	else if (landhabitat == true) {
 		if (isInCage) {
-			cout << "L";
+			if (isAnimalExist() && isMoving()) {
+					cout << getAnimalchar();
+				}
+			else {
+				cout << "A";
+			}		
 		}
 		else {
 			cout << "l";
@@ -110,8 +127,8 @@ void Cell::setAtr(char c) {
 	}
 }
 
-void Cell::setAnimalExist() {
-	animal = true;
+void Cell::setAnimalExist(bool status) {
+	animal = status;
 }
 
 void Cell::inCage() {
@@ -202,7 +219,7 @@ void Cell::wakeAnimal() {
 	else if (animalchar == 'W') {
 		cout << "*Ikan paus hampir tidak muat di habitatnya*" << endl;
 	}
-	else {
+	else { // 'x'
 		cout << "Animal tidak terdefinisi" << endl;
 	}
 }
@@ -216,4 +233,10 @@ int Cell::getX(){
 
 int Cell::getY(){
 	return loc.getY();
+}
+void Cell:: setMoving(bool status) {
+	moving = status;
+}
+bool Cell:: isMoving() {
+	return (moving == true);
 }

@@ -1,6 +1,7 @@
 #ifndef CAGELIST_H
 #define CAGELIST_H
 #include "../Habitat/Habitat.h"
+#include "../Cage/Cage.h"
 #include <vector>
 
 

@@ -1,6 +1,6 @@
-#include "parse.h"
+#include "../parse/parse.h"
 #include "Zoo.h"
-#include "Cage.h"
+#include "../Cage/Cage.h"
 #include <iostream>
 #include <stdio.h>
 #include <vector>

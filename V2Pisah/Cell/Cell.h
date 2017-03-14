@@ -21,7 +21,7 @@ public:
 	Point& getLoc();
 	void printCoor();
 	void setAtr(char c);
-	void setAnimalExist();
+	void setAnimalExist(bool status);
 	bool isAnimalExist();
 	void setHabitat();
 	void setVisited(bool status);
@@ -30,6 +30,8 @@ public:
 	void wakeAnimal();
 	void setAnimalchar(char ch);
 	char getAnimalchar();
+	void setMoving(bool status);
+	bool isMoving();
 	int getX();
 	int getY();
 protected:
@@ -47,6 +49,7 @@ protected:
 	bool isInCage;
 	bool isHabitat;
 	bool road_visited;
+	bool moving;
 };
 
 #endif

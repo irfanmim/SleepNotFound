@@ -1,10 +1,7 @@
 #include "Zoo.h"
-#include "Facility.h"
-#include "Habitat.h"
-//#include "FlyingAnimal.h"
-//#include "LandAnimal.h"
-//#include "WaterAnimal.h"
-#include "parse.h"
+#include "../Habitat/Habitat.h"
+#include "../parse/parse.h"
+#include "../CageList/CageList.h"
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
@@ -86,8 +83,8 @@ Cell * Zoo::parseCage(int& nh,ifstream& infile){
 		member[x][y]->setHabitat();
 		member[x][y]->inCage();
 		if ((an == 'b')|| (an == 'c') || (an == 'e') ||(an == 'k')||(an ==  'h')||(an ==  'm')||(an ==  'a')||(an ==  'g')||(an ==  'y')||(an ==  'n')||(an ==  'd')|(an == 'i')|| (an == 'r')||(an ==  's')||(an ==  'p')||(an ==  'P')||(an ==  't')||(an ==  'D')|| (an == 'M')|| (an == 'S')||(an ==  'W')) {
-				h[i].setAnimalExist(); h[i].setAnimalchar(an);
-				member[x][y]->setAnimalExist(); member[x][y]->setAnimalchar(an);
+				h[i].setAnimalExist(true); h[i].setAnimalchar(an);
+				member[x][y]->setAnimalExist(true); member[x][y]->setAnimalchar(an);
 		}
 		i++;
 	}
@@ -188,8 +185,6 @@ void Zoo::tour(){
 			a[3] = cl.searchByCoor(p->getLoc().getX(),p->getLoc().getY()+1);
 			for(int i = 0;i < 4;i++){
 				if(a[i]!=-1){
-					//cout << cl.getCage(i).getCells()[0].isAnimalExist() << " " << cl.getCage(i).getCells()[2].isAnimalExist() << endl;
-					//cout << "Tour x, y, i " << x << " " << y << " " << i << endl;
 					cl.getCage(a[i]).wakeAllAnimal();
 				}
 			}
@@ -218,21 +213,33 @@ void Zoo::clearPath(){
 
 void Zoo::animate(){
 	show();
+	for (int i = 0; i < width; i++) {
+		for (int j = 0; j < height; j++) {
+			member[i][j]->setMoving(true);
+		}
+	}
 	for(int i = 0;i < 10;i++){
 		system("clear");
 		moveAnimal();
 		show();
-		sleep(1.5);
+		usleep(1500000);
+	}
+	for (int i = 0; i < width; i++) {
+		for (int j = 0; j < height; j++) {
+			member[i][j]->setMoving(false);
+		}
 	}
 }
 
 
 void Zoo::moveAnimal(){
 	for(int i = 0;i < cl.getSize();i++){
+//		cl.getCage(i).moveAllAnimal();
+//	} 
 		vector<Cell *> an;
 		for(int j = 0;j < cl.getCage(i).getNH();j++){
-			if(cl.getCage(i).getCell(j)->isAnimalExist()==true){
-				an.push_back(cl.getCage(i).getCell(j));
+			if(cl.getCage(i).getCells()[j].isAnimalExist()==true){
+				an.push_back(cl.getCage(i).getCells());
 			}
 		}
 		vector<Cell *> dest;
@@ -276,18 +283,22 @@ void Zoo::moveAnimal(){
 				int x = dest[j]->getX();int y = dest[j]->getY();
 				int z = cl.getCage(i).getHabByCoor(x,y);
 				if(z!=-1){
-					cl.getCage(i).getCell(z)->setAnimalchar(an[j]->getAnimalchar());
+					cl.getCage(i).getCells()[z].setAnimalExist(an[j]->isAnimalExist());
+					cl.getCage(i).getCells()[z].setAnimalchar(an[j]->getAnimalchar());
 				}
+				((Cell *)member[x][y])->setAnimalExist(an[j]->isAnimalExist());
 				((Cell *)member[x][y])->setAnimalchar(an[j]->getAnimalchar());
 				x = an[j]->getX();y = an[j]->getY();
 				z = cl.getCage(i).getHabByCoor(x,y);
 				if(z!=-1){
-					cl.getCage(i).getCell(z)->setAnimalchar(NULL);
+					cl.getCage(i).getCells()[z].setAnimalExist(false);
+	//				cl.getCage(i).getCells()[z].setAnimalchar('X');
 				}
-				((Cell *)member[x][y])->setAnimalchar(NULL);
+				((Cell *)member[x][y])->setAnimalExist(false);
+	//			((Cell *)member[x][y])->setAnimalchar('X');
 			}
 		}
-	}
+	} 
 }
 
 bool searchInVector(const vector<Cell *>& v,Cell * h){

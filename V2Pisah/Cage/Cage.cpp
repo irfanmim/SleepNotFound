@@ -1,5 +1,7 @@
 #include "Cage.h"
 #include <iostream>
+#include <algorithm>
+
 using namespace std;
 
 Cage::Cage(Cell * hl,int n):nh(n){
@@ -94,15 +96,15 @@ int CageList::searchByCoor(int x,int y){
 	return (found)?i:-1;
 }
 
-Cell * Cage::getCell(int i) const {
-	return c[i];
+Cell * Cage::getCells() const {
+	return c;
 }
 
 int Cage::getHabByCoor(int x,int y) const{
 	bool found = false;
 	int i = 0;
 	while(i < nh && !found){
-		if((h[i]->getX()==x)&&(h[i]->getY()==y)){
+		if((c[i].getX()==x)&&(c[i].getY()==y)){
 			found = true;
 		}else{
 			i++;
@@ -118,3 +120,25 @@ int Cage::getHabByCoor(int x,int y) const{
 int Cage::getNH() const{
 	return nh;
 }
+
+void Cage::moveAllAnimal() {
+	/*vector<Cell> temp;
+	
+	for (int i = 0; i < nh; i++) {
+		temp.push_back(c[i]);
+	}
+	do{
+		;
+	} while(std::next_permutation(temp.begin(), temp.end());
+			
+	for (int i = 0; i < nh; i++) {
+		if (temp[i].isAnimalExist()) {
+			c[i].setAnimalExist(true);
+			c[i].setAnimalchar(temp[i].getAnimalchar());
+		}
+		else {
+			c[i].setAnimalExist(false);
+		}
+	} */
+}
+								
