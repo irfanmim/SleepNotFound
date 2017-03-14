@@ -1,4 +1,4 @@
-#include "Cell.h"
+#include "cell.h"
 #include <iostream>
 using namespace std;
 
@@ -34,7 +34,7 @@ Cell::Cell(int x,int y):loc(x,y){
 	moving = false;
 }
 
-void Cell::render(){
+void Cell::Render(){
 	if (restaurant == true) {
 		cout << "S";
 	}
@@ -57,8 +57,8 @@ void Cell::render(){
 	}
 	else if (airhabitat == true) {
 		if (isInCage) {
-			if (isAnimalExist() && isMoving()) {
-				cout << getAnimalchar();
+			if (IsAnimalExist() && IsMoving()) {
+				cout << GetAnimalChar();
 			}
 			else {
 				cout << "A";
@@ -70,8 +70,8 @@ void Cell::render(){
 	}
 	else if (waterhabitat == true) {
 		if (isInCage) {
-			if (isAnimalExist() && isMoving()) {
-					cout << getAnimalchar();
+			if (IsAnimalExist() && IsMoving()) {
+					cout << GetAnimalChar();
 				}
 				else {
 					cout << "W";
@@ -83,8 +83,8 @@ void Cell::render(){
 	}
 	else if (landhabitat == true) {
 		if (isInCage) {
-			if (isAnimalExist() && isMoving()) {
-					cout << getAnimalchar();
+			if (IsAnimalExist() && IsMoving()) {
+					cout << GetAnimalChar();
 				}
 			else {
 				cout << "A";
@@ -100,15 +100,15 @@ void Cell::render(){
 }
 
 
-void Cell::printCoor(){
-	loc.printPoint();
+void Cell::PrintCoor(){
+	loc.PrintPoint();
 }
 
-Point& Cell::getLoc(){
+Point& Cell::GetLoc(){
 	return loc;
 }
 
-void Cell::setAtr(char c) {
+void Cell::SetAtr(char c) {
 	switch(c) {
 		case '$': restaurant = true; break;//setMember(i,j,new Restaurant(i,j));break;
 		case 'R': road = true; break;//setMember(i,j,new Road(i,j));break;
@@ -127,35 +127,35 @@ void Cell::setAtr(char c) {
 	}
 }
 
-void Cell::setAnimalExist(bool status) {
+void Cell::SetAnimalExist(bool status) {
 	animal = status;
 }
 
-void Cell::inCage() {
+void Cell::InCage() {
 	isInCage = true;
 }
 
-void Cell::setHabitat() {
+void Cell::SetHabitat() {
 	isHabitat = true;
 }
 
-bool Cell::isAnimalExist() {
+bool Cell::IsAnimalExist() {
 	return (animal == true);
 }
 
-void Cell::setVisited(bool status) {
+void Cell::SetVisited(bool status) {
 	road_visited = status;
 }
 
-bool Cell::isVisited() {
+bool Cell::IsVisited() {
 	return (road_visited);
 }
 
-void Cell::setAnimalchar(char ch) {
+void Cell::SetAnimalChar(char ch) {
 	animalchar = ch;
 }
 
-void Cell::wakeAnimal() {
+void Cell::WakeAnimal() {
 	if (animalchar == 'b') {
 		cout << "*Kelelawar bergelantung terbalik*" << endl;
 	}
@@ -223,20 +223,20 @@ void Cell::wakeAnimal() {
 		cout << "Animal tidak terdefinisi" << endl;
 	}
 }
-char Cell::getAnimalchar() {
+char Cell::GetAnimalChar() {
 	return animalchar;
 }
 
-int Cell::getX(){
-	return loc.getX();
+int Cell::GetX(){
+	return loc.GetX();
 }
 
-int Cell::getY(){
-	return loc.getY();
+int Cell::GetY(){
+	return loc.GetY();
 }
-void Cell:: setMoving(bool status) {
+void Cell::SetMoving(bool status) {
 	moving = status;
 }
-bool Cell:: isMoving() {
+bool Cell::IsMoving() {
 	return (moving == true);
 }

@@ -1,3 +1,2 @@
-main : main.cpp Driver/Driver.cpp Zoo/Zoo.cpp Cell/Cell.cpp Point/Point.cpp Habitat/Habitat.cpp Cage/Cage.cpp parse/parse.cpp Animal/Animal.cpp CageList/CageList.cpp
-	g++ -o main main.cpp Driver/Driver.cpp Zoo/Zoo.cpp Cell/Cell.cpp Point/Point.cpp Habitat/Habitat.cpp Cage/Cage.cpp parse/parse.cpp Animal/Animal.cpp CageList/CageList.cpp -std=c++11
-
+main : main.cpp driver/driver.cpp zoo/zoo.cpp cell/cell.cpp point/point.cpp habitat/habitat.cpp cage/cage.cpp parse/parse.cpp animal/animal.cpp cage_list/cage_list.cpp
+	g++ -o main main.cpp driver/driver.cpp zoo/zoo.cpp cell/cell.cpp point/point.cpp habitat/habitat.cpp cage/cage.cpp parse/parse.cpp animal/animal.cpp cage_list/cage_list.cpp -std=c++11

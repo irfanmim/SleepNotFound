@@ -1,4 +1,4 @@
-#include "Animal.h"
+#include "animal.h"
 
 int Animal::NbAnimal = 0;
 

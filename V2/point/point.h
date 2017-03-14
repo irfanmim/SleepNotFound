@@ -5,12 +5,11 @@ class Point{
 	public:
 		Point(int x, int y);
 		Point(const Point& P);
-		void printPoint();
-		int getX() const;
-		int getY() const;
-		void setX(int x);
-		void setY(int y);
-		void add(int x,int y);
+		void PrintPoint();
+		int GetX() const;
+		int GetY() const;
+		void SetX(int x);
+		void SetY(int y);
 	private:
 		int x;
 		int y;

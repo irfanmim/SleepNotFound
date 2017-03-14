@@ -1,7 +1,7 @@
 #include "parse/parse.h"
-#include "Zoo/Zoo.h"
-#include "Cage/Cage.h"
-#include "Driver/Driver.h"
+#include "zoo/zoo.h"
+#include "cage/cage.h"
+#include "driver/driver.h"
 #include <fstream>
 #include <iostream>
 using namespace std;

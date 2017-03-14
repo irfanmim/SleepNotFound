@@ -1,6 +1,6 @@
 #ifndef CELL_H
 #define CELL_H
-#include "../Point/Point.h"
+#include "../point/point.h"
 
 /** @class Cell
   * Kelas yang merepresentasikan sel dalam matriks Zoo.
@@ -17,23 +17,23 @@ public:
 	  * @param y ordinat dari koordinat Cell
 	  */
 	Cell(int x,int y);
-	void render();
-	Point& getLoc();
-	void printCoor();
-	void setAtr(char c);
-	void setAnimalExist(bool status);
-	bool isAnimalExist();
-	void setHabitat();
-	void setVisited(bool status);
-	void inCage();
-	bool isVisited();
-	void wakeAnimal();
-	void setAnimalchar(char ch);
-	char getAnimalchar();
-	void setMoving(bool status);
-	bool isMoving();
-	int getX();
-	int getY();
+	void Render();
+	Point& GetLoc();
+	void PrintCoor();
+	void SetAtr(char c);
+	void SetAnimalExist(bool status);
+	bool IsAnimalExist();
+	void SetHabitat();
+	void SetVisited(bool status);
+	void InCage();
+	bool IsVisited();
+	void WakeAnimal();
+	void SetAnimalChar(char ch);
+	char GetAnimalChar();
+	void SetMoving(bool status);
+	bool IsMoving();
+	int GetX();
+	int GetY();
 protected:
 	Point loc; /** Koordinat suatu Cell */
 	char animalchar;

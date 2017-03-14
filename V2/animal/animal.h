@@ -1,6 +1,6 @@
 #ifndef ANIMAL_H
 #define ANIMAL_H
-#include "../Point/Point.h"
+#include "../point/point.h"
 
 /** @class Animal
   * ABC animal

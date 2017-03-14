@@ -1,25 +1,25 @@
-#include "CageList.h"
+#include "cage_list.h"
 #include <iostream>
 #include <vector>
 using namespace std;
 
-void CageList::addCage(Cage c){
+void CageList::AddCage(Cage c){
 	cagelist.push_back(c);
 }
 
-Cage& CageList::getCage(int i){
+Cage& CageList::GetCage(int i){
 	return cagelist[i];
 }
 
-int CageList::getSize(){
+int CageList::GetSize(){
 	return cagelist.size();
 }
 
-int CageList::searchByCoor(int x,int y){
+int CageList::SearchByCoor(int x,int y){
 	int i = 0;
 	bool found = false;
 	while(i < cagelist.size() && !found){
-		found = cagelist[i].isCoorInCage(x,y);
+		found = cagelist[i].IsCoorInCage(x,y);
 		if(!found){
 			i++;
 		}
