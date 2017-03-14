@@ -139,9 +139,9 @@ void Zoo::initializeCage(ifstream& infile){
 	getline(infile,s);
 	while(s=="#Entry"){
 		Habitat ** h = parseCage(nh,infile);
-
 		Cage c(h,nh);
 		c.Validate();
+		if(cl.IsOverlap(c)){throw 8;}
 		cl.addCage(c);
 		getline(infile,s);
 	}
@@ -166,7 +166,7 @@ void Zoo::tour(){
 	while(p != getExit()){
 		system("clear");
 		p -> setIsHere(true);
-		show();
+		ShowByEdge(0,height-1,0,width-1);
 		p -> setIsHere(false);
 		p -> setVisited(true);
 		vector<Road *> cand;
@@ -216,6 +216,15 @@ void Zoo::tour(){
 	clearPath();
 }
 
+void Zoo::ShowByEdge(int a,int b,int c,int d){
+	for(int i = a;i <= b;i++){
+		for(int j = c;j <= d;j++){
+			(member[i][j])->render();
+		}
+		cout << endl;
+	}
+}
+
 void Zoo::show(){
 	int a,b,c,d;
 	cout << "Masukkan batas atas = ";cin >> a;
@@ -223,12 +232,7 @@ void Zoo::show(){
 	cout << "Masukkan batas kiri = ";cin >> c;
 	cout << "Masukkan batas kanan = ";cin >> d;
 	if(a<0 || b >= height || c < 0 || d >= width || b<a || d<c){throw 4;}
-	for(int i = a;i <= b;i++){
-		for(int j = c;j <= d;j++){
-			(member[i][j])->render();
-		}
-		cout << endl;
-	}
+	ShowByEdge(a,b,c,d);
 }
 
 Zoo::~Zoo(){
@@ -325,11 +329,11 @@ void Zoo::moveAnimal(){
 }
 
 void Zoo::animate(){
-	show();
+	ShowByEdge(0,height-1,0,width-1);
 	for(int i = 0;i < 10;i++){
 		system("clear");
 		moveAnimal();
-		show();
+		ShowByEdge(0,height-1,0,width-1);
 		sleep(1.5);
 	}
 }

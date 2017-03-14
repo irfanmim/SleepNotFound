@@ -9,6 +9,7 @@ public:
 	Cage& getCage(int i);
 	int getSize();
 	int searchByCoor(int x,int y);
+	bool IsOverlap(const Cage& c);
 private:
 	vector<Cage> cagelist;
 };

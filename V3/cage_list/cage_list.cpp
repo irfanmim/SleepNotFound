@@ -23,3 +23,19 @@ int CageList::searchByCoor(int x,int y){
 	}
 	return (found)?i:-1;
 }
+
+bool CageList::IsOverlap(const Cage& c){
+	int x = c.getHabitat(0)->getX();
+	int y = c.getHabitat(0)->getY();
+	int i = 1;bool overlap = false;
+	while(i < c.getNH() && !overlap){
+		if(searchByCoor(x,y)!=-1){
+			overlap = true;
+		}else{
+			x = c.getHabitat(i)->getX();
+			y = c.getHabitat(i)->getY();
+			i++;
+		}
+	}
+	return overlap;
+}

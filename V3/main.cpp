@@ -18,6 +18,7 @@ int main () {
 			case 5:cout << "Cage has multiple habitat types" << endl;break;
 			case 6:cout << "Wrong animal placement" << endl;break;
 			case 7:cout << "Mixing of untamed animal" << endl;break;
+			case 8:cout << "Cage overlapped" << endl;break;
 		}
 	}catch(...){
 		cout << "Another error occured" << endl;

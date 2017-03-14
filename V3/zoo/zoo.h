@@ -26,6 +26,7 @@ public:
 	void showFood();
 	void moveAnimal();
 	void animate();
+	void ShowByEdge(int a,int b,int c,int d);
 	~Zoo();
 private:
 	int width;

@@ -113,15 +113,16 @@ void Cage::Validate(){
 		}
 		i++;
 	}
-	i = 0;int j = 0;
+	i = 0;int untamed = 0;int tamed = 0;
 	while(i < nh){
 		if(h[i]->getAnimal()!=NULL){
-			h[i]->getAnimal()->renderAnimal();
 			if(!(h[i]->getAnimal()->IsTamed())){
-				j++;
+				untamed++;
+			}else{
+				tamed++;
 			}
 		}
 		i++;
-		if(j>1){throw 7;}
+		if(untamed>1 || (untamed>0 && tamed>0)){throw 7;}
 	}
 }
