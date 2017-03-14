@@ -1,56 +1,35 @@
 #include "zoo.h"
-#include "../facility/facility.h"
-#include "../habitat/habitat.h"
-#include "../flying_animal/flying_animal.h"
-#include "../land_animal/land_animal.h"
-#include "../water_animal/water_animal.h"
-#include "../parse/parse.h"
-
-#include "../air_habitat/air_habitat.h"
-#include "../amphibi/amphibi.h"
-#include "../animal/animal.h"
-#include "../aves/aves.h"
-#include "../bat/bat.h"
-#include "../cage/cage.h"
-#include "../cage_list/cage_list.h"
 #include "../cell/cell.h"
+#include "../parse/parse.h"
+#include "../restaurant/restaurant.h"
+#include "../road/road.h"
+#include "../park/park.h"
+#include "../entrance/entrance.h"
+#include "../exit/exit.h"
+#include "../habitat/habitat.h"
+#include "../air_habitat/air_habitat.h"
+#include "../water_habitat/water_habitat.h"
+#include "../land_habitat/land_habitat.h"
+#include "../bat/bat.h"
 #include "../cendrawasih/cendrawasih.h"
+#include "../kolibri/kolibri.h"
+#include "../eagle/eagle.h"
 #include "../cheetah/cheetah.h"
 #include "../chimpanzee/chimpanzee.h"
 #include "../coala/coala.h"
-#include "../dolphin/dolphin.h"
-#include "../driver/driver.h"
-#include "../eagle/eagle.h"
-#include "../entrance/entrance.h"
-#include "../exit/exit.h"
-#include "../facility/facility.h"
-#include "../flying_animal/flying_animal.h"
 #include "../gorilla/gorilla.h"
-#include "../habitat/habitat.h"
 #include "../hyena/hyena.h"
 #include "../kangaroo/kangaroo.h"
-#include "../kolibri/kolibri.h"
 #include "../komodo/komodo.h"
-#include "../land_animal/land_animal.h"
-#include "../land_habitat/land_habitat.h"
 #include "../lion/lion.h"
-#include "../mammal/mammal.h"
-#include "../mantaray/mantaray.h"
 #include "../orangutan/orangutan.h"
 #include "../ostrich/ostrich.h"
 #include "../panda/panda.h"
-#include "../park/park.h"
-#include "../parse/parse.h"
 #include "../peacock/peacock.h"
-#include "../pisces/pisces.h"
-#include "../point/point.h"
-#include "../reptile/reptile.h"
-#include "../restaurant/restaurant.h"
-#include "../road/road.h"
-#include "../shark/shark.h"
 #include "../tiger/tiger.h"
-#include "../water_animal/water_animal.h"
-#include "../water_habitat/water_habitat.h"
+#include "../dolphin/dolphin.h"
+#include "../mantaray/mantaray.h"
+#include "../shark/shark.h"
 #include "../whale/whale.h"
 
 #include <iostream>
@@ -69,7 +48,6 @@ Zoo::Zoo(ifstream& infile) {
   for (int i = 0;i < height;i++) {
     member[i] = new Cell*[width];
   }
-
   Initialize(height,width,infile);
 }
 
@@ -97,8 +75,8 @@ void Zoo::Initialize(int row,int col,ifstream& infile) {
           SetMember(i,j,new Exit(i,j));
           ext = (Road *)member[i][j];
           path.push_back((Road *)member[i][j]);break;
-        case 'a': SetMember(i,j,new Air_habitat(i,j,false));break;
-        case 'w': SetMember(i,j,new Water_habitat(i,j,false));break;
+        case 'a': SetMember(i,j,new AirHabitat(i,j,false));break;
+        case 'w': SetMember(i,j,new WaterHabitat(i,j,false));break;
         case 'l': SetMember(i,j,new LandHabitat(i,j,false));break;
         default: SetMember(i,j,new Cell(i,j));break;
       }
@@ -160,7 +138,9 @@ void Zoo::InitializeCage(ifstream& infile) {
   while (s=="#Entry") {
     Habitat ** h = ParseCage(nh,infile);
     Cage c(h,nh);
-    cl.addCage(c);
+    c.Validate();
+    if(cl.IsOverlap(c)){throw 8;}
+    cl.AddCage(c);
     getline(infile,s);
   }
 }
@@ -184,7 +164,7 @@ void Zoo::Tour() {
   while (p != ParseCage()) {
     //system("clear");
     p -> SetIsHere(true);
-    Show();
+    ShowByEdge(0,height-1,0,width-1);
     p -> SetIsHere(false);
     p -> SetVisited(true);
     vector<Road *> cand;
@@ -215,13 +195,13 @@ void Zoo::Tour() {
     }
     if (cand.size()>0) {
       int a[4];
-      a[0] = cl.searchByCoor(x-1,y);
-      a[1] = cl.searchByCoor(x+1,y);
-      a[2] = cl.searchByCoor(x,y-1);
-      a[3] = cl.searchByCoor(x,y+1);
+      a[0] = cl.SearchByCoor(x-1,y);
+      a[1] = cl.SearchByCoor(x+1,y);
+      a[2] = cl.SearchByCoor(x,y-1);
+      a[3] = cl.SearchByCoor(x,y+1);
       for (int i = 0;i < 4;i++) {
         if (a[i]!=-1) {
-          cl.getCage(a[i]).wakeAllAnimal();
+          cl.GetCage(a[i]).WakeAllAnimal();
         }
       }
       n = rand() % cand.size();
@@ -234,21 +214,30 @@ void Zoo::Tour() {
   ClearPath();
 }
 
-void Zoo::Show() {
-  //system("clear");
-cout << endl;
-cout << "+==================================+" << endl;
-cout << "      __ ___             ___ __  __ " << endl;
-cout << "\\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
-cout << " \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
-cout << "+==================================+" << endl << endl;
-
-  for (int i = 0;i < height;i++) {
-    for (int j = 0;j < width;j++) {
+void Zoo::ShowByEdge(int a,int b,int c,int d){
+  cout << endl;
+  cout << "+==================================+" << endl;
+  cout << "      __ ___             ___ __  __ " << endl;
+  cout << "\\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
+  cout << " \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
+  cout << "+==================================+" << endl << endl;
+  for(int i = a;i <= b;i++){
+    for(int j = c;j <= d;j++){
       (member[i][j])->Render();
     }
     cout << endl;
   }
+}
+
+void Zoo::Show() {
+  //system("clear");
+  int a,b,c,d;
+  cout << "Masukkan batas atas = ";cin >> a;
+  cout << "Masukkan batas bawah = ";cin >> b;
+  cout << "Masukkan batas kiri = ";cin >> c;
+  cout << "Masukkan batas kanan = ";cin >> d;
+  if(a<0 || b >= height || c < 0 || d >= width || b<a || d<c){throw 4;}
+  ShowByEdge(a,b,c,d);
 }
 
 Zoo::~Zoo() {

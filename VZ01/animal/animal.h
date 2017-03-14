@@ -1,6 +1,8 @@
 #ifndef ANIMAL_H
 #define ANIMAL_H
 #include "../point/point.h"
+#include <vector>
+using namespace std;
 
 /** @class Animal
   * ABC Animal
@@ -26,8 +28,11 @@ public:
   /** Jumlah Animal dalam zoo */
   static int NbAnimal; 
 
+  bool IsHabMatch(int hab_code);
+
 protected:
   Point loc; /** Lokasi setiap Animal dalam matriks Zoo */
+  vector<int> an_code;
 };
 
 #endif

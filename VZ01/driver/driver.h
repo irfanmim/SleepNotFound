@@ -33,17 +33,10 @@ public:
   /** @brief Method untuk membuat daftar di menu utama
     */
   void InitMenu();
-  
-  /** @brief Method untuk memindahkan kursor saat ini
-    * @param x Nilai koordinat x yang dituju
-    * @param y Nilai koordinat y yang dituju
-    */
-  void GoToXY(int x,int y);
 
 private:
   bool quit;
   int inp;
-  int def_col;
   vector<string> menu;
   Zoo z;
 };

@@ -1,5 +1,5 @@
-#ifndef WATERHABITAT_H
-#define WATERHABITAT_H
+#ifndef WATER_HABITAT_H
+#define WATER_HABITAT_H
 #include "../cell/cell.h"
 #include "../animal/animal.h"
 #include "../habitat/habitat.h"
@@ -8,7 +8,7 @@
 /** @class water_habitat
   * Base class waterhabitat
   */
-class water_habitat: public Habitat{
+class WaterHabitat: public Habitat{
 public:
   /** @brief water_habitat
     * @param x absis lokasi
@@ -16,7 +16,7 @@ public:
     * @param s boolean yang merepresentasikan habitat didalam cage atau tidak
     * Konstruktor waterhabitat
     */
-  water_habitat(int x,int y,bool s);
+  WaterHabitat(int x,int y,bool s);
   /** @brief Method Render.
     */
   void Render();

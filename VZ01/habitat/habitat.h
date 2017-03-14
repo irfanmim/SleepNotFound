@@ -45,9 +45,12 @@ public:
     */
   void SetCageStatus(bool s);
 
+  int GetHabCode() const;
+
 protected:
   Animal * a;
   bool IsInCage;
+  int hab_code;
 };
 
 

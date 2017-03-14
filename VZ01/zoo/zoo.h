@@ -2,56 +2,8 @@
 #define ZOO_H
 #include "../cell/cell.h"
 #include "../habitat/habitat.h"
-#include "../facility/facility.h"
-#include "../cage/cage.h"
-
-#include "../air_habitat/air_habitat.h"
-#include "../amphibi/amphibi.h"
-#include "../animal/animal.h"
-#include "../aves/aves.h"
-#include "../bat/bat.h"
-#include "../cage/cage.h"
-#include "../cage_list/cage_list.h"
-#include "../cell/cell.h"
-#include "../cendrawasih/cendrawasih.h"
-#include "../cheetah/cheetah.h"
-#include "../chimpanzee/chimpanzee.h"
-#include "../coala/coala.h"
-#include "../dolphin/dolphin.h"
-#include "../driver/driver.h"
-#include "../eagle/eagle.h"
-#include "../entrance/entrance.h"
-#include "../exit/exit.h"
-#include "../facility/facility.h"
-#include "../flying_animal/flying_animal.h"
-#include "../gorilla/gorilla.h"
-#include "../habitat/habitat.h"
-#include "../hyena/hyena.h"
-#include "../kangaroo/kangaroo.h"
-#include "../kolibri/kolibri.h"
-#include "../komodo/komodo.h"
-#include "../land_animal/land_animal.h"
-#include "../land_habitat/land_habitat.h"
-#include "../lion/lion.h"
-#include "../mammal/mammal.h"
-#include "../mantaray/mantaray.h"
-#include "../orangutan/orangutan.h"
-#include "../ostrich/ostrich.h"
-#include "../panda/panda.h"
-#include "../park/park.h"
-#include "../parse/parse.h"
-#include "../peacock/peacock.h"
-#include "../pisces/pisces.h"
-#include "../point/point.h"
-#include "../reptile/reptile.h"
-#include "../restaurant/restaurant.h"
 #include "../road/road.h"
-#include "../shark/shark.h"
-#include "../tiger/tiger.h"
-#include "../water_animal/water_animal.h"
-#include "../water_habitat/water_habitat.h"
-#include "../whale/whale.h"
-
+#include "../cage_list/cage_list.h"
 #include <fstream>
 #include <vector>
 using namespace std;
@@ -82,6 +34,9 @@ public:
   void Initialize(int row,int col,ifstream& infile);
   /** @brief Procedure show menampilkan Zoo ke layar
     */
+
+  void ShowByEdge(int a,int b,int c,int d);
+
   void Show();
   /** @brief Function GetMember mengambil isi Cell dari koordinat (i,j)
     * @param i absis lokasi

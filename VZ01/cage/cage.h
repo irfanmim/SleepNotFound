@@ -34,6 +34,8 @@ public:
     */
   bool IsCoorInCage(int x,int y);
   
+  int GetNH() const;
+
   /** @brief Method yang membuat semua Animal yang berada di dalam cage memanggil Interact
     */
   void WakeAllAnimal();
@@ -42,7 +44,8 @@ public:
     * @param i Nilai index
     */
   Habitat * GetHabitat(int i) const;
-
+  
+  void Validate();
 private:
   Habitat ** h; /** List of habitat yang dilingkupi */
   int na; /** Jumlah sel Animal dalam cage */

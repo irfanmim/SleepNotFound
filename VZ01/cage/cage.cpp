@@ -1,5 +1,6 @@
 #include "cage.h"
-
+#include <iostream>
+using namespace std;
 
 Cage::Cage(Habitat ** hl,int n):nh(n) {
   h = new Habitat*[nh];
@@ -58,6 +59,9 @@ bool Cage::IsCoorInCage(int x,int y) {
   return found;
 }
 
+int Cage::GetNH() const{
+  return nh;
+}
 
 void Cage::WakeAllAnimal() {
   for (int i = 0;i < nh;i++) {
@@ -69,4 +73,25 @@ void Cage::WakeAllAnimal() {
 
 Habitat * Cage::GetHabitat(int i) const {
   return h[i];
+}
+
+void Cage::Validate(){
+  int x = h[0]->GetHabCode();
+  int i = 1;
+  while(i < nh){
+    if(x != h[i]->GetHabCode()){
+      throw 5;
+    }else{
+      i++;
+    }
+  }
+  i = 0;
+  while(i < nh){
+    if(h[i]->GetAnimal()!=NULL){
+      if(!(h[i]->GetAnimal()->IsHabMatch(x))){
+        throw 6;
+      }
+    }
+    i++;
+  }
 }

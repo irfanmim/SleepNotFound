@@ -30,6 +30,8 @@ public:
     */
   int SearchByCoor(int x,int y);
 
+  bool IsOverlap(const Cage& c);
+
 private:
   vector<Cage> cage_list;
 };

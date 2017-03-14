@@ -35,4 +35,6 @@ void Habitat::SetCageStatus(bool s) {
   IsInCage = s;
 }
 
-
+int Habitat::GetHabCode() const{
+	return hab_code;
+}

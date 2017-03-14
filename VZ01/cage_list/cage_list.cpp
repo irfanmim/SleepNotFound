@@ -25,3 +25,19 @@ int CageList::SearchByCoor(int x,int y) {
   }
   return (found)?i:-1;
 }
+
+bool CageList::IsOverlap(const Cage& c){
+  int x = c.GetHabitat(0)->GetX();
+  int y = c.GetHabitat(0)->GetY();
+  int i = 1;bool overlap = false;
+  while(i < c.GetNH() && !overlap){
+    if(SearchByCoor(x,y)!=-1){
+      overlap = true;
+    }else{
+      x = c.GetHabitat(i)->GetX();
+      y = c.GetHabitat(i)->GetY();
+      i++;
+    }
+  }
+  return overlap;
+}

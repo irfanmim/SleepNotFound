@@ -16,7 +16,7 @@ public :
   Cheetah(int x, int y);
   /** @brief Method interaksi cheetah
     */
-  void nteract();
+  void Interact();
 };
 
 #endif

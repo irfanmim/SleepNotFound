@@ -5,7 +5,6 @@ using namespace std;
 
 Driver::Driver(ifstream& infile):z(infile) {
   InitMenu();
-  def_col = z.GetWidth() + 5;
   quit = false;
   z.InitializeCage(infile);
 }
@@ -68,16 +67,6 @@ cout << "   \\_/  |___|_| \\_\\|_|  \\___/_/   \\_\\_____| /____\\___/ \\___/ " 
     else if (inp == 3) {
       quit = true;
     }
-/*
-
-    if (inp == 3) {
-      quit = true;
-    }else if (inp == 2) {
-      TourZoo();
-    }else if (inp == 1) {
-      ShowZoo();
-    }
-*/
   } while (!quit);
 }
 
@@ -95,8 +84,4 @@ void Driver::InitMenu() {
   menu.push_back("2. Tour Virtual Zoo ");
   menu.push_back("3. Quit \n");
   menu.push_back("Masukkan input : ");
-}
-
-void Driver::GoToXY(int x,int y) {
-  printf("%c[%d;%df",0x1B,y,x);
 }
