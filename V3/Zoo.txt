@@ -1,88 +1,301 @@
 #Zoo
-17
-33
-====(============================
-=$$$RR==============Raaaaaaaaaaaa
-=$$$RRllwwrr====RRRRR==========aa
-=$$=RRllwwrr===RRlllllll=========
-=$==RRllwwrr===RRlllllll====RRRRR
-=^^^RRwwwwrr===RRllllll=====Rllll
-=^^=RRRRRRRRRRRRRlllll======Rllll
-=^^=RRwww======RR==ll=======RRlll
-=^^=RRwww======RR=llaaaa=====R===
-=^^=RRwwwwaaaaaRR===aaaa====RR===
-=^^^RRwwwwaaaaaRRRR==aaa===Raaa==
-===RRRwwwwaaaaaRRRRRRRaa===RRaa==
-===RRwwwwwaaaaaR===aaRaa===RRaa==
-===RRwwwwaaaaaaR==aaaRaa===Raaa==
-===RRwwwaa=====R==aaaRaa===RRR===
-=RRR=wwaaa=====R==aaaRRRRRRRRRwww
-=)===aaaaaaaaaa)==============www
+27
+55
+========(==============================================
+=lllllllRaaaaaaaaaaaaRRRRRRRRRRRR=========llllllllllll=
+=lllllllRaaaaaaaaaaaaR==========R=========llllllllllll=
+=lllllllRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR=
+=lllllllR================================Rllllllllllll=
+========Rlllllllllll====$$$$$=$$$$$======Rllllllllllll=
+=lllllllRlllllllllll=====$$$$$$$$$=======R=============
+=lllllllRlllllllllll=======$$$$$=========Rllllllllllll=
+========Rlllllllllll=========$$==========Rllllllllllll=
+=lllllllRRRRRRRRRRRRRRRRR================R=============
+=lllllllRaaaaaaaaaa=====R================Rllllllllllll=
+=lllllllRaaaaaaaaaa=====R================Rllllllllllll=
+========Raaaaaaaaaa=====RRRRRRRRRRRRRRRRRRRRRRRRRRRRRR)
+=lllllllRaaaaaaaaaa==========R=========================
+=lllllllR====================R=========^^^^^^^^^^^^^^^=
+)RRRRRRRRRRRRRRRRRRRRRRRRRRRRR==========^^^^^^^^^^^^^^=
+=wwwwwwwRwwwwwwwwwww=========R============^^^^^^^^^^^^=
+=wwwwwwwRwwwwwwwwwww=========R=============^^^^^^^^^^^=
+=wwwwwwwRwwwwwwwwwww=========R============^^^^^^^^^^^^=
+=wwwwwwwRwwwwwwwwwww=========R==========^^^^^^^^^^^^^^=
+========Rwwwwwwwwwww=========R=========^^^^^^^^^^^^^^^=
+=$$$$$$$RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR)
+=$$$$$$$R=======^^^^^^^^^^^========R========aaaaaaaaaa=
+=$$$$$$$R=========^^^^^^^==========R========aaaaaaaaaa=
+=$$$$$$$R===========^^^============RRRRRRRRRRRRRRRRRRR=
+=$$$$$$$R============^======================aaaaaaaaaa=
+========)==============================================
 #
 #Cage
 #Entry
-5
-2 6 m 20
-3 6
+12
+4 4 i 140
+4 5
 4 6
-2 7
+4 7
+3 4
+3 5 i 100
+3 6
 3 7
+2 4
+2 5
+2 6 i 130
+2 7
 #
 #Entry
 10
-7 6 d 91
-8 6
-9 6
-10 6
-7 7 y 18
-8 7
+6 7
+6 6
+6 5 t 95
+6 4
+6 3
+7 7
+7 6
+7 5 t 100
+7 4
+7 3
+#
+#Entry
+15
 9 7
-7 8 h 37
-8 8
-9 8
+9 6
+9 5 g 200
+9 4
+9 3
+10 7
+10 6
+10 5 g 245
+10 4
+10 3
+11 7
+11 6
+11 5
+11 4
+11 3
 #
 #Entry
-3
-16 5
-16 6
+10
+13 7
+13 6
+13 5 h 60
+13 4
+13 3
+14 7
+14 6 h 45
+14 5
+14 4
+14 3
+#
+#Entry
+20
 16 7
+16 6
+16 5 S 600
+16 4
+16 3
+17 7
+17 6 S 650
+17 5
+17 4
+17 3
+18 7
+18 6
+18 5 S 610
+18 4
+18 3
+19 7
+19 6
+19 5
+19 4
+19 3
 #
 #Entry
-2
-13 14
-12 14
+14
+1 11
+1 12
+1 13 e 5
+1 14
+1 15
+1 16
+1 17
+2 11 e 10
+2 12
+2 13
+2 14 e 7
+2 15
+2 16
+2 17
 #
 #Entry
-9
+21
+6 11 a 10
+6 12
+6 13
+6 14 r 50
+6 15
+6 16
 6 17
-6 18 n 85
-6 19
-5 17
-4 17
-4 20
-3 17
-3 18
-3 19 O 89
+7 11
+7 12
+7 13 r 57
+7 14
+7 15
+7 16
+7 17
+8 11 p 90
+8 12
+8 13
+8 14 p 80
+8 15
+8 16
+8 17
 #
 #Entry
-4
-14 22 k 17
-14 23
-13 22
-13 23
+28
+10 11 b 1
+10 12
+10 13
+10 14
+10 15 b 1
+10 16
+10 17
+11 11 c 1
+11 12
+11 13
+11 14 c 1
+11 15
+11 16
+11 17
+12 11 k 1
+12 12
+12 13
+12 14 k 1
+12 15
+12 16
+12 17
+13 11
+13 12
+13 13 k 1
+13 14
+13 15
+13 16
+13 17
 #
 #Entry
-4
-13 28 e 34
-13 29
-12 29
-12 30
+35
+16 11 O 130
+16 12
+16 13
+16 14
+16 15 O 110
+16 16
+16 17
+17 11
+17 12
+17 13
+17 14 Q 14500
+17 15
+17 16
+17 17
+18 11 Q 15000
+18 12
+18 13
+18 14 M 1600
+18 15
+18 16
+18 17
+19 11
+19 12
+19 13 M 1800
+19 14
+19 15
+19 16
+19 17
+20 11
+20 12
+20 13 M 1500
+20 14
+20 15
+20 16
+20 17
 #
 #Entry
-4
-6 31 t 78
-6 32
-7 31
-7 32
+10
+1 47 n 100
+1 48
+1 49
+1 50
+1 51
+2 47 n 150
+2 48
+2 49
+2 50
+2 51 n 120
+#
+#Entry
+10
+4 47 y 50
+4 48
+4 49
+4 50
+4 51
+5 47 y 60
+5 48
+5 49
+5 50
+5 51 y 40
+#
+#Entry
+10
+7 47 m 54
+7 48
+7 49
+7 50
+7 51
+8 47 m 60
+8 48
+8 49
+8 50
+8 51 m 70
+#
+#Entry
+10
+10 47 & 5
+10 48
+10 49
+10 50
+10 51
+11 47 & 6
+11 48
+11 49
+11 50
+11 51 & 10
+#
+#Entry
+12
+22 47 k 90
+22 48
+22 49
+22 50 k 88
+22 51
+22 52
+23 47
+23 48
+23 49 k 78
+23 50
+23 51
+23 52
+#
+#Entry
+6
+25 47 b 115
+25 48
+25 49
+25 50
+25 51
+25 52
 #
 #end
