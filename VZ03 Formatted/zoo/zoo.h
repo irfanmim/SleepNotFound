@@ -35,7 +35,7 @@ private:
   vector<Road *> ent;
   Road * ext;
   vector<Road *> path;
-  cage_list cl;
+  CageList cl;
 };
 
 bool SearchInVector(const vector<Habitat *>& v,Habitat * h);

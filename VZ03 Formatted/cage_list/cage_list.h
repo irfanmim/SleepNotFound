@@ -6,7 +6,7 @@
 /** @class CageList
   * Kelas yang merepresentasikan kumpulan kandang dalam zoo.
   */
-class cage_list{
+class CageList{
 public:
   /** @brief Method untuk menambahkan kandang pada CageList
     * @param c Kelas Cage yang ingin ditambahkan pada CageList
@@ -29,7 +29,7 @@ public:
     */
   bool IsOverlap(const Cage& c);
 private:
-  vector<Cage> cage_list;
+  vector<Cage> CageList;
 };
 
 #endif
