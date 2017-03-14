@@ -40,7 +40,7 @@ void Zoo::initialize(int row,int col,ifstream& infile){
 			switch(c[i][j]){
 				case '$': setMember(i,j,new Restaurant(i,j));break;
 				case 'R': setMember(i,j,new Road(i,j));path.push_back((Road *)member[i][j]);break;
-				case '*': setMember(i,j,new Park(i,j));break;
+				case '^': setMember(i,j,new Park(i,j));break;
 				case ')': 
 					setMember(i,j,new Entrance(i,j));
 					ent.push_back((Road *)member[i][j]);
