@@ -2,7 +2,7 @@
 #define AMPHIBI_H
 #include "../taxonomy/taxonomy.h"
 
-/** @class Amphibia
+/** @class Amphibi
   * Base class
   */
 class Amphibi : public Taxonomy{

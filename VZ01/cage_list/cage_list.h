@@ -29,7 +29,8 @@ public:
     * @param y Koordinat y
     */
   int SearchByCoor(int x,int y);
-
+  /** @brief Method mengecek apakah ada habitat yang overlap di antara cage
+    */
   bool IsOverlap(const Cage& c);
 
 private:
