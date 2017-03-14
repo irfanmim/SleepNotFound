@@ -140,36 +140,37 @@ void Zoo::tour(){
 		p -> setIsHere(false);
 		p -> setVisited(true);
 		vector<Road *> cand;
-		if(isInPath(p->getX()-1,p->getY())){
-			if(((Road *)member[p->getX()-1][p->getY()])->isVisited()){
+		int x = p->getX();int y = p->getY();
+		if(isInPath(x-1,y)){
+			if(((Road *)member[x-1][y])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getX()-1][p->getY()]);
+				cand.push_back((Road *)member[x-1][y]);
 			}
 		}
-		if(isInPath(p->getX()+1,p->getY())){
-			if(((Road *)member[p->getX()+1][p->getY()])->isVisited()){
+		if(isInPath(x+1,y)){
+			if(((Road *)member[x+1][y])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getX()+1][p->getY()]);
+				cand.push_back((Road *)member[x+1][y]);
 			}
 		}
-		if(isInPath(p->getX(),p->getY()-1)){
-			if(((Road *)member[p->getX()][p->getY()-1])->isVisited()){
+		if(isInPath(x,y-1)){
+			if(((Road *)member[x][y-1])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getX()][p->getY()-1]);
+				cand.push_back((Road *)member[x][y-1]);
 			}
 		}
-		if(isInPath(p->getX(),p->getY()+1)){
-			if(((Road *)member[p->getX()][p->getY()+1])->isVisited()){
+		if(isInPath(x,y+1)){
+			if(((Road *)member[x][y+1])->isVisited()){
 			}else{
-				cand.push_back((Road *)member[p->getX()][p->getY()+1]);
+				cand.push_back((Road *)member[x][y+1]);
 			}
 		}
 		if(cand.size()>0){
 			int a[4];
-			a[0] = cl.searchByCoor(p->getX()-1,p->getY());
-			a[1] = cl.searchByCoor(p->getX()+1,p->getY());
-			a[2] = cl.searchByCoor(p->getX(),p->getY()-1);
-			a[3] = cl.searchByCoor(p->getX(),p->getY()+1);
+			a[0] = cl.searchByCoor(x-1,y);
+			a[1] = cl.searchByCoor(x+1,y);
+			a[2] = cl.searchByCoor(x,y-1);
+			a[3] = cl.searchByCoor(x,y+1);
 			for(int i = 0;i < 4;i++){
 				if(a[i]!=-1){
 					cl.getCage(a[i]).wakeAllAnimal();
@@ -231,32 +232,65 @@ void Zoo::moveAnimal(){
 				an.push_back(cl.getCage(i).getHabitat(j));
 			}
 		}
-		cout << an.size() << endl;
-/*
+		vector<Habitat *> dest;
 		for(int j = 0;j < an.size();j++){
 			int n;
 			vector<Habitat *> cand;
-			if(cl.getCage(i).isCoorInCage(an[i]->getX()-1,an[i]->getY())){
-				if(((Habitat *)member[an[i]->getX()-1][an[i]->getY()])->getAnimal()==NULL){
-					cand.push_back((Habitat *)member[an[i]->getX()-1][an[i]->getY()]);
+			int x = an[j]->getX();int y = an[j]->getY();
+			if(cl.getCage(i).isCoorInCage(x-1,y)){
+				if(((Habitat *)member[x-1][y])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[x-1][y]);
 				}
 			}
-			if(cl.getCage(i).isCoorInCage(an[i]->getX()+1,an[i]->getY())){
-				if(((Habitat *)member[an[i]->getX()+1][an[i]->getY()])->getAnimal()==NULL){
-					cand.push_back((Habitat *)member[an[i]->getX()+1][an[i]->getY()]);
+			if(cl.getCage(i).isCoorInCage(x+1,y)){
+				if(((Habitat *)member[x+1][y])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[x+1][y]);
 				}
 			}
-			if(cl.getCage(i).isCoorInCage(an[i]->getX(),an[i]->getY()-1)){
-				if(((Habitat *)member[an[i]->getX()][an[i]->getY()-1])->getAnimal()==NULL){
-					cand.push_back((Habitat *)member[an[i]->getX()][an[i]->getY()-1]);
+			if(cl.getCage(i).isCoorInCage(x,y-1)){
+				if(((Habitat *)member[x][y-1])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[x][y-1]);
 				}
 			}
-			if(cl.getCage(i).isCoorInCage(an[i]->getX(),an[i]->getY()+1)){
-				if(((Habitat *)member[an[i]->getX()][an[i]->getY()+1])->getAnimal()==NULL){
-					cand.push_back((Habitat *)member[an[i]->getX()][an[i]->getY()+1]);
+			if(cl.getCage(i).isCoorInCage(x,y+1)){
+				if(((Habitat *)member[x][y+1])->getAnimal()==NULL){
+					cand.push_back((Habitat *)member[x][y+1]);
 				}
 			}
+			if(cand.size()>0){
+				int n =rand() % cand.size();
+				dest.push_back(cand[n]);
+			}else{
+				dest.push_back(NULL);
+			}
+		}
+		for(int j = 0;j < an.size();j++){
+			if(dest[j]!=NULL){
+				int x = dest[j]->getX();int y = dest[j]->getY();
+				int z = cl.getCage(i).getHabByCoor(x,y);
+				if(z!=-1){
+					cl.getCage(i).getHabitat(z)->setAnimal(an[j]->getAnimal());
+				}
+				((Habitat *)member[x][y])->setAnimal(an[j]->getAnimal());
+				x = an[j]->getX();y = an[j]->getY();
+				z = cl.getCage(i).getHabByCoor(x,y);
+				if(z!=-1){
+					cl.getCage(i).getHabitat(z)->setAnimal(NULL);
+				}
+				((Habitat *)member[x][y])->setAnimal(NULL);
+			}else{
+				
+			}
+		}
+	}
+}
 
-		}*/
+void Zoo::animate(){
+	show();
+	for(int i = 0;i < 10;i++){
+		system("clear");
+		moveAnimal();
+		show();
+		sleep(1.5);
 	}
 }

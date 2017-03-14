@@ -1,0 +1,2 @@
+zoo : test.cpp driver.cpp Zoo.cpp Cell.cpp Point.cpp Facility.cpp Consumption.cpp Habitat.cpp LandAnimal.cpp FlyingAnimal.cpp WaterAnimal.cpp Taxonomy.cpp Cage.cpp parse.cpp Animal.cpp
+	g++ -o test3 test.cpp driver.cpp Zoo.cpp Cell.cpp Point.cpp Facility.cpp Consumption.cpp Habitat.cpp LandAnimal.cpp FlyingAnimal.cpp WaterAnimal.cpp Taxonomy.cpp Cage.cpp parse.cpp Animal.cpp

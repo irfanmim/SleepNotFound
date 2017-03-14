@@ -27,6 +27,8 @@ public:
 	bool isCoorInCage(int x,int y);
 	void wakeAllAnimal();
 	Habitat * getHabitat(int i) const;
+	int getHabByCoor(int x,int y) const;
+	int getNH() const;
 private:
 	Habitat ** h; /** List of habitat yang dilingkupi */
 	int na; /** Jumlah sel animal dalam cage */

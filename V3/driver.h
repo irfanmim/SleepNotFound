@@ -13,6 +13,7 @@ public:
 	void DisplayMenu();
 	void ShowZoo();
 	void TourZoo();
+	void AnimateZoo();
 	void InitMenu();
 	void GoToXY(int x,int y);
 private:

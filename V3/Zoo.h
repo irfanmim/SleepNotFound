@@ -25,6 +25,8 @@ public:
 	int getWidth() const;
 	void clearPath();
 	void showFood();
+	void moveAnimal();
+	void animate();
 	~Zoo();
 private:
 	int width;

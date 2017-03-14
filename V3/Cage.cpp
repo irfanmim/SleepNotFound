@@ -72,6 +72,23 @@ Habitat * Cage::getHabitat(int i) const{
 	return h[i];
 }
 
+int Cage::getHabByCoor(int x,int y) const{
+	bool found = false;
+	int i = 0;
+	while(i < nh && !found){
+		if((h[i]->getX()==x)&&(h[i]->getY()==y)){
+			found = true;
+		}else{
+			i++;
+		}
+	}
+	if(found){
+		return i;
+	}else{
+		return -1;
+	}
+}
+
 void CageList::addCage(Cage c){
 	cagelist.push_back(c);
 }
@@ -94,4 +111,8 @@ int CageList::searchByCoor(int x,int y){
 		}
 	}
 	return (found)?i:-1;
+}
+
+int Cage::getNH() const{
+	return nh;
 }
