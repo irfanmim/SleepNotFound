@@ -1,0 +1,4 @@
+<map id="Omnivore" name="Omnivore">
+<area shape="rect" id="node2" href="$classHerbivore.html" title="{Herbivore\n|+ n_herbivore\l+ total_hfood\l# hfood\l|+ Herbivore()\l+ GetFood()\l}" alt="" coords="5,5,107,127"/>
+<area shape="rect" id="node3" href="$classCarnivore.html" title="{Carnivore\n|+ n_carnivore\l+ total_cfood\l# cfood\l|+ Carnivore()\l+ GetFood()\l}" alt="" coords="131,5,232,127"/>
+</map>

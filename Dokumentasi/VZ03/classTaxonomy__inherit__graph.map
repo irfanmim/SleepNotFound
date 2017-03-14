@@ -1,0 +1,29 @@
+<map id="Taxonomy" name="Taxonomy">
+<area shape="rect" id="node2" href="$classAmphibi.html" title="{Amphibi\n||+ ShowTaxName()\l}" alt="" coords="147,131,279,208"/>
+<area shape="rect" id="node4" href="$classAves.html" title="{Aves\n||+ ShowTaxName()\l}" alt="" coords="520,131,652,208"/>
+<area shape="rect" id="node10" href="$classMammal.html" title="{Mammal\n||+ ShowTaxName()\l}" alt="" coords="1777,131,1909,208"/>
+<area shape="rect" id="node24" href="$classPisces.html" title="{Pisces\n||+ ShowTaxName()\l}" alt="" coords="2813,131,2945,208"/>
+<area shape="rect" id="node27" href="$classReptile.html" title="{Reptile\n||+ ShowTaxName()\l}" alt="" coords="3039,131,3171,208"/>
+<area shape="rect" id="node3" href="$classFrog.html" title="{Frog\n||+ Frog()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="5,256,129,363"/>
+<area shape="rect" id="node5" href="$classCendrawasih.html" title="{Cendrawasih\n||+ Cendrawasih()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="153,256,277,363"/>
+<area shape="rect" id="node6" href="$classEagle.html" title="{Eagle\n||+ Eagle()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="301,256,425,363"/>
+<area shape="rect" id="node7" href="$classKolibri.html" title="{Kolibri\n||+ Kolibri()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="449,256,573,363"/>
+<area shape="rect" id="node8" href="$classOstrich.html" title="{Ostrich\n||+ Ostrich()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="597,256,721,363"/>
+<area shape="rect" id="node9" href="$classPeacock.html" title="{Peacock\n||+ Peacock()\l+ RenderAnimal()\l+ Interact()\l}" alt="" coords="745,256,869,363"/>
+<area shape="rect" id="node11" href="$classBat.html" title="{Bat\n||+ Bat()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="893,256,1017,363"/>
+<area shape="rect" id="node12" href="$classCheetah.html" title="{Cheetah\n||+ Cheetah()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1041,256,1165,363"/>
+<area shape="rect" id="node13" href="$classChimpanzee.html" title="{Chimpanzee\n||+ Chimpanzee()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1189,256,1313,363"/>
+<area shape="rect" id="node14" href="$classCoala.html" title="{Coala\n||+ Coala()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1337,256,1461,363"/>
+<area shape="rect" id="node15" href="$classDolphin.html" title="{Dolphin\n||+ Dolphin()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1485,256,1609,363"/>
+<area shape="rect" id="node16" href="$classGorilla.html" title="{Gorilla\n||+ Gorilla()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1633,256,1757,363"/>
+<area shape="rect" id="node17" href="$classHyena.html" title="{Hyena\n||+ Hyena()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1781,256,1905,363"/>
+<area shape="rect" id="node18" href="$classKangaroo.html" title="{Kangaroo\n||+ Kangaroo()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1929,256,2053,363"/>
+<area shape="rect" id="node19" href="$classLion.html" title="{Lion\n||+ Lion()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="2077,256,2201,363"/>
+<area shape="rect" id="node20" href="$classOrangutan.html" title="{Orangutan\n||+ Orangutan()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="2225,256,2349,363"/>
+<area shape="rect" id="node21" href="$classPanda.html" title="{Panda\n||+ Panda()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="2373,256,2497,363"/>
+<area shape="rect" id="node22" href="$classTiger.html" title="{Tiger\n||+ Tiger()\l+ RenderAnimal()\l+ Interact()\l}" alt="" coords="2521,256,2645,363"/>
+<area shape="rect" id="node23" href="$classWhale.html" title="{Whale\n||+ Whale()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="2669,256,2793,363"/>
+<area shape="rect" id="node25" href="$classMantaray.html" title="{Mantaray\n||+ Mantaray()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="2817,256,2941,363"/>
+<area shape="rect" id="node26" href="$classShark.html" title="{Shark\n||+ Shark()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="2965,256,3089,363"/>
+<area shape="rect" id="node28" href="$classKomodo.html" title="{Komodo\n||+ Komodo()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="3113,256,3237,363"/>
+</map>

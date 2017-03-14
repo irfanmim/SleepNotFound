@@ -1,0 +1,7 @@
+<map id="AirHabitat" name="AirHabitat">
+<area shape="rect" id="node2" href="$classHabitat.html" title="{Habitat\n|# is_in_cage\l# hab_code\l|+ Habitat()\l+ ~Habitat()\l+ GetAnimal()\l+ SetAnimal()\l+ ResetAnimal()\l+ WakeAnimal()\l+ GetCageStatus()\l+ SetCageStatus()\l+ GetHabCode()\l}" alt="" coords="32,520,164,729"/>
+<area shape="rect" id="node3" href="$classCell.html" title="{Cell\n||+ Cell()\l+ Cell()\l+ Render()\l+ GetX()\l+ GetY()\l+ PrintCoor()\l}" alt="" coords="5,277,103,428"/>
+<area shape="rect" id="node4" href="$classRenderable.html" title="{Renderable\n||+ Render()\l}" alt="" coords="10,57,98,134"/>
+<area shape="rect" id="node5" href="$classPoint.html" title="{Point\n||+ Point()\l+ Point()\l+ PrintPoint()\l+ GetX()\l+ GetY()\l+ SetX()\l+ SetY()\l+ Add()\l}" alt="" coords="126,5,225,185"/>
+<area shape="rect" id="node6" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# weight\l# tamed\l# an_code\l|+ Animal()\l+ GetWeight()\l+ IsHabMatch()\l+ IsTamed()\l+ RenderAnimal()\l+ Interact()\l+ GetNbAnimal()\l}" alt="" coords="127,248,251,457"/>
+</map>

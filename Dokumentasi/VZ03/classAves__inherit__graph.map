@@ -1,0 +1,8 @@
+<map id="Aves" name="Aves">
+<area shape="rect" id="node3" href="$classCendrawasih.html" title="{Cendrawasih\n||+ Cendrawasih()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="5,256,129,363"/>
+<area shape="rect" id="node4" href="$classEagle.html" title="{Eagle\n||+ Eagle()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="153,256,277,363"/>
+<area shape="rect" id="node5" href="$classKolibri.html" title="{Kolibri\n||+ Kolibri()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="301,256,425,363"/>
+<area shape="rect" id="node6" href="$classOstrich.html" title="{Ostrich\n||+ Ostrich()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="449,256,573,363"/>
+<area shape="rect" id="node7" href="$classPeacock.html" title="{Peacock\n||+ Peacock()\l+ RenderAnimal()\l+ Interact()\l}" alt="" coords="597,256,721,363"/>
+<area shape="rect" id="node2" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="297,5,429,83"/>
+</map>

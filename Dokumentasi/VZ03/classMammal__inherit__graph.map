@@ -1,0 +1,16 @@
+<map id="Mammal" name="Mammal">
+<area shape="rect" id="node3" href="$classBat.html" title="{Bat\n||+ Bat()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="5,256,129,363"/>
+<area shape="rect" id="node4" href="$classCheetah.html" title="{Cheetah\n||+ Cheetah()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="153,256,277,363"/>
+<area shape="rect" id="node5" href="$classChimpanzee.html" title="{Chimpanzee\n||+ Chimpanzee()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="301,256,425,363"/>
+<area shape="rect" id="node6" href="$classCoala.html" title="{Coala\n||+ Coala()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="449,256,573,363"/>
+<area shape="rect" id="node7" href="$classDolphin.html" title="{Dolphin\n||+ Dolphin()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="597,256,721,363"/>
+<area shape="rect" id="node8" href="$classGorilla.html" title="{Gorilla\n||+ Gorilla()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="745,256,869,363"/>
+<area shape="rect" id="node9" href="$classHyena.html" title="{Hyena\n||+ Hyena()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="893,256,1017,363"/>
+<area shape="rect" id="node10" href="$classKangaroo.html" title="{Kangaroo\n||+ Kangaroo()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1041,256,1165,363"/>
+<area shape="rect" id="node11" href="$classLion.html" title="{Lion\n||+ Lion()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1189,256,1313,363"/>
+<area shape="rect" id="node12" href="$classOrangutan.html" title="{Orangutan\n||+ Orangutan()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1337,256,1461,363"/>
+<area shape="rect" id="node13" href="$classPanda.html" title="{Panda\n||+ Panda()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1485,256,1609,363"/>
+<area shape="rect" id="node14" href="$classTiger.html" title="{Tiger\n||+ Tiger()\l+ RenderAnimal()\l+ Interact()\l}" alt="" coords="1633,256,1757,363"/>
+<area shape="rect" id="node15" href="$classWhale.html" title="{Whale\n||+ Whale()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="1781,256,1905,363"/>
+<area shape="rect" id="node2" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="889,5,1021,83"/>
+</map>

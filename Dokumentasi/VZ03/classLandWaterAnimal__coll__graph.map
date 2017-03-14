@@ -1,0 +1,4 @@
+<map id="LandWaterAnimal" name="LandWaterAnimal">
+<area shape="rect" id="node2" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# weight\l# tamed\l# an_code\l|+ Animal()\l+ GetWeight()\l+ IsHabMatch()\l+ IsTamed()\l+ RenderAnimal()\l+ Interact()\l+ GetNbAnimal()\l}" alt="" coords="16,248,140,457"/>
+<area shape="rect" id="node3" href="$classPoint.html" title="{Point\n||+ Point()\l+ Point()\l+ PrintPoint()\l+ GetX()\l+ GetY()\l+ SetX()\l+ SetY()\l+ Add()\l}" alt="" coords="29,5,127,185"/>
+</map>

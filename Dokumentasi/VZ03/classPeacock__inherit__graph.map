@@ -1,0 +1,7 @@
+<map id="Peacock" name="Peacock">
+<area shape="rect" id="node2" href="$classLandAnimal.html" title="{LandAnimal\n||+ LandAnimal()\l}" alt="" coords="12,299,123,377"/>
+<area shape="rect" id="node3" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# loc\l# weight\l# tamed\l# an_code\l|+ Animal()\l+ GetWeight()\l+ IsHabMatch()\l+ IsTamed()\l+ RenderAnimal()\l+ Interact()\l+ GetNbAnimal()\l}" alt="" coords="5,5,129,229"/>
+<area shape="rect" id="node4" href="$classHerbivore.html" title="{Herbivore\n|+ n_herbivore\l+ total_hfood\l# hfood\l|+ Herbivore()\l+ GetFood()\l}" alt="" coords="147,277,249,399"/>
+<area shape="rect" id="node5" href="$classAves.html" title="{Aves\n||+ ShowTaxName()\l}" alt="" coords="273,299,405,377"/>
+<area shape="rect" id="node6" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="273,79,405,156"/>
+</map>

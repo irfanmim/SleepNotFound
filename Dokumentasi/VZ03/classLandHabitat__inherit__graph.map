@@ -1,0 +1,5 @@
+<map id="LandHabitat" name="LandHabitat">
+<area shape="rect" id="node2" href="$classHabitat.html" title="{Habitat\n|# a\l# is_in_cage\l# hab_code\l|+ Habitat()\l+ ~Habitat()\l+ GetAnimal()\l+ SetAnimal()\l+ ResetAnimal()\l+ WakeAnimal()\l+ GetCageStatus()\l+ SetCageStatus()\l+ GetHabCode()\l}" alt="" coords="5,329,137,553"/>
+<area shape="rect" id="node3" href="$classCell.html" title="{Cell\n|# loc\l|+ Cell()\l+ Cell()\l+ Render()\l+ GetX()\l+ GetY()\l+ PrintCoor()\l}" alt="" coords="23,131,120,281"/>
+<area shape="rect" id="node4" href="$classRenderable.html" title="{Renderable\n||+ Render()\l}" alt="" coords="27,5,115,83"/>
+</map>

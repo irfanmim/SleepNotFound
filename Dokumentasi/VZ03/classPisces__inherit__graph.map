@@ -1,0 +1,5 @@
+<map id="Pisces" name="Pisces">
+<area shape="rect" id="node3" href="$classMantaray.html" title="{Mantaray\n||+ Mantaray()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="5,256,129,363"/>
+<area shape="rect" id="node4" href="$classShark.html" title="{Shark\n||+ Shark()\l+ Interact()\l+ RenderAnimal()\l}" alt="" coords="153,256,277,363"/>
+<area shape="rect" id="node2" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="75,5,207,83"/>
+</map>

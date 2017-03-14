@@ -1,0 +1,10 @@
+<map id="Chimpanzee" name="Chimpanzee">
+<area shape="rect" id="node2" href="$classLandAnimal.html" title="{LandAnimal\n||+ LandAnimal()\l}" alt="" coords="75,529,185,606"/>
+<area shape="rect" id="node3" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# weight\l# tamed\l# an_code\l|+ Animal()\l+ GetWeight()\l+ IsHabMatch()\l+ IsTamed()\l+ RenderAnimal()\l+ Interact()\l+ GetNbAnimal()\l}" alt="" coords="5,248,129,457"/>
+<area shape="rect" id="node4" href="$classPoint.html" title="{Point\n||+ Point()\l+ Point()\l+ PrintPoint()\l+ GetX()\l+ GetY()\l+ SetX()\l+ SetY()\l+ Add()\l}" alt="" coords="18,5,117,185"/>
+<area shape="rect" id="node5" href="$classOmnivore.html" title="{Omnivore\n|+ n_omnivore\l+ total_ofood\l# ofood\l|+ Omnivore()\l+ GetFood()\l}" alt="" coords="213,507,314,628"/>
+<area shape="rect" id="node6" href="$classHerbivore.html" title="{Herbivore\n|+ n_herbivore\l+ total_hfood\l# hfood\l|+ Herbivore()\l+ GetFood()\l}" alt="" coords="154,292,255,413"/>
+<area shape="rect" id="node7" href="$classCarnivore.html" title="{Carnivore\n|+ n_carnivore\l+ total_cfood\l# cfood\l|+ Carnivore()\l+ GetFood()\l}" alt="" coords="279,292,381,413"/>
+<area shape="rect" id="node8" href="$classMammal.html" title="{Mammal\n||+ ShowTaxName()\l}" alt="" coords="376,529,508,606"/>
+<area shape="rect" id="node9" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="405,314,537,391"/>
+</map>
