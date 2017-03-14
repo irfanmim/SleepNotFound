@@ -1,0 +1,88 @@
+#Zoo
+17
+33
+====(============================
+=$$$RR==============Raaaaaaaaaaaa
+=$$$RRllwwrr====RRRRR==========aa
+=$$=RRllwwrr===RRlllllll=========
+=$==RRllwwrr===RRlllllll====RRRRR
+=^^^RRwwwwrr===RRllllll=====Rllll
+=^^=RRRRRRRRRRRRRlllll======Rllll
+=^^=RRwww======RR==ll=======RRlll
+=^^=RRwww======RR=llaaaa=====R===
+=^^=RRwwwwaaaaaRR===aaaa====RR===
+=^^^RRwwwwaaaaaRRRR==aaa===Raaa==
+===RRRwwwwaaaaaRRRRRRRaa===RRaa==
+===RRwwwwwaaaaaR===aaRaa===RRaa==
+===RRwwwwaaaaaaR==aaaRaa===Raaa==
+===RRwwwaa=====R==aaaRaa===RRR===
+=RRR=wwaaa=====R==aaaRRRRRRRRRwww
+=)===aaaaaaaaaa)==============www
+#
+#Cage
+#Entry
+5
+2 6 m 20
+3 6
+4 6
+2 7
+3 7
+#
+#Entry
+10
+7 6 d 91
+8 6
+9 6
+10 6
+7 7 y 18
+8 7
+9 7
+7 8 h 37
+8 8
+9 8
+#
+#Entry
+3
+16 5
+16 6
+16 7
+#
+#Entry
+2
+13 14
+12 14
+#
+#Entry
+9
+6 17
+6 18 n 85
+6 19
+5 17
+4 17
+4 20
+3 17
+3 18
+3 19 O 89
+#
+#Entry
+4
+14 22 k 17
+14 23
+13 22
+13 23
+#
+#Entry
+4
+13 28 e 34
+13 29
+12 29
+12 30
+#
+#Entry
+4
+6 31 t 78
+6 32
+7 31
+7 32
+#
+#end
