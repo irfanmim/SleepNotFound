@@ -16,6 +16,7 @@ int main () {
 		switch(x){
 			case 1:cout << "File format error" << endl;break;
 			case 2:cout << "Row or column mismatch" << endl;break;
+			case 3:cout << "Cage limit exeeded" << endl;break;
 		}
 	}catch(...){
 		cout << "Another error occured" << endl;

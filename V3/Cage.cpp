@@ -11,6 +11,7 @@ Cage::Cage(Habitat ** hl,int n):nh(n){
 			na++;
 		}
 	}
+	if(na > 0.3*nh){throw 3;}
 }
 
 Cage::Cage(const Cage& c){
