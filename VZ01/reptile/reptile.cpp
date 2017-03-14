@@ -1,7 +1,7 @@
-#include "Reptile.h"
+#include "reptile.h"
 #include <iostream>
 using namespace std; 
 
-void Reptile::showTaxName(){
-	cout << "Reptilia" << endl;
+void Reptile::ShowTaxName() {
+  cout << "Reptilia" << endl;
 }

@@ -1,13 +1,13 @@
-#include "Point.h"
+#include "point.h"
 #include <iostream>
 using namespace std;
 
 Point::Point(int x, int y) {setX(x); setY(y);}
-Point::Point(const Point& P){
-	this->setX(P.getX());
-	this->setY(P.getY());
+Point::Point(const Point& P) {
+  this->setX(P.getX());
+  this->setY(P.getY());
 }
-void Point::printPoint(){cout << x << " " << y << endl;}
+void Point::printPoint() {cout << x << " " << y << endl;}
 int Point::getX() const {return x;}
 int Point::getY() const {return y;}
 void Point::setX(int x) {this->x = x;}

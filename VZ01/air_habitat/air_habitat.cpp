@@ -2,14 +2,14 @@
 #include <iostream>
 using namespace std;
 
-AirHabitat::AirHabitat(int x,int y,bool s):Habitat(x,y,s){
+AirHabitat::AirHabitat(int x,int y,bool s):Habitat(x,y,s) {
 
 }
 
-void AirHabitat::render(){
-	if(isInCage){
-		cout << "A";
-	}else{
-		cout << "a";
-	}
+void AirHabitat::Render() {
+  if (IsInCage) {
+    cout << "A";
+  } else {
+    cout << "a";
+  }
 }

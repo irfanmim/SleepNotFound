@@ -10,7 +10,7 @@ public:
 /** @brief method showName.
   * Menampilkan nama taksonomi.
   */  
-	void showTaxName();		
+  void ShowTaxName();    
 };
 
 

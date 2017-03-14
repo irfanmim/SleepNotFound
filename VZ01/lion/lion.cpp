@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std;
 
-Lion :: Lion (int x, int y) : LandAnimal(x, y){}
+Lion :: Lion (int x, int y) : LandAnimal(x, y) {}
 
-void Lion :: interact() {cout << "*Singa menyanyi lagu Lion King*" << endl;}
+void Lion :: Interact() {cout << "*Singa menyanyi lagu Lion King*" << endl;}

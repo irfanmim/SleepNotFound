@@ -8,15 +8,15 @@
   */
 class Cheetah : public LandAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas cheetah
-	  */  
-	Cheetah(int x, int y);
-	/** @brief Method interaksi cheetah
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas cheetah
+    */  
+  Cheetah(int x, int y);
+  /** @brief Method interaksi cheetah
+    */
+  void nteract();
 };
 
 #endif

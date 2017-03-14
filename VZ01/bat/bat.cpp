@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std;
 
-Bat::Bat(int x, int y) : FlyingAnimal(x, y){}
+Bat::Bat(int x, int y) : FlyingAnimal(x, y) {}
 
-void Bat::interact(){cout << "*Kelelawar bergelantung terbalik*" << endl;}
+void Bat::Interact() {cout << "*Kelelawar bergelantung terbalik*" << endl;}

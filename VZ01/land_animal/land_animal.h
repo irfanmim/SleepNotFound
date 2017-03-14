@@ -8,12 +8,12 @@
   */
 class LandAnimal : public Animal{
 public:
-	/** @brief Constructor.
+  /** @brief Constructor.
       * Konstruktor kelas LandAnimal
       * @param x Posisi koordinat x
       * @param y Posisi koordinat y
       */ 
-	LandAnimal(int x,int y);
+  LandAnimal(int x,int y);
 };
 
 #endif

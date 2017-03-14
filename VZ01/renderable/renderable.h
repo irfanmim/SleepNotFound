@@ -1,17 +1,17 @@
-#ifndef RENDERABLE_H
-#define RENDERABLE_H
+#ifndef RenderABLE_H
+#define RenderABLE_H
 #include <string>
 using namespace std;
 
 /** @class Renderable
-  * Kelas ABC untuk mewariskan fungsi render.
+  * Kelas ABC untuk mewariskan fungsi Render.
   */
 class Renderable{
 public:
 
-	/** @brief Pure Virtual function render
-	  */
-	virtual void render()=0;
+  /** @brief Pure Virtual function Render
+    */
+  virtual void Render()=0;
 };
 
 #endif

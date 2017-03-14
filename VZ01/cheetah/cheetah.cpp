@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std;
 
-Cheetah :: Cheetah (int x, int y) : LandAnimal(x, y){}
+Cheetah :: Cheetah (int x, int y) : LandAnimal(x, y) {}
 
-void Cheetah :: interact() {cout << "*Cheetah tidur siang*" << endl;}
+void Cheetah :: Interact() {cout << "*Cheetah tidur siang*" << endl;}

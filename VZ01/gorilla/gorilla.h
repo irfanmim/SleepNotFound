@@ -8,15 +8,15 @@
   */
 class Gorilla : public LandAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas gorilla
-	  */  
-	Gorilla(int x, int y);
-	/** @brief Method interaksi gorilla
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas gorilla
+    */  
+  Gorilla(int x, int y);
+  /** @brief Method interaksi gorilla
+    */
+  void Interact();
 };
 
 #endif

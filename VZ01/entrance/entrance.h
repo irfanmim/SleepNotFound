@@ -7,15 +7,15 @@
   */
 class Entrance: public Road{
 public : 
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y oridnat lokasi
-	  * Konstruktor kelas entrance
-	  */  
-	Entrance(int x,int y);
-	/** @brief Method render.
-	  */
-	void render();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y oridnat lokasi
+    * Konstruktor kelas entrance
+    */  
+  Entrance(int x,int y);
+  /** @brief Method Render.
+    */
+  void Render();
 };
 
 #endif

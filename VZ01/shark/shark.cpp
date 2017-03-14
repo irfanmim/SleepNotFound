@@ -1,8 +1,8 @@
-#include "Shark.h"
+#include "shark.h"
 #include <iostream>
 using namespace std;
 
 
-Shark :: Shark (int x, int y) : WaterAnimal(x, y){}
+Shark :: Shark (int x, int y) : WaterAnimal(x, y) {}
 
-void Shark :: interact() {cout << "*Ikan hiu memperhatikan kamu*" << endl;}
+void Shark :: Interact() {cout << "*Ikan hiu memperhatikan kamu*" << endl;}

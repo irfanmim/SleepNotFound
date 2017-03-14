@@ -7,15 +7,15 @@
   */
 class Exit: public Road{
 public:
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y oridnat lokasi
-	  * Konstruktor kelas exit
-	  */  
-	Exit(int x,int y);
-	/** @brief Method render.
-	  */
-	void render();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y oridnat lokasi
+    * Konstruktor kelas exit
+    */  
+  Exit(int x,int y);
+  /** @brief Method Render.
+    */
+  void Render();
 };
 
 #endif

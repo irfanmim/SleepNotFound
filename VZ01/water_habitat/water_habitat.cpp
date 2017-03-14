@@ -1,15 +1,15 @@
-#include "WaterHabitat.h"
+#include "water_habitat.h"
 #include <iostream>
 using namespace std;
 
-WaterHabitat::WaterHabitat(int x,int y,bool s):Habitat(x,y,s){
+WaterHabitat::WaterHabitat(int x,int y,bool s):Habitat(x,y,s) {
 
 }
 
-void WaterHabitat::render(){
-	if(isInCage){
-		cout << "W";
-	}else{
-		cout << "w";
-	}
+void WaterHabitat::Render() {
+  if (IsInCage) {
+    cout << "W";
+  } else {
+    cout << "w";
+  }
 }

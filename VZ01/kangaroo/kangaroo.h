@@ -8,15 +8,15 @@
   */
 class Kangaroo : public LandAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas kangaroo
-	  */  
-	Kangaroo(int x, int y);
-	/** @brief Method interaksi kangaroo
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas kangaroo
+    */  
+  Kangaroo(int x, int y);
+  /** @brief Method interaksi kangaroo
+    */
+  void Interact();
 };
 
 #endif

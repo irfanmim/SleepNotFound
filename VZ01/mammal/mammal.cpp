@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std; 
 
-void Mammal::showTaxName(){
-	cout << "Mammalia" << endl;
+void Mammal::ShowTaxName() {
+  cout << "Mammalia" << endl;
 }

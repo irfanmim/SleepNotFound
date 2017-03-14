@@ -8,15 +8,15 @@
   */
 class Chimpanzee : public LandAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas chimpanzee
-	  */  
-	Chimpanzee(int x, int y);
-	/** @brief Method interaksi chimpanzee
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas chimpanzee
+    */  
+  Chimpanzee(int x, int y);
+  /** @brief Method interaksi chimpanzee
+    */
+  void Interact();
 };
 
 #endif

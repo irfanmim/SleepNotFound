@@ -2,37 +2,37 @@
 #include <iostream>
 using namespace std;
 
-Habitat::Habitat(int x,int y,bool s):Cell(x,y),a(NULL),isInCage(s){
+Habitat::Habitat(int x,int y,bool s):Cell(x,y),a(NULL),IsInCage(s) {
 
 }
 
-Habitat::~Habitat(){
-	delete a;
+Habitat::~Habitat() {
+  delete a;
 }
 
 
-Animal * Habitat::getAnimal(){
-	return a;
+Animal * Habitat::GetAnimal() {
+  return a;
 }
 
-void Habitat::setAnimal(Animal * an){
-	a = an;
+void Habitat::SetAnimal(Animal * an) {
+  a = an;
 }
 
-void Habitat::resetAnimal(){
-	a = NULL;
+void Habitat::ResetAnimal() {
+  a = NULL;
 }
 
-void Habitat::wakeAnimal(){
-	a -> interact();
+void Habitat::WakeAnimal() {
+  a -> Interact();
 }
 
-bool Habitat::getCageStatus() const{
-	return isInCage;
+bool Habitat::GetCageStatus() const{
+  return IsInCage;
 }
 
-void Habitat::setCageStatus(bool s){
-	isInCage = s;
+void Habitat::SetCageStatus(bool s) {
+  IsInCage = s;
 }
 
 

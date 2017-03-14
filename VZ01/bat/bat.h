@@ -6,17 +6,17 @@
 /** @class Bat
   * Real class bat
   */
-class Bat : public FlyingAnimal, public Mammal{
+class Bat : public FlyingAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas bat
-	  */  
-	Bat(int x, int y);
-	/** @brief Method interaksi bat
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas bat
+    */  
+  Bat(int x, int y);
+  /** @brief Method interaksi bat
+    */
+  void Interact();
 };
 
 #endif

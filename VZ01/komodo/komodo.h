@@ -8,15 +8,15 @@
   */
 class Komodo : public LandAnimal, public Reptile{
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas komodo
-	  */  
-	Komodo(int x, int y);
-	/** @brief Method interaksi komodo
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas komodo
+    */  
+  Komodo(int x, int y);
+  /** @brief Method interaksi komodo
+    */
+  void Interact();
 };
 
 #endif

@@ -2,15 +2,15 @@
 #include <iostream>
 using namespace std;
 
-LandHabitat::LandHabitat(int x,int y,bool s):Habitat(x,y,s){
-	
+LandHabitat::LandHabitat(int x,int y,bool s):Habitat(x,y,s) {
+  
 }
 
 
-void LandHabitat::render(){
-	if(isInCage){
-		cout << "L";
-	}else{
-		cout << "l";
-	}
+void LandHabitat::Render() {
+  if (IsInCage) {
+    cout << "L";
+  } else {
+    cout << "l";
+  }
 }

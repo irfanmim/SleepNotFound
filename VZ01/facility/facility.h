@@ -7,12 +7,12 @@
   */
 class Facility: public Cell{
 public:
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y oridnat lokasi
-	  * Konstruktor kelas facility
-	  */  
-	Facility(int x,int y);
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y oridnat lokasi
+    * Konstruktor kelas facility
+    */  
+  Facility(int x,int y);
 };
 
 #endif

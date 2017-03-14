@@ -1,6 +1,6 @@
 #ifndef REPTILE_H
 #define REPTILE_H
-#include "../Taxonomy/Taxonomy.h"
+#include "../taxonomy/taxonomy.h"
 
 /** @class Reptile
   * Base class
@@ -10,7 +10,7 @@ public:
 /** @brief method showName.
   * Menampilkan nama taksonomi.
   */  
-	void showTaxName();		
+  void ShowTaxName();    
 };
 
 #endif

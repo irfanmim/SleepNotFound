@@ -1,7 +1,7 @@
-#include "Ostrich.h"
+#include "ostrich.h"
 #include <iostream>
 using namespace std;
 
-Ostrich :: Ostrich (int x, int y) : LandAnimal(x, y){}
+Ostrich :: Ostrich (int x, int y) : LandAnimal(x, y) {}
 
-void Ostrich :: interact() {cout << "*Burung unta sedang mengubur kepalanya dalam tanah*" << endl;}
+void Ostrich :: Interact() {cout << "*Burung unta sedang mengubur kepalanya dalam tanah*" << endl;}

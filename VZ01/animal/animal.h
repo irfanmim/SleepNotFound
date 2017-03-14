@@ -12,22 +12,22 @@ public:
       * @param x Posisi koordinat x
       * @param y Posisi koordinat y
       */  
-	Animal(int x, int y);
+  Animal(int x, int y);
 
     /** @brief Method interaksi animal.
       * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
-      */	
-	virtual void interact()=0;
+      */  
+  virtual void Interact()=0;
 
     /** @brief Method untuk mengembalikan jumlah objek animal yang telah dibuat
       */
-	int getNbAnimal();
+  int GetNbAnimal();
 
-	/** Jumlah animal dalam zoo */
-	static int NbAnimal; 
+  /** Jumlah animal dalam zoo */
+  static int NbAnimal; 
 
 protected:
-	Point loc; /** Lokasi setiap animal dalam matriks Zoo */
+  Point loc; /** Lokasi setiap animal dalam matriks Zoo */
 };
 
 #endif

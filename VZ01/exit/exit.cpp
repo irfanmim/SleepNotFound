@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 
-Exit::Exit(int x,int y):Road(x,y){
-	
+Exit::Exit(int x,int y):Road(x,y) {
+  
 }
 
-void Exit::render(){
-	cout << "(";
+void Exit::Render() {
+  cout << "(";
 }

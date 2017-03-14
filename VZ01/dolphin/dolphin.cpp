@@ -3,6 +3,6 @@
 using namespace std;
 
 
-Dolphin :: Dolphin (int x, int y) : WaterAnimal(x, y){}
+Dolphin :: Dolphin (int x, int y) : WaterAnimal(x, y) {}
 
-void Dolphin :: interact() {cout << "*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *" << endl;}
+void Dolphin :: Interact() {cout << "*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *" << endl;}

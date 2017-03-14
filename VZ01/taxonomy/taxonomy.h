@@ -6,7 +6,7 @@
   */
 class Taxonomy{
 public:
-	virtual void showTaxName()=0;
+  virtual void ShowTaxName()=0;
 };
 
 #endif

@@ -1,7 +1,7 @@
-#include "Orangutan.h"
+#include "orangutan.h"
 #include <iostream>
 using namespace std;
 
-Orangutan :: Orangutan (int x, int y) : LandAnimal(x, y){}
+Orangutan :: Orangutan (int x, int y) : LandAnimal(x, y) {}
 
-void Orangutan :: interact() {cout << "*Orangutan bergelayutan*" << endl;}
+void Orangutan :: Interact() {cout << "*Orangutan bergelayutan*" << endl;}

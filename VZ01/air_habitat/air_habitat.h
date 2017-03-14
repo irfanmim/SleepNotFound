@@ -7,18 +7,18 @@
 /** @class AirHabitat
   * Base class waterhabitat
   */
-class AirHabitat: public Habitat{
+class AirHabitat: public Habitat {
 public:
-	/** @class AirHabitat
-	  * @param x absis lokasi
-	  * @param y oridnat lokasi
-	  * @param s boolean yang merepresentasikan habitat didalam cage atau tidak
-	  * Konstruktor airhabitat
-	  */
-	AirHabitat(int x,int y,bool s);
-	/** @brief Method render.
-	  */
-	void render();
+  /** @class AirHabitat
+    * @param x absis lokasi
+    * @param y oridnat lokasi
+    * @param s boolean yang merepresentasikan habitat didalam cage atau tidak
+    * Konstruktor airhabitat
+    */
+  AirHabitat(int x,int y,bool s);
+  /** @brief Method Render.
+    */
+  void Render();
 };
 
 #endif

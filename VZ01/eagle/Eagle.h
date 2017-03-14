@@ -8,15 +8,15 @@
   */
 class Eagle : public FlyingAnimal, public Aves{
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas eagle
-	  */  
-	Eagle(int x, int y);
-	/** @brief Method interaksi eagle
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas eagle
+    */  
+  Eagle(int x, int y);
+  /** @brief Method interaksi eagle
+    */
+  void Interact();
 };
 
 #endif

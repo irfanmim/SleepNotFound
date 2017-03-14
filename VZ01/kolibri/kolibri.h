@@ -8,15 +8,15 @@
   */
 class Kolibri : public FlyingAnimal, public Aves{
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas kolibri
-	  */  
-	Kolibri(int x, int y);
-	/** @brief Method interaksi kolibri
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas kolibri
+    */  
+  Kolibri(int x, int y);
+  /** @brief Method interaksi kolibri
+    */
+  void Interact();
 };
 
 #endif

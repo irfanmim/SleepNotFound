@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std;
 
-Kolibri :: Kolibri (int x, int y) : FlyingAnimal(x, y){}
+Kolibri :: Kolibri (int x, int y) : FlyingAnimal(x, y) {}
 
-void Kolibri :: interact() {cout << "*Paruh kolibri sangat panjang, kerenn *" << endl;}
+void Kolibri :: Interact() {cout << "*Paruh kolibri sangat panjang, kerenn *" << endl;}

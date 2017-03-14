@@ -3,6 +3,6 @@
 using namespace std;
 
 
-Mantaray :: Mantaray (int x, int y) : WaterAnimal(x, y){}
+Mantaray :: Mantaray (int x, int y) : WaterAnimal(x, y) {}
 
-void Mantaray :: interact() {cout << "*Ikan pari bentuknya aneh sekali ... :| *" << endl;}
+void Mantaray :: Interact() {cout << "*Ikan pari bentuknya aneh sekali ... :| *" << endl;}

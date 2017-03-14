@@ -8,15 +8,15 @@
   */
 class Coala : public LandAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas coala
-	  */  
-	Coala(int x, int y);
-	/** @brief Method interaksi coala
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas coala
+    */  
+  Coala(int x, int y);
+  /** @brief Method interaksi coala
+    */
+  void Interact();
 };
 
 #endif

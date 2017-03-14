@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std;
 
-Facility::Facility(int x,int y):Cell(x,y){
+Facility::Facility(int x,int y):Cell(x,y) {
 
 }

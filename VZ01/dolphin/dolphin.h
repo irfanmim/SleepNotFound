@@ -8,15 +8,15 @@
   */
 class Dolphin : public WaterAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas dolphin
-	  */
-	Dolphin(int x, int y);
-	/** @brief Method interaksi dolphin
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas dolphin
+    */
+  Dolphin(int x, int y);
+  /** @brief Method interaksi dolphin
+    */
+  void Interact();
 };
 
 #endif

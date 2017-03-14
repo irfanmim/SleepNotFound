@@ -8,15 +8,15 @@
   */
 class Lion : public LandAnimal, public Mammal {
 public :
-	/** @brief Constructor.
-	  * @param x absis lokasi
-	  * @param y ordinat lokasi
-	  * Konstruktor kelas lion
-	  */  
-	Lion(int x, int y);
-	/** @brief Method interaksi lion
-	  */
-	void interact();
+  /** @brief Constructor.
+    * @param x absis lokasi
+    * @param y ordinat lokasi
+    * Konstruktor kelas lion
+    */  
+  Lion(int x, int y);
+  /** @brief Method interaksi lion
+    */
+  void Interact();
 };
 
 #endif

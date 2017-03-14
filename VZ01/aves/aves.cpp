@@ -2,6 +2,6 @@
 #include <iostream>
 using namespace std; 
 
-void Aves::showTaxName(){
-	cout << "Aves" << endl;
+void Aves::ShowTaxName() {
+  cout << "Aves" << endl;
 }

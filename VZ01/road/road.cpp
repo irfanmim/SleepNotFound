@@ -1,31 +1,31 @@
-#include "Road.h"
+#include "road.h"
 #include <iostream>
 using namespace std;
 
-Road::Road(int x,int y):Facility(x,y),visited(false),IsHere(false){
-	
+Road::Road(int x,int y):Facility(x,y),visited(false),is_here(false) {
+  
 }
 
-bool Road::isVisited(){
-	return visited;
+bool Road::IsVisited() {
+  return visited;
 }
 
-void Road::setVisited(bool s){
-	visited = s;
+void Road::SetVisited(bool s) {
+  visited = s;
 }
 
-void Road::setIsHere(bool s){
-	IsHere = s;
+void Road::SetIsHere(bool s) {
+  is_here = s;
 }
 
-void Road::render(){
-	if(visited){
-		cout << "-";
-	}else{
-		if(!IsHere){
-			cout << " ";
-		}else{
-			cout << "@";
-		}
-	}
+void Road::Render() {
+  if (visited) {
+    cout << "-";
+  } else {
+    if (!is_here) {
+      cout << " ";
+    } else {
+      cout << "@";
+    }
+  }
 }
