@@ -3,7 +3,7 @@
 using namespace std;
 
 Kolibri :: Kolibri (int x, int y, int weight) : FlyingAnimal(x, y, weight), Omnivore(weight){
-	
+	tamed = true;	
 }
 
 void Kolibri::renderAnimal(){

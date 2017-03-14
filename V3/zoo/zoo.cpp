@@ -31,6 +31,7 @@
 #include "../mantaray/mantaray.h"
 #include "../shark/shark.h"
 #include "../whale/whale.h"
+#include "../frog/frog.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -123,6 +124,7 @@ Habitat ** Zoo::parseCage(int& nh,ifstream& infile){
 			case 'M': h[i]->setAnimal(new Mantaray(x,y,w));break;
 			case 'S': h[i]->setAnimal(new Shark(x,y,w));break;
 			case 'Q': h[i]->setAnimal(new Whale(x,y,w));break;
+			case '?': h[i]->setAnimal(new Frog(x,y,w));break;
 		}
 		i++;
 	}
@@ -137,25 +139,9 @@ void Zoo::initializeCage(ifstream& infile){
 	getline(infile,s);
 	while(s=="#Entry"){
 		Habitat ** h = parseCage(nh,infile);
-		int x = h[0]->GetHabCode();
-		int i = 1;
-		while(i < nh){
-			if(x != h[i]->GetHabCode()){
-				throw 5;
-			}else{
-				i++;
-			}
-		}
-		i = 0;
-		while(i < nh){
-			if(h[i]->getAnimal()!=NULL){
-				if(!(h[i]->getAnimal()->IsHabMatch(x))){
-					throw 6;
-				}
-			}
-			i++;
-		}
+
 		Cage c(h,nh);
+		c.Validate();
 		cl.addCage(c);
 		getline(infile,s);
 	}

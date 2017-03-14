@@ -3,7 +3,7 @@
 using namespace std;
 
 Mantaray :: Mantaray (int x, int y, int weight) : WaterAnimal(x, y, weight), Carnivore(weight) {
-
+	tamed = true;
 }
 
 void Mantaray::renderAnimal(){

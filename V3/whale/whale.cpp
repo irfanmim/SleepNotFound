@@ -3,7 +3,7 @@
 using namespace std;
 
 Whale :: Whale (int x, int y, int weight) : WaterAnimal(x, y, weight), Carnivore(weight) {
-
+	tamed = true;
 }
 
 void Whale::renderAnimal(){

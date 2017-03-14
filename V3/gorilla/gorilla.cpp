@@ -3,7 +3,7 @@
 using namespace std;
 
 Gorilla :: Gorilla (int x, int y, int weight) : LandAnimal(x, y, weight), Omnivore(weight) {
-
+	tamed = false;
 }
 
 void Gorilla::renderAnimal(){

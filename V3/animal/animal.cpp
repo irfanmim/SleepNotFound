@@ -18,6 +18,10 @@ bool Animal::IsHabMatch(int hab_code){
 	return found;
 }
 
+bool Animal::IsTamed() const{
+	return tamed;
+}
+
 int Animal::getNbAnimal() {
 	return NbAnimal;
 }

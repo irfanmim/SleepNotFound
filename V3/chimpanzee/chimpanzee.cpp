@@ -3,7 +3,7 @@
 using namespace std;
 
 Chimpanzee :: Chimpanzee (int x, int y, int weight) : LandAnimal(x, y, weight), Omnivore(weight) {
-
+	tamed = true;
 }
 
 void Chimpanzee::renderAnimal(){

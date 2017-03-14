@@ -3,7 +3,7 @@
 using namespace std;
 
 Ostrich :: Ostrich (int x, int y, int weight) : LandAnimal(x, y, weight), Omnivore(weight) {
-
+	tamed = true;
 }
 
 void Ostrich::renderAnimal(){

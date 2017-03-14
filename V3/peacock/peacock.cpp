@@ -3,7 +3,7 @@
 using namespace std;
 
 Peacock :: Peacock (int x, int y, int weight) : LandAnimal(x, y, weight), Herbivore(weight) {
-
+	tamed = true;
 }
 
 void Peacock::renderAnimal(){

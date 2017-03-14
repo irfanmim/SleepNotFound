@@ -93,3 +93,35 @@ int Cage::getHabByCoor(int x,int y) const{
 int Cage::getNH() const{
 	return nh;
 }
+
+void Cage::Validate(){
+	int x = h[0]->GetHabCode();
+	int i = 1;
+	while(i < nh){
+		if(x != h[i]->GetHabCode()){
+			throw 5;
+		}else{
+			i++;
+		}
+	}
+	i = 0;
+	while(i < nh){
+		if(h[i]->getAnimal()!=NULL){
+			if(!(h[i]->getAnimal()->IsHabMatch(x))){
+				throw 6;
+			}
+		}
+		i++;
+	}
+	i = 0;int j = 0;
+	while(i < nh){
+		if(h[i]->getAnimal()!=NULL){
+			h[i]->getAnimal()->renderAnimal();
+			if(!(h[i]->getAnimal()->IsTamed())){
+				j++;
+			}
+		}
+		i++;
+		if(j>1){throw 7;}
+	}
+}

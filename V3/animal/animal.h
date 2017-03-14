@@ -18,6 +18,7 @@ public:
   */	
 	int getWeight() const;
 	bool IsHabMatch(int hab_code);
+	bool IsTamed() const;
 	static int getNbAnimal();
 	virtual void renderAnimal()=0;
 	virtual void interact()=0;
@@ -25,6 +26,7 @@ public:
 protected:
 	Point loc; /** Lokasi setiap animal dalam matriks Zoo */
 	int weight; /** Berat animal */
+	bool tamed;
 	vector<int> an_code;
 };
 

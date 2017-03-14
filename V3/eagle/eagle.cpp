@@ -3,7 +3,7 @@
 using namespace std;
 
 Eagle :: Eagle (int x, int y, int weight) : FlyingAnimal(x, y, weight), Carnivore(weight){
-
+	tamed = false;
 }
 
 void Eagle::renderAnimal(){

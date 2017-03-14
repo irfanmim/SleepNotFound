@@ -3,7 +3,7 @@
 using namespace std;
 
 Lion :: Lion (int x, int y, int weight) : LandAnimal(x, y, weight), Carnivore(weight) {
-
+	tamed = false;
 }
 
 void Lion::renderAnimal(){

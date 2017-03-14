@@ -3,7 +3,7 @@
 using namespace std;
 
 Panda :: Panda (int x, int y, int weight) : LandAnimal(x, y, weight), Herbivore(weight) {
-
+	tamed = true;
 }
 
 void Panda::renderAnimal(){

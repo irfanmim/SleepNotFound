@@ -3,7 +3,7 @@
 using namespace std;
 
 Bat::Bat(int x, int y, int weight) : FlyingAnimal(x, y, weight), Carnivore(weight){
-
+	tamed = true;
 }
 
 void Bat::renderAnimal(){

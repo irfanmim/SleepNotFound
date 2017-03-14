@@ -28,6 +28,7 @@ public:
 	Habitat * getHabitat(int i) const;
 	int getHabByCoor(int x,int y) const;
 	int getNH() const;
+	void Validate();
 private:
 	Habitat ** h; /** List of habitat yang dilingkupi */
 	int na; /** Jumlah sel animal dalam cage */

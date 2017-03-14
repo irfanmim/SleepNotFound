@@ -3,7 +3,7 @@
 using namespace std;
 
 Cendrawasih :: Cendrawasih (int x, int y, int weight) : FlyingAnimal(x, y, weight), Omnivore(weight) {
-
+	tamed = true;
 }
 
 void Cendrawasih::renderAnimal(){
