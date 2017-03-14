@@ -188,7 +188,13 @@ void Zoo::tour(){
 
 void Zoo::show(){
 	system("clear");
-	cout << "VIRTUAL ZOO" << endl << endl;
+
+cout << "+==================================+" << endl;
+cout << "      __ ___             ___ __  __ " << endl;
+cout << "\\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
+cout << " \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
+cout << "+==================================+" << endl << endl;
+
 	for(int i = 0;i < height;i++){
 		for(int j = 0;j < width;j++){
 			(member[i][j])->render();
