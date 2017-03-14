@@ -1,0 +1,16 @@
+<map id="Mammal" name="Mammal">
+<area shape="rect" id="node3" href="$classBat.html" title="{Bat\n||+ Bat()\l+ Interact()\l}" alt="" coords="5,256,92,348"/>
+<area shape="rect" id="node4" href="$classCheetah.html" title="{Cheetah\n||+ Cheetah()\l+ Interact()\l}" alt="" coords="117,256,207,348"/>
+<area shape="rect" id="node5" href="$classChimpanzee.html" title="{Chimpanzee\n||+ Chimpanzee()\l+ Interact()\l}" alt="" coords="231,256,346,348"/>
+<area shape="rect" id="node6" href="$classCoala.html" title="{Coala\n||+ Coala()\l+ Interact()\l}" alt="" coords="371,256,457,348"/>
+<area shape="rect" id="node7" href="$classDolphin.html" title="{Dolphin\n||+ Dolphin()\l+ Interact()\l}" alt="" coords="481,256,568,348"/>
+<area shape="rect" id="node8" href="$classGorilla.html" title="{Gorilla\n||+ Gorilla()\l+ Interact()\l}" alt="" coords="592,256,679,348"/>
+<area shape="rect" id="node9" href="$classHyena.html" title="{Hyena\n||+ Hyena()\l+ Interact()\l}" alt="" coords="703,256,789,348"/>
+<area shape="rect" id="node10" href="$classKangaroo.html" title="{Kangaroo\n||+ Kangaroo()\l+ Interact()\l}" alt="" coords="813,256,911,348"/>
+<area shape="rect" id="node11" href="$classLion.html" title="{Lion\n||+ Lion()\l+ Interact()\l}" alt="" coords="935,256,1021,348"/>
+<area shape="rect" id="node12" href="$classOrangutan.html" title="{Orangutan\n||+ Orangutan()\l+ Interact()\l}" alt="" coords="1045,256,1148,348"/>
+<area shape="rect" id="node13" href="$classPanda.html" title="{Panda\n||+ Panda()\l+ Interact()\l}" alt="" coords="1172,256,1259,348"/>
+<area shape="rect" id="node14" href="$classTiger.html" title="{Tiger\n||+ Tiger()\l+ Interact()\l}" alt="" coords="1283,256,1369,348"/>
+<area shape="rect" id="node15" href="$classWhale.html" title="{Whale\n||+ Whale()\l+ Interact()\l}" alt="" coords="1393,256,1480,348"/>
+<area shape="rect" id="node2" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="680,5,812,83"/>
+</map>

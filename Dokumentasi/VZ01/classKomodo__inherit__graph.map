@@ -1,0 +1,6 @@
+<map id="Komodo" name="Komodo">
+<area shape="rect" id="node2" href="$classLandAnimal.html" title="{LandAnimal\n||+ LandAnimal()\l}" alt="" coords="11,204,122,281"/>
+<area shape="rect" id="node3" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# loc\l# an_code\l|+ Animal()\l+ Interact()\l+ GetNbAnimal()\l+ IsHabMatch()\l}" alt="" coords="5,5,125,156"/>
+<area shape="rect" id="node4" href="$classReptile.html" title="{Reptile\n||+ ShowTaxName()\l}" alt="" coords="149,204,281,281"/>
+<area shape="rect" id="node5" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="150,42,282,119"/>
+</map>

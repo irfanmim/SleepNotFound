@@ -1,0 +1,5 @@
+<map id="Restaurant" name="Restaurant">
+<area shape="rect" id="node2" href="$classFacility.html" title="{Facility\n||+ Facility()\l}" alt="" coords="17,329,101,407"/>
+<area shape="rect" id="node3" href="$classCell.html" title="{Cell\n|# loc\l|+ Cell()\l+ Cell()\l+ Render()\l+ GetX()\l+ GetY()\l+ PrintCoor()\l}" alt="" coords="10,131,107,281"/>
+<area shape="rect" id="node4" href="$classRenderable.html" title="{Renderable\n||+ Render()\l}" alt="" coords="15,5,103,83"/>
+</map>

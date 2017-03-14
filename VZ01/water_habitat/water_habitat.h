@@ -5,7 +5,7 @@
 #include "../habitat/habitat.h"
 
 
-/** @class water_habitat
+/** @class WaterHabitat
   * Base class waterhabitat
   */
 class WaterHabitat: public Habitat{

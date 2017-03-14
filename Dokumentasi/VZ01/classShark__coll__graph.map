@@ -1,0 +1,7 @@
+<map id="Shark" name="Shark">
+<area shape="rect" id="node2" href="$classWaterAnimal.html" title="{WaterAnimal\n||+ WaterAnimal()\l}" alt="" coords="8,433,125,511"/>
+<area shape="rect" id="node3" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# an_code\l|+ Animal()\l+ Interact()\l+ GetNbAnimal()\l+ IsHabMatch()\l}" alt="" coords="5,248,125,384"/>
+<area shape="rect" id="node4" href="$classPoint.html" title="{Point\n||+ Point()\l+ Point()\l+ PrintPoint()\l+ GetX()\l+ GetY()\l+ SetX()\l+ SetY()\l+ Add()\l}" alt="" coords="16,5,115,185"/>
+<area shape="rect" id="node5" href="$classPisces.html" title="{Pisces\n||+ ShowTaxName()\l}" alt="" coords="150,433,282,511"/>
+<area shape="rect" id="node6" href="$classTaxonomy.html" title="{Taxonomy\n||+ ShowTaxName()\l}" alt="" coords="150,277,282,355"/>
+</map>

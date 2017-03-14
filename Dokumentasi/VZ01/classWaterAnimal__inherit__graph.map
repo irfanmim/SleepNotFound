@@ -1,0 +1,7 @@
+<map id="WaterAnimal" name="WaterAnimal">
+<area shape="rect" id="node3" href="$classDolphin.html" title="{Dolphin\n||+ Dolphin()\l+ Interact()\l}" alt="" coords="5,329,92,421"/>
+<area shape="rect" id="node4" href="$classMantaray.html" title="{Mantaray\n||+ Mantaray()\l+ Interact()\l}" alt="" coords="117,329,213,421"/>
+<area shape="rect" id="node5" href="$classShark.html" title="{Shark\n||+ Shark()\l+ Interact()\l}" alt="" coords="237,329,324,421"/>
+<area shape="rect" id="node6" href="$classWhale.html" title="{Whale\n||+ Whale()\l+ Interact()\l}" alt="" coords="348,329,435,421"/>
+<area shape="rect" id="node2" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# loc\l# an_code\l|+ Animal()\l+ Interact()\l+ GetNbAnimal()\l+ IsHabMatch()\l}" alt="" coords="162,5,282,156"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="FlyingAnimal" name="FlyingAnimal">
+<area shape="rect" id="node3" href="$classBat.html" title="{Bat\n||+ Bat()\l+ Interact()\l}" alt="" coords="5,344,92,436"/>
+<area shape="rect" id="node4" href="$classCendrawasih.html" title="{Cendrawasih\n||+ Cendrawasih()\l+ Interact()\l}" alt="" coords="116,344,235,436"/>
+<area shape="rect" id="node5" href="$classEagle.html" title="{Eagle\n||+ Eagle()\l+ Interact()\l+ Eagle()\l+ Interact()\l}" alt="" coords="259,329,345,451"/>
+<area shape="rect" id="node6" href="$classKolibri.html" title="{Kolibri\n||+ Kolibri()\l+ Interact()\l}" alt="" coords="369,344,456,436"/>
+<area shape="rect" id="node2" href="$classAnimal.html" title="{Animal\n|+ NbAnimal\l# loc\l# an_code\l|+ Animal()\l+ Interact()\l+ GetNbAnimal()\l+ IsHabMatch()\l}" alt="" coords="242,5,362,156"/>
+</map>
