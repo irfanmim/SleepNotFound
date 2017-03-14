@@ -50,7 +50,11 @@ LandHabitat::LandHabitat(int x,int y,bool s):Habitat(x,y,s){
 
 void WaterHabitat::render(){
 	if(isInCage){
-		cout << "W";
+		if(a!=NULL){
+			a->renderAnimal();
+		}else{
+			cout << "W";
+		}
 	}else{
 		cout << "w";
 	}
@@ -58,7 +62,11 @@ void WaterHabitat::render(){
 
 void AirHabitat::render(){
 	if(isInCage){
-		cout << "A";
+		if(a!=NULL){
+			a->renderAnimal();
+		}else{
+			cout << "A";
+		}
 	}else{
 		cout << "a";
 	}
@@ -66,7 +74,11 @@ void AirHabitat::render(){
 
 void LandHabitat::render(){
 	if(isInCage){
-		cout << "L";
+		if(a!=NULL){
+			a->renderAnimal();
+		}else{
+			cout << "L";
+		}
 	}else{
 		cout << "l";
 	}

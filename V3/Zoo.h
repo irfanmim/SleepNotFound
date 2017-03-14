@@ -38,4 +38,6 @@ private:
 	CageList cl;
 };
 
+bool searchInVector(const vector<Habitat *>& v,Habitat * h);
+
 #endif

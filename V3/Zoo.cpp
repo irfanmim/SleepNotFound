@@ -259,7 +259,11 @@ void Zoo::moveAnimal(){
 			}
 			if(cand.size()>0){
 				int n =rand() % cand.size();
-				dest.push_back(cand[n]);
+				if(searchInVector(dest,cand[n])){
+					dest.push_back(NULL);
+				}else{
+					dest.push_back(cand[n]);
+				}
 			}else{
 				dest.push_back(NULL);
 			}
@@ -278,8 +282,6 @@ void Zoo::moveAnimal(){
 					cl.getCage(i).getHabitat(z)->setAnimal(NULL);
 				}
 				((Habitat *)member[x][y])->setAnimal(NULL);
-			}else{
-				
 			}
 		}
 	}
@@ -293,4 +295,17 @@ void Zoo::animate(){
 		show();
 		sleep(1.5);
 	}
+}
+
+bool searchInVector(const vector<Habitat *>& v,Habitat * h){
+	bool found = false;
+	int i = 0;
+	while(i < v.size() && !found){
+		if(h == v[i]){
+			found = true;
+		}else{
+			i++;
+		}
+	} 
+	return found;
 }

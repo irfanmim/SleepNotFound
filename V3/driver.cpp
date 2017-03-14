@@ -47,16 +47,6 @@ void Driver::DisplayMenu(){
 		else if (inp == 4) {
 			quit = true;
 		}
-/*
-
-		if (inp == 3) {
-			quit = true;
-		}else if(inp == 2){
-			TourZoo();
-		}else if(inp == 1){
-			ShowZoo();
-		}
-*/
 	} while(!quit);
 }
 
