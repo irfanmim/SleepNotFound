@@ -134,7 +134,7 @@ void Zoo::tour(){
 	int n = rand() % ent.size();
 	Road * p = ent[n];
 	while(p != getExit()){
-		system("clear");
+		//system("clear");
 		p -> setIsHere(true);
 		show();
 		p -> setIsHere(false);
@@ -187,8 +187,8 @@ void Zoo::tour(){
 }
 
 void Zoo::show(){
-	system("clear");
-
+	//system("clear");
+cout << endl;
 cout << "+==================================+" << endl;
 cout << "      __ ___             ___ __  __ " << endl;
 cout << "\\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;

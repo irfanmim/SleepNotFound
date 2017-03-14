@@ -12,7 +12,7 @@ Driver::Driver(ifstream& infile):z(infile){
 
 void Driver::DisplayMenu(){
 	do {
-		system("clear");
+		//system("clear");
 
 
 cout << "+=====================================================================+" << endl;
@@ -55,13 +55,13 @@ cout << "   \\_/  |___|_| \\_\\|_|  \\___/_/   \\_\\_____| /____\\___/ \\___/ " 
 		
 		if (inp == 1) {
 			ShowZoo();
-			cout << endl << "Press any key to continue...";
+			cout << endl << "Press any key to continue..." << endl;
 			cin.ignore(10,'\n');
 			cin.get();
 		}
 		else if (inp == 2) {
 			TourZoo();
-			cout << endl << "Press any key to continue...";
+			cout << endl << "Press any key to continue..." << endl;
 			cin.ignore(10,'\n');
 			cin.get();
 		}
