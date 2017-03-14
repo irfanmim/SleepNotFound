@@ -2,11 +2,11 @@
 #include <iostream>
 using namespace std;
 
-WaterHabitat::WaterHabitat(int x,int y,bool s):Habitat(x,y,s) {
+water_habitat::water_habitat(int x,int y,bool s):Habitat(x,y,s) {
 
 }
 
-void WaterHabitat::Render() {
+void water_habitat::Render() {
   if (IsInCage) {
     cout << "W";
   } else {

@@ -2,10 +2,10 @@
 #define AMPHIBI_H
 #include "../taxonomy/taxonomy.h"
 
-/** @class Amphibi
+/** @class amphibi
   * Base class
   */
-class Amphibi : public Taxonomy{
+class amphibi : public Taxonomy{
 public:
 /** @brief method showName.
   * Menampilkan nama taksonomi.

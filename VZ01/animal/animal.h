@@ -3,31 +3,31 @@
 #include "../point/point.h"
 
 /** @class Animal
-  * ABC animal
+  * ABC Animal
   */
 class Animal{
 public:
     /** @brief Constructor.
-      * Konstruktor kelas animal
+      * Konstruktor kelas Animal
       * @param x Posisi koordinat x
       * @param y Posisi koordinat y
       */  
   Animal(int x, int y);
 
-    /** @brief Method interaksi animal.
-      * Setiap animal akan berinteraksi dengan cara yang berbeda-beda
+    /** @brief Method interaksi Animal.
+      * Setiap Animal akan berinteraksi dengan cara yang berbeda-beda
       */  
   virtual void Interact()=0;
 
-    /** @brief Method untuk mengembalikan jumlah objek animal yang telah dibuat
+    /** @brief Method untuk mengembalikan jumlah objek Animal yang telah dibuat
       */
   int GetNbAnimal();
 
-  /** Jumlah animal dalam zoo */
+  /** Jumlah Animal dalam zoo */
   static int NbAnimal; 
 
 protected:
-  Point loc; /** Lokasi setiap animal dalam matriks Zoo */
+  Point loc; /** Lokasi setiap Animal dalam matriks Zoo */
 };
 
 #endif

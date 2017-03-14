@@ -1,4 +1,4 @@
-#include "Zoo.h"
+#include "zoo.h"
 #include "../facility/facility.h"
 #include "../habitat/habitat.h"
 #include "../flying_animal/flying_animal.h"
@@ -10,9 +10,9 @@
 #include "../amphibi/amphibi.h"
 #include "../animal/animal.h"
 #include "../aves/aves.h"
-#include "../Bat/Bat.h"
+#include "../bat/bat.h"
 #include "../cage/cage.h"
-#include "../cageList/cageList.h"
+#include "../cage_list/cage_list.h"
 #include "../cell/cell.h"
 #include "../cendrawasih/cendrawasih.h"
 #include "../cheetah/cheetah.h"
@@ -32,7 +32,7 @@
 #include "../kolibri/kolibri.h"
 #include "../komodo/komodo.h"
 #include "../land_animal/land_animal.h"
-#include "../landHabitat/landHabitat.h"
+#include "../land_habitat/land_habitat.h"
 #include "../lion/lion.h"
 #include "../mammal/mammal.h"
 #include "../mantaray/mantaray.h"
@@ -169,7 +169,7 @@ bool Zoo::IsInPath(int x,int y) {
   bool found = false;
   int i = 0;
   while (i < path.size() && !found) {
-    if (path[i]->getX()==x && path[i]->getY()==y) {
+    if (path[i]->GetX()==x && path[i]->GetY()==y) {
       found = true;
     } else {
       i++;
@@ -188,7 +188,7 @@ void Zoo::Tour() {
     p -> SetIsHere(false);
     p -> SetVisited(true);
     vector<Road *> cand;
-    int x = p->getX();int y = p->getY();
+    int x = p->GetX();int y = p->GetY();
     if (IsInPath(x-1,y)) {
       if (((Road *)member[x-1][y])->IsVisited()) {
       } else {

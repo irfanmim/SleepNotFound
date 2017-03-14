@@ -5,18 +5,18 @@
 #include "../habitat/habitat.h"
 
 
-/** @class WaterHabitat
+/** @class water_habitat
   * Base class waterhabitat
   */
-class WaterHabitat: public Habitat{
+class water_habitat: public Habitat{
 public:
-  /** @brief WaterHabitat
+  /** @brief water_habitat
     * @param x absis lokasi
     * @param y oridnat lokasi
     * @param s boolean yang merepresentasikan habitat didalam cage atau tidak
     * Konstruktor waterhabitat
     */
-  WaterHabitat(int x,int y,bool s);
+  water_habitat(int x,int y,bool s);
   /** @brief Method Render.
     */
   void Render();

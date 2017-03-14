@@ -49,7 +49,7 @@ bool Cage::IsCoorInCage(int x,int y) {
   bool found = false;
   int i = 0;
   while (i < nh && !found) {
-    if ((h[i]->getX()==x)&&(h[i]->getY()==y)) {
+    if ((h[i]->GetX()==x)&&(h[i]->GetY()==y)) {
       found = true;
     } else {
       i++;

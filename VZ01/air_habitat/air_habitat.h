@@ -4,18 +4,18 @@
 #include "../animal/animal.h"
 #include "../habitat/habitat.h"
 
-/** @class AirHabitat
+/** @class air_habitat
   * Base class waterhabitat
   */
-class AirHabitat: public Habitat {
+class air_habitat: public Habitat {
 public:
-  /** @class AirHabitat
+  /** @class air_habitat
     * @param x absis lokasi
     * @param y oridnat lokasi
     * @param s boolean yang merepresentasikan habitat didalam cage atau tidak
     * Konstruktor airhabitat
     */
-  AirHabitat(int x,int y,bool s);
+  air_habitat(int x,int y,bool s);
   /** @brief Method Render.
     */
   void Render();

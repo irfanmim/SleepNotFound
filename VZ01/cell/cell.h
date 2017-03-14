@@ -1,7 +1,7 @@
 #ifndef CELL_H
 #define CELL_H
 #include "../point/point.h"
-#include "../Renderable/Renderable.h"
+#include "../renderable/renderable.h"
 
 /** @class Cell
   * Kelas yang merepresentasikan sel dalam matriks Zoo.

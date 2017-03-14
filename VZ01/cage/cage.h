@@ -9,8 +9,8 @@
 class Cage{
 public:
   /** @brief Constructor berparameter.
-    * Membuat objek cage dengan daftar animal dan habitat yang terdefinisi
-    * @param AL List of animal yang berada dalam cage
+    * Membuat objek cage dengan daftar Animal dan habitat yang terdefinisi
+    * @param AL List of Animal yang berada dalam cage
     * @param HL List of habitat yang dilingkupi oleh cage
     * na = AL.size(), nh = HL.size()
     */
@@ -34,7 +34,7 @@ public:
     */
   bool IsCoorInCage(int x,int y);
   
-  /** @brief Method yang membuat semua animal yang berada di dalam cage memanggil Interact
+  /** @brief Method yang membuat semua Animal yang berada di dalam cage memanggil Interact
     */
   void WakeAllAnimal();
   
@@ -45,7 +45,7 @@ public:
 
 private:
   Habitat ** h; /** List of habitat yang dilingkupi */
-  int na; /** Jumlah sel animal dalam cage */
+  int na; /** Jumlah sel Animal dalam cage */
   int nh; /** Jumlah habitat dalam cage */
 };
 

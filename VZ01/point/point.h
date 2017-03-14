@@ -23,11 +23,11 @@ class Point{
     
     /** @brief Method yang mengembalikan nilai x
         */
-    int getX() const;
+    int GetX() const;
     
     /** @brief Method yang mengembalikan nilai x
         */
-    int getY() const;
+    int GetY() const;
     
     /** @brief Method untuk mengubah koordinat x dengan nilai x
       * @param x Nilai x 
