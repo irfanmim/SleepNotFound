@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi cendrawasih
     */
   void Interact();
+  /** @brief Method render cendrawasih
+    */
   void RenderAnimal();
 };
 

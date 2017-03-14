@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi gorilla
     */
   void Interact();
+  /** @brief Method render gorilla
+    */
   void RenderAnimal();
 };
 

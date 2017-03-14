@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi ostrich
     */
   void Interact();
+  /** @brief Method render ostrich
+    */
   void RenderAnimal();
 };
 

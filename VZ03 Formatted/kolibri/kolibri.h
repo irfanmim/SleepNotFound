@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi kolibri
     */
   void Interact();
+  /** @brief Method render kolibri
+    */
   void RenderAnimal();
 };
 

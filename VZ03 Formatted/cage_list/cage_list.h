@@ -20,9 +20,9 @@ public:
     */
   int GetSize();
   /** @brief Method yang mengembalikan index dari suatu Cage di dalam CageList
-    * Search Cage berdasarkan koordinat dengan parameter int x dan int y 
     * @param x Koordinat x
     * @param y Koordinat y
+    * Search Cage berdasarkan koordinat dengan parameter int x dan int y 
     */
   int SearchByCoor(int x,int y);
   /** @brief Method mengecek apakah ada habitat yang overlap di antara cage

@@ -13,12 +13,14 @@ public :
     * @param x absis lokasi
     * @param y ordinat lokasi
     * @param weight berat badan
-    * Konstruktor kelas gorilla
+    * Konstruktor kelas frog
     */  
   Frog(int x, int y, int weight);
-  /** @brief Method interaksi gorilla
+  /** @brief Method interaksi frog
     */
   void Interact();
+  /** @brief Method render frog
+    */
   void RenderAnimal();
 };
 

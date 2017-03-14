@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi kangaroo
     */
   void Interact();
+  /** @brief Method render kangaroo
+    */
   void RenderAnimal();
 };
 

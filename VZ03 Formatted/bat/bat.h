@@ -19,6 +19,9 @@ public :
   /** @brief Method interaksi bat
     */
   void Interact();
+    /** @brief Method render bat
+    */
+
   void RenderAnimal();
 };
 

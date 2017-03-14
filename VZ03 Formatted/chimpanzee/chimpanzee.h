@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi chimpanzee
     */
   void Interact();
+  /** @brief Method render chimpanzee
+    */
   void RenderAnimal();
 };
 

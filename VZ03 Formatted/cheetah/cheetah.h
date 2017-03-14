@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi cheetah
     */
   void Interact();
+   /** @brief Method render cheetah
+    */
   void RenderAnimal();
 };
 

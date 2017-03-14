@@ -7,10 +7,10 @@
   * Kelas yang merepresentasikan sel dalam matriks Zoo.
   */
 class Cell:public Renderable{
+public:
   /** @brief Constructor.
     * Membuat objek bertipe Cell dengan menginisialisasi koordinatnya menjadi (0,0)
     */
-public:
   Cell();
   /** @brief Constructor.
     * Membuat objek bertipe Cell dengan menginisialisasi koordinatnya menjadi (x,y)
@@ -18,9 +18,17 @@ public:
     * @param y ordinat dari koordinat Cell
     */
   Cell(int x,int y);
+ /** @brief Method mengeluarkan render animal
+    */
   virtual void Render();
+  /** @brief Method mengembalikan nilai x
+    */
   int GetX();
+  /** @brief Method mengembalikan nilai y
+    */
   int GetY();
+  /** @brief Method mengembalikan koordinat
+    */
   void PrintCoor();
 protected:
   Point loc; /** Koordinat suatu Cell */

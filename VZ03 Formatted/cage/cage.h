@@ -23,11 +23,29 @@ public:
     /** @brief Operator=.
     */
   Cage& operator=(const Cage& c);
+  /** @brief method IsCoorInCage.
+    * @param x absis
+    * @param y ordinat
+    */
   bool IsCoorInCage(int x,int y);
+  /** @brief method membuat animal bergerak
+    */
   void WakeAllAnimal();
+  /** @brief method menghasilkan habitat
+    * @param i indeksdari habitat
+    
+    */
   Habitat * GetHabitat(int i) const;
+  /** @brief method menghasilkan habitat dengan koordinat lokasi 
+    * @param x absis
+    * @param y ordinat
+    */
   int GetHabByCoor(int x,int y) const;
+  /** @brief method menghasilkan jumlah habitat
+    */
   int GetNH() const;
+  /** @brief method validasi cage
+    */
   void Validate();
 private:
   Habitat ** h; /** List of habitat yang dilingkupi */

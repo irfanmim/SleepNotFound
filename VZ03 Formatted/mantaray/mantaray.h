@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi mantaray
     */
   void Interact();
+  /** @brief Method render mantaray
+    */
   void RenderAnimal();
 };
 

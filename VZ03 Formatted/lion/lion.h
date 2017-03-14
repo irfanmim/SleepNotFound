@@ -19,7 +19,9 @@ public :
   /** @brief Method interaksi lion
     */
   void Interact();
-  void RenderAnimal();
+  /** @brief Method render lion
+    */
+ void RenderAnimal();
 };
 
 #endif

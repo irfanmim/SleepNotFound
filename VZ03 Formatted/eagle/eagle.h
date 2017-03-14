@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi eagle
     */
   void Interact();
+  /** @brief Method render eagle
+    */
   void RenderAnimal();
 };
 

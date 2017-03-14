@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi komodo
     */
   void Interact();
+  /** @brief Method render komodo
+    */
   void RenderAnimal();
 };
 

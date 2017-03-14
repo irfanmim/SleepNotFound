@@ -5,6 +5,8 @@ using namespace std;
 
 class Renderable{
 public:
+  /** @brief Pure Virtual function Render
+    */
   virtual void Render()=0;
 };
 

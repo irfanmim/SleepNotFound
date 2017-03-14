@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi shark
     */
   void Interact();
+  /** @brief Method render shark
+    */
   void RenderAnimal();
 };
 

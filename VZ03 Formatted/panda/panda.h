@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi panda
     */
   void Interact();
+  /** @brief Method render panda
+    */
   void RenderAnimal();
 };
 

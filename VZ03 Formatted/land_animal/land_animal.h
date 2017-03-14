@@ -4,6 +4,11 @@
 
 class LandAnimal : public Animal{
 public:
+  /** @brief Constructor
+  	* @param x absis lokasi
+  	* @param y ordinat lokasi
+  	* @param w berat badan
+    */
   LandAnimal(int x,int y,int w);
 };
 

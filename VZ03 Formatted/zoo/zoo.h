@@ -52,31 +52,50 @@ public:
     * Perancang kelas: Irfan
     */
   Habitat ** ParseCage(int& nh,ifstream& infile);
-
+  /** @brief Method mengembalikan nilai Road dimana tempat exit
+    */
   Road * getExit();
-  
+  /** @brief Procedure intializeCage menginisiasi terbentuknya Cage dengan input file eksternal
+    * @param infile file eksternal input 
+    */
   void InitializeCage(ifstream& infile);
-  
+  /** @brief Function boolean IsInPath mengembalikan true jika (x,y) merupakan Road
+    * @param x absis dari lokasi
+    * @param y ordinat dari lokasi
+    */
   bool isInPath(int x,int y);
   
   void Show();
-  
+  /** @brief Procedure Tour melakukan Tour keliling Zoo
+  */
   void Tour();
-  
+  /** @brief Function GetWidth mengembalikan jumlah kolom dari Zoo
+  */
   int GetHeight() const;
-  
+  /** @brief Function GetWidth mengembalikan jumlah baris dari Zoo
+  */
   int GetWidth() const;
-  
+  /** @brief Proedure ClearPath menghapus semua path yang sudah dilalui sehingga seperti semula
+    */
   void ClearPath();
-  
+  /** @brief Menampilkan makanan pada Zoo
+    */
   void ShowFood();
-  
+  /** @brief Menggerakkan animal pada Zoo
+    */
   void MoveAnimal();
-  
+  /** @brief Melakukan looping MoveAnimal berulang-ulang sehingga dapat terlihat gerakannya
+    */
   void Animate();
-  
+  /** @brief Menampilkan kelas Zoo berdasarkan
+    * @param a batas atas
+    * @param b batas bawah 
+    * @param c batas kiri
+    * @param d batas kanan
+    */
   void ShowByEdge(int a,int b,int c,int d);
-  
+  /** @brief Destructor kelas Zoo
+    */
   ~Zoo();
 private:
   int width;

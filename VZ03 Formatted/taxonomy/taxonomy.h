@@ -3,6 +3,8 @@
 
 class Taxonomy{
 public:
+	  /** @brief Method pure virtual ShowTaxName
+    */
   virtual void ShowTaxName()=0;
 };
 

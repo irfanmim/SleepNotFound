@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi orangutan
     */
   void Interact();
+  /** @brief Method render orangutan
+    */
   void RenderAnimal();
 };
 

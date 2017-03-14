@@ -13,7 +13,7 @@ public :
     * Konstruktor kelas entrance
     */  
   Entrance(int x,int y);
-  /** @brief Method render.
+  /** @brief Method render entrance.
     */
   void Render();
 };

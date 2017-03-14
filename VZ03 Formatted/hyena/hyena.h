@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi hyena
     */
   void Interact();
+  /** @brief Method render hyena
+    */
   void RenderAnimal();
 };
 

@@ -16,9 +16,11 @@ public :
     * Konstruktor kelas tiger
     */  
   Tiger(int x, int y, int weight);
-  /** @brief Method interaksi tiger
+  /** @brief Method render tiger
     */
   void RenderAnimal();
+  /** @brief Method interaksi tiger
+    */
   void Interact();
 };
 

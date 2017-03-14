@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi dolphin
     */
   void Interact();
+  /** @brief Method render dolphin
+    */
   void RenderAnimal();
 };
 

@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi peacock
     */
   void RenderAnimal();
+  /** @brief Method render peacock
+    */
   void Interact();
 };
 

@@ -13,7 +13,7 @@ public:
     * Konstruktor kelas exit
     */  
   Exit(int x,int y);
-  /** @brief Method render.
+  /** @brief Method render exit.
     */
   void Render();
 };

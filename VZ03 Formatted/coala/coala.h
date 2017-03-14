@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi coala
     */
   void Interact();
+  /** @brief Method render coala
+    */
   void RenderAnimal();
 };
 

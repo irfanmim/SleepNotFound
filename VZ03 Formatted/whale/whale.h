@@ -19,6 +19,8 @@ public :
   /** @brief Method interaksi whale
     */
   void Interact();
+/** @brief Method render whale
+    */
   void RenderAnimal();
 };
 
