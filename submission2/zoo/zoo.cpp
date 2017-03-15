@@ -58,7 +58,7 @@ Cell * Zoo::ParseCage(int& nh,ifstream& infile){
 	Cell * h = new Cell[nh];
 	int i = 0;
 	while(getline(infile,temp) && temp!="#"){
-		if(i >= nh){throw 1;}
+		//if(i >= nh){throw 1;}
 		GetEntry(temp,x,y,w,an);
 		h[i] = *(member[x][y]);
 		h[i].SetHabitat();
