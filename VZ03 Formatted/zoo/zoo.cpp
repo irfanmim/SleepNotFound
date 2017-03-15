@@ -164,6 +164,7 @@ void Zoo::Tour() {
   int n = rand() % ent.size();
   Road * p = ent[n];
   while(p != getExit()) {
+    cout << endl;
     p -> SetIsHere(true);
     ShowByEdge(0,height-1,0,width-1);
     p -> SetIsHere(false);
@@ -216,6 +217,14 @@ void Zoo::Tour() {
 }
 
 void Zoo::ShowByEdge(int a,int b,int c,int d) {
+
+  cout << endl;
+  cout << "+==================================+" << endl;
+  cout << "      __ ___             ___ __  __ " << endl;
+  cout << "\\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
+  cout << " \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
+  cout << "+==================================+" << endl << endl;
+
   for(int i = a;i <= b;i++) {
     for(int j = c;j <= d;j++) {
       (member[i][j])->Render();
@@ -330,6 +339,7 @@ void Zoo::MoveAnimal() {
 void Zoo::Animate() {
   ShowByEdge(0,height-1,0,width-1);
   for(int i = 0;i < 10;i++) {
+    cout << endl;
     MoveAnimal();
     ShowByEdge(0,height-1,0,width-1);
     //sleep(1.5);

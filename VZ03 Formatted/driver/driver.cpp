@@ -14,9 +14,12 @@ Driver::Driver(ifstream& infile):z(infile) {
 
 void Driver::DisplayMenu() {
   do {
-    system("clear");
-
-    cout << "WELCOME TO VIRTUAL ZOO" << endl << endl;
+    
+cout << "+=====================================================================+" << endl;
+cout << "     __    __ __      __  ___ __         __ ___             ___ __  __ " << endl;
+cout << "|  ||_ |  /  /  \\|\\/||_    | /  \\  \\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
+cout << "|/\\||__|__\\__\\__/|  ||__   | \\__/   \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
+cout << "+=====================================================================+" << endl << endl << endl;       
 
     for (int i = 0; i < menu.size(); i++) {
       if (i != menu.size() - 1) {
