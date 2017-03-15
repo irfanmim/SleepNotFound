@@ -14,9 +14,15 @@ public:
     * @param y oridnat lokasi
     * @param s boolean yang merepresentasikan habitat didalam cage atau tidak
     * Konstruktor airhabitat
+    * I.S.: Kelas AirHabitat belum memiliki kontruktor
+    * F.S.: Kelas AirHabitat sudah memiliki kontruktor
+    * Pembuat kelas: Marvin
     */
   AirHabitat(int x,int y,bool s);
   /** @brief Method Render.
+    * I.S.: Kelas AirHabitat belum memiliki method Render
+    * F.S.: Kelas AirHabitat sudah memiliki method Render
+    * Pembuat kelas: Marvin
     */
   void Render();
 };

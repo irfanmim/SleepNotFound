@@ -9,6 +9,9 @@ class Aves : public Taxonomy{
 public:
 /** @brief method showName.
   * Menampilkan nama taksonomi.
+  * I.S.: Kelas Aves belum memiliki method menampilkan nama taksonomi
+  * F.S.: Kelas Aves sudah memiliki method menampilkan nama taksonomi
+  * Perancang kelas: Marvin
   */  
   void ShowTaxName();    
 };

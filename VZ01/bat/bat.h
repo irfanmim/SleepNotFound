@@ -12,9 +12,15 @@ public :
     * @param x absis lokasi
     * @param y ordinat lokasi
     * Konstruktor kelas bat
+    * I.S.: Kelas Bat belum memiliki konstruktor
+    * F.S.: Kelas Bat sudah memiliki konstruktor
+    * Perancang kelas: Marvin
     */  
   Bat(int x, int y);
   /** @brief Method interaksi bat
+    * I.S.: Kelas Bat belum memiliki method
+    * F.S.: Kelas Bat sudah memiliki method interact
+    * Perancang kelas: Marvin
     */
   void Interact();
 };

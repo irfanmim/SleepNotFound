@@ -11,6 +11,9 @@ public:
     * @param x absis lokasi
     * @param y oridnat lokasi
     * Konstruktor kelas facility
+    * I.S.: Kelas Facility belum memiliki konstruktor
+      * F.S.: Kelas Facility sudah memiliki konstruktor
+      * Perancang kelas: Marvin
     */  
   Facility(int x,int y);
 };

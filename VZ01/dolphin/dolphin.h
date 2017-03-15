@@ -12,9 +12,15 @@ public :
     * @param x absis lokasi
     * @param y ordinat lokasi
     * Konstruktor kelas dolphin
+    * I.S.: Kelas Dolphin belum memiliki konstruktor
+    * F.S.: Kelas Dolphin sudah memiliki konstruktor
+    * Perancang kelas: Patrick
     */
   Dolphin(int x, int y);
   /** @brief Method interaksi dolphin
+    * I.S.: Kelas Dolphin belum memiliki method interact
+    * F.S.: Kelas Dolphin sudah memiliki method interact
+    * Perancang kelas: Patrick
     */
   void Interact();
 };
