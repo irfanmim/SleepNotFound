@@ -1,22 +1,22 @@
 #include "cage_list.h"
 
-void cage_list::AddCage(Cage c) {
-  cage_list.push_back(c);
+void CageList::AddCage(Cage c) {
+  CageList.push_back(c);
 }
 
-Cage& cage_list::GetCage(int i) {
-  return cage_list[i];
+Cage& CageList::GetCage(int i) {
+  return CageList[i];
 }
 
-int cage_list::GetSize() {
-  return cage_list.size();
+int CageList::GetSize() {
+  return CageList.size();
 }
 
-int cage_list::SearchByCoor(int x,int y) {
+int CageList::SearchByCoor(int x,int y) {
   int i = 0;
   bool found = false;
-  while(i < cage_list.size() && !found) {
-    found = cage_list[i].IsCoorInCage(x,y);
+  while(i < CageList.size() && !found) {
+    found = CageList[i].IsCoorInCage(x,y);
     if (!found) {
       i++;
     }
@@ -24,7 +24,7 @@ int cage_list::SearchByCoor(int x,int y) {
   return (found)?i:-1;
 }
 
-bool cage_list::IsOverlap(const Cage& c) {
+bool CageList::IsOverlap(const Cage& c) {
   int x = c.GetHabitat(0)->GetX();
   int y = c.GetHabitat(0)->GetY();
   int i = 1;bool overlap = false;

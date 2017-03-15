@@ -164,7 +164,6 @@ void Zoo::Tour() {
   int n = rand() % ent.size();
   Road * p = ent[n];
   while(p != getExit()) {
-    system("clear");
     p -> SetIsHere(true);
     ShowByEdge(0,height-1,0,width-1);
     p -> SetIsHere(false);
@@ -208,7 +207,7 @@ void Zoo::Tour() {
       }
       n = rand() % cand.size();
       p = cand[n];
-      sleep(1.5);
+      //sleep(1.5);
     } else {
       break;
     }
@@ -331,10 +330,9 @@ void Zoo::MoveAnimal() {
 void Zoo::Animate() {
   ShowByEdge(0,height-1,0,width-1);
   for(int i = 0;i < 10;i++) {
-    system("clear");
     MoveAnimal();
     ShowByEdge(0,height-1,0,width-1);
-    sleep(1.5);
+    //sleep(1.5);
   }
 }
 
