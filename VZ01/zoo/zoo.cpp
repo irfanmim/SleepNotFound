@@ -206,7 +206,7 @@ void Zoo::Tour() {
       }
       n = rand() % cand.size();
       p = cand[n];
-      sleep(1.5);
+      //sleep(1.5);
     } else {
       break;
     }
