@@ -79,6 +79,9 @@ public:
 	/** @brief Method untuk menggerakkan animal
 	  */
 	void MoveAnimal();
+
+  void ShowByEdge(int a,int b,int c,int d);
+	
 private:
 	int width;
 	int height;

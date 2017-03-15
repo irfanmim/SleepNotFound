@@ -92,19 +92,31 @@ void Zoo::InitializeCage(ifstream& infile){
 	}
 }
 
-void Zoo::Show(){
+void Zoo::ShowByEdge(int a,int b,int c,int d) {
+
   cout << endl;
   cout << "+==================================+" << endl;
   cout << "      __ ___             ___ __  __ " << endl;
   cout << "\\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
   cout << " \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
   cout << "+==================================+" << endl << endl;
-	for(int i = 0;i < height;i++){
-		for(int j = 0;j < width;j++){
-			(member[i][j])->Render();
-		}
-		cout << endl;
-	}
+
+  for(int i = a;i <= b;i++) {
+    for(int j = c;j <= d;j++) {
+      (member[i][j])->Render();
+    }
+    cout << endl;
+  }
+}
+
+void Zoo::Show() {
+  int a,b,c,d;
+  cout << "Masukkan batas atas = ";cin >> a;
+  cout << "Masukkan batas bawah = ";cin >> b;
+  cout << "Masukkan batas kiri = ";cin >> c;
+  cout << "Masukkan batas kanan = ";cin >> d;
+  if (a<0 || b >= height || c < 0 || d >= width || b<a || d<c) {throw 4;}
+  ShowByEdge(a,b,c,d);
 }
 
 Zoo::~Zoo(){
@@ -138,7 +150,7 @@ void Zoo::Tour(){
 	
 	while(p != GetExit()){
 		cout << endl;
-		Show();
+		ShowByEdge(0,height-1,0,width-1);
 		p -> SetVisited(true);
 		vector<Cell *> cand;
 		if(IsInPath(p->GetLoc().GetX()-1,p->GetLoc().GetY())){
