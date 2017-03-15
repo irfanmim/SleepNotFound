@@ -2,25 +2,25 @@
 <area shape="rect" id="node2" href="$classFlyingAnimal.html" title="{FlyingAnimal\n||+ FlyingAnimal()\l}" alt="" coords="243,204,361,281"/>
 <area shape="rect" id="node7" href="$classLandAnimal.html" title="{LandAnimal\n||+ LandAnimal()\l}" alt="" coords="1179,204,1289,281"/>
 <area shape="rect" id="node21" href="$classWaterAnimal.html" title="{WaterAnimal\n||+ WaterAnimal()\l}" alt="" coords="2093,204,2210,281"/>
-<area shape="rect" id="node3" href="$classBat.html" title="{Bat\n||+ Bat()\l+ Interact()\l}" alt="" coords="5,344,92,436"/>
-<area shape="rect" id="node4" href="$classCendrawasih.html" title="{Cendrawasih\n||+ Cendrawasih()\l+ Interact()\l}" alt="" coords="116,344,235,436"/>
-<area shape="rect" id="node5" href="$classEagle.html" title="{Eagle\n||+ Eagle()\l+ Interact()\l+ Eagle()\l+ Interact()\l}" alt="" coords="259,329,345,451"/>
-<area shape="rect" id="node6" href="$classKolibri.html" title="{Kolibri\n||+ Kolibri()\l+ Interact()\l}" alt="" coords="369,344,456,436"/>
-<area shape="rect" id="node8" href="$classCheetah.html" title="{Cheetah\n||+ Cheetah()\l+ Interact()\l}" alt="" coords="481,344,571,436"/>
-<area shape="rect" id="node9" href="$classChimpanzee.html" title="{Chimpanzee\n||+ Chimpanzee()\l+ Interact()\l}" alt="" coords="595,344,710,436"/>
-<area shape="rect" id="node10" href="$classCoala.html" title="{Coala\n||+ Coala()\l+ Interact()\l}" alt="" coords="735,344,821,436"/>
-<area shape="rect" id="node11" href="$classGorilla.html" title="{Gorilla\n||+ Gorilla()\l+ Interact()\l}" alt="" coords="845,344,932,436"/>
-<area shape="rect" id="node12" href="$classHyena.html" title="{Hyena\n||+ Hyena()\l+ Interact()\l}" alt="" coords="956,344,1043,436"/>
-<area shape="rect" id="node13" href="$classKangaroo.html" title="{Kangaroo\n||+ Kangaroo()\l+ Interact()\l}" alt="" coords="1067,344,1164,436"/>
-<area shape="rect" id="node14" href="$classKomodo.html" title="{Komodo\n||+ Komodo()\l+ Interact()\l}" alt="" coords="1189,344,1279,436"/>
-<area shape="rect" id="node15" href="$classLion.html" title="{Lion\n||+ Lion()\l+ Interact()\l}" alt="" coords="1304,344,1391,436"/>
-<area shape="rect" id="node16" href="$classOrangutan.html" title="{Orangutan\n||+ Orangutan()\l+ Interact()\l}" alt="" coords="1415,344,1517,436"/>
-<area shape="rect" id="node17" href="$classOstrich.html" title="{Ostrich\n||+ Ostrich()\l+ Interact()\l}" alt="" coords="1541,344,1628,436"/>
-<area shape="rect" id="node18" href="$classPanda.html" title="{Panda\n||+ Panda()\l+ Interact()\l}" alt="" coords="1652,344,1739,436"/>
-<area shape="rect" id="node19" href="$classPeacock.html" title="{Peacock\n||+ Peacock()\l+ Interact()\l}" alt="" coords="1763,344,1857,436"/>
-<area shape="rect" id="node20" href="$classTiger.html" title="{Tiger\n||+ Tiger()\l+ Interact()\l}" alt="" coords="1881,344,1968,436"/>
-<area shape="rect" id="node22" href="$classDolphin.html" title="{Dolphin\n||+ Dolphin()\l+ Interact()\l}" alt="" coords="1992,344,2079,436"/>
-<area shape="rect" id="node23" href="$classMantaray.html" title="{Mantaray\n||+ Mantaray()\l+ Interact()\l}" alt="" coords="2103,344,2199,436"/>
-<area shape="rect" id="node24" href="$classShark.html" title="{Shark\n||+ Shark()\l+ Interact()\l}" alt="" coords="2224,344,2311,436"/>
-<area shape="rect" id="node25" href="$classWhale.html" title="{Whale\n||+ Whale()\l+ Interact()\l}" alt="" coords="2335,344,2421,436"/>
+<area shape="rect" id="node3" href="$classBat.html" title="{Bat\n||+ Bat()\l+ Interact()\l}" alt="" coords="5,329,92,421"/>
+<area shape="rect" id="node4" href="$classCendrawasih.html" title="{Cendrawasih\n||+ Cendrawasih()\l+ Interact()\l}" alt="" coords="116,329,235,421"/>
+<area shape="rect" id="node5" href="$classEagle.html" title="{Eagle\n||+ Eagle()\l+ Interact()\l}" alt="" coords="259,329,345,421"/>
+<area shape="rect" id="node6" href="$classKolibri.html" title="{Kolibri\n||+ Kolibri()\l+ Interact()\l}" alt="" coords="369,329,456,421"/>
+<area shape="rect" id="node8" href="$classCheetah.html" title="{Cheetah\n||+ Cheetah()\l+ Interact()\l}" alt="" coords="481,329,571,421"/>
+<area shape="rect" id="node9" href="$classChimpanzee.html" title="{Chimpanzee\n||+ Chimpanzee()\l+ Interact()\l}" alt="" coords="595,329,710,421"/>
+<area shape="rect" id="node10" href="$classCoala.html" title="{Coala\n||+ Coala()\l+ Interact()\l}" alt="" coords="735,329,821,421"/>
+<area shape="rect" id="node11" href="$classGorilla.html" title="{Gorilla\n||+ Gorilla()\l+ Interact()\l}" alt="" coords="845,329,932,421"/>
+<area shape="rect" id="node12" href="$classHyena.html" title="{Hyena\n||+ Hyena()\l+ Interact()\l}" alt="" coords="956,329,1043,421"/>
+<area shape="rect" id="node13" href="$classKangaroo.html" title="{Kangaroo\n||+ Kangaroo()\l+ Interact()\l}" alt="" coords="1067,329,1164,421"/>
+<area shape="rect" id="node14" href="$classKomodo.html" title="{Komodo\n||+ Komodo()\l+ Interact()\l}" alt="" coords="1189,329,1279,421"/>
+<area shape="rect" id="node15" href="$classLion.html" title="{Lion\n||+ Lion()\l+ Interact()\l}" alt="" coords="1304,329,1391,421"/>
+<area shape="rect" id="node16" href="$classOrangutan.html" title="{Orangutan\n||+ Orangutan()\l+ Interact()\l}" alt="" coords="1415,329,1517,421"/>
+<area shape="rect" id="node17" href="$classOstrich.html" title="{Ostrich\n||+ Ostrich()\l+ Interact()\l}" alt="" coords="1541,329,1628,421"/>
+<area shape="rect" id="node18" href="$classPanda.html" title="{Panda\n||+ Panda()\l+ Interact()\l}" alt="" coords="1652,329,1739,421"/>
+<area shape="rect" id="node19" href="$classPeacock.html" title="{Peacock\n||+ Peacock()\l+ Interact()\l}" alt="" coords="1763,329,1857,421"/>
+<area shape="rect" id="node20" href="$classTiger.html" title="{Tiger\n||+ Tiger()\l+ Interact()\l}" alt="" coords="1881,329,1968,421"/>
+<area shape="rect" id="node22" href="$classDolphin.html" title="{Dolphin\n||+ Dolphin()\l+ Interact()\l}" alt="" coords="1992,329,2079,421"/>
+<area shape="rect" id="node23" href="$classMantaray.html" title="{Mantaray\n||+ Mantaray()\l+ Interact()\l}" alt="" coords="2103,329,2199,421"/>
+<area shape="rect" id="node24" href="$classShark.html" title="{Shark\n||+ Shark()\l+ Interact()\l}" alt="" coords="2224,329,2311,421"/>
+<area shape="rect" id="node25" href="$classWhale.html" title="{Whale\n||+ Whale()\l+ Interact()\l}" alt="" coords="2335,329,2421,421"/>
 </map>

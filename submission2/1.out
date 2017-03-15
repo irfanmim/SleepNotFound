@@ -11,7 +11,7 @@ Pilihan menu :
 2. Tour Virtual Zoo 
 3. Quit 
 
-Masukkan input : 
+Masukkan input : Masukkan batas atas = Masukkan batas bawah = Masukkan batas kiri = Masukkan batas kanan = 
 +==================================+
       __ ___             ___ __  __ 
 \  /||__) | /  \ /\ |     _//  \/  \
@@ -19,23 +19,26 @@ Masukkan input :
 
 +==================================+
 
-####B############################
-#SSS  ############## aaaaaaaaaaaa
-#SSS  AAww######     ##########aa
-#SS#  AAww#####  AAAllll#########
-#S##  Alww#####  AllAlll####     
-####  wwww#####  Alllll##### llll
-####             AAAll###### llAA
-####  WWW######  ##ll#######  lAA
-####  WWW######  #llaaaa##### ###
-####  WWWwaaaaa  ###aaaa####  ###
-####  Wwwwaaaaa    ##aaa### aaa##
-###   wwwwaaaaa       aa###  aa##
-###  wwwwwaaaaA ###aa aa###  AA##
-###  wwwwaaaaaA ##aaa AA### AAa##
-###  wwwaa##### ##aaa AA###   ###
-#   #wwaaa##### ##aaa         www
-#E###AAAaaaaaaaE##############www
+lllllll aaAAAAAAAaaa
+lllAAAA aaAAAAAAAaaa
+lllAAAA             
+lllAAAA ############
+####### lllllllllll#
+llAAAAA llAAAAAAAll#
+llAAAAA llAAAAAAAll#
+####### llAAAAAAAll#
+llAAAAA             
+llAAAAA aaAAAAAAAa##
+llAAAAA aaAAAAAAAa##
+####### aaAAAAAAAa##
+llAAAAA aaAAAAAAAa##
+llAAAAA ############
+                    
+wwWWWWW wwWWWWWWWww#
+wwWWWWW wwWWWWWWWww#
+wwWWWWW wwWWWWWWWww#
+wwWWWWW wwWWWWWWWww#
+####### wwWWWWWWWww#
 
 Press any key to continue...
 +=====================================================================+

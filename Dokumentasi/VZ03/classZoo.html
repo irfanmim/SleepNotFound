@@ -99,58 +99,358 @@ Collaboration diagram for Zoo:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a27c9424fdd277ee7fb10942f5dc7ba63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27c9424fdd277ee7fb10942f5dc7ba63"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Zoo</b> (ifstream &amp;infile)</td></tr>
+<tr class="memitem:a27c9424fdd277ee7fb10942f5dc7ba63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a27c9424fdd277ee7fb10942f5dc7ba63">Zoo</a> (ifstream &amp;infile)</td></tr>
+<tr class="memdesc:a27c9424fdd277ee7fb10942f5dc7ba63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a27c9424fdd277ee7fb10942f5dc7ba63">More...</a><br /></td></tr>
 <tr class="separator:a27c9424fdd277ee7fb10942f5dc7ba63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac98739901be3877d54365bf70b7fc5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7ac98739901be3877d54365bf70b7fc5"></a>
-<a class="el" href="classCell.html">Cell</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetMember</b> (int i, int j)</td></tr>
+<tr class="memitem:a7ac98739901be3877d54365bf70b7fc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCell.html">Cell</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a7ac98739901be3877d54365bf70b7fc5">GetMember</a> (int i, int j)</td></tr>
+<tr class="memdesc:a7ac98739901be3877d54365bf70b7fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function getMember mengambil isi <a class="el" href="classCell.html">Cell</a> dari koordinat (i,j)  <a href="#a7ac98739901be3877d54365bf70b7fc5">More...</a><br /></td></tr>
 <tr class="separator:a7ac98739901be3877d54365bf70b7fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a0b975693810ddab18a08d78dca8b63"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a0b975693810ddab18a08d78dca8b63"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setMember</b> (int i, int j, <a class="el" href="classCell.html">Cell</a> *c)</td></tr>
+<tr class="memitem:a3a0b975693810ddab18a08d78dca8b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a3a0b975693810ddab18a08d78dca8b63">setMember</a> (int i, int j, <a class="el" href="classCell.html">Cell</a> *c)</td></tr>
+<tr class="memdesc:a3a0b975693810ddab18a08d78dca8b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure setMember men set pada koordinat (i,j) isi Cellnya apa.  <a href="#a3a0b975693810ddab18a08d78dca8b63">More...</a><br /></td></tr>
 <tr class="separator:a3a0b975693810ddab18a08d78dca8b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0451247a1e1ada43b4db55bfb27b2916"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0451247a1e1ada43b4db55bfb27b2916"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (int row, int col, ifstream &amp;infile)</td></tr>
+<tr class="memitem:a0451247a1e1ada43b4db55bfb27b2916"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a0451247a1e1ada43b4db55bfb27b2916">Initialize</a> (int row, int col, ifstream &amp;infile)</td></tr>
+<tr class="memdesc:a0451247a1e1ada43b4db55bfb27b2916"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure intialize menginisiasi terbentuknya <a class="el" href="classCage.html">Cage</a> dengan input file eksternal.  <a href="#a0451247a1e1ada43b4db55bfb27b2916">More...</a><br /></td></tr>
 <tr class="separator:a0451247a1e1ada43b4db55bfb27b2916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2334e111bd9ba1323f75084e72e2b549"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2334e111bd9ba1323f75084e72e2b549"></a>
-<a class="el" href="classHabitat.html">Habitat</a> **&#160;</td><td class="memItemRight" valign="bottom"><b>ParseCage</b> (int &amp;nh, ifstream &amp;infile)</td></tr>
+<tr class="memitem:a2334e111bd9ba1323f75084e72e2b549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classHabitat.html">Habitat</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a2334e111bd9ba1323f75084e72e2b549">ParseCage</a> (int &amp;nh, ifstream &amp;infile)</td></tr>
+<tr class="memdesc:a2334e111bd9ba1323f75084e72e2b549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function ParseCage mengembalikan array of pointer to <a class="el" href="classHabitat.html">Habitat</a>.  <a href="#a2334e111bd9ba1323f75084e72e2b549">More...</a><br /></td></tr>
 <tr class="separator:a2334e111bd9ba1323f75084e72e2b549"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad39e2dc6c4f54fb49bcdb92ac116ae15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad39e2dc6c4f54fb49bcdb92ac116ae15"></a>
-<a class="el" href="classRoad.html">Road</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getExit</b> ()</td></tr>
+<a class="el" href="classRoad.html">Road</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#ad39e2dc6c4f54fb49bcdb92ac116ae15">getExit</a> ()</td></tr>
+<tr class="memdesc:ad39e2dc6c4f54fb49bcdb92ac116ae15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method mengembalikan nilai <a class="el" href="classRoad.html">Road</a> dimana tempat exit. <br /></td></tr>
 <tr class="separator:ad39e2dc6c4f54fb49bcdb92ac116ae15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51dbb0798d0c94c3f57b77b6b11abb92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a51dbb0798d0c94c3f57b77b6b11abb92"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeCage</b> (ifstream &amp;infile)</td></tr>
+<tr class="memitem:a51dbb0798d0c94c3f57b77b6b11abb92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a51dbb0798d0c94c3f57b77b6b11abb92">InitializeCage</a> (ifstream &amp;infile)</td></tr>
+<tr class="memdesc:a51dbb0798d0c94c3f57b77b6b11abb92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure intializeCage menginisiasi terbentuknya <a class="el" href="classCage.html">Cage</a> dengan input file eksternal.  <a href="#a51dbb0798d0c94c3f57b77b6b11abb92">More...</a><br /></td></tr>
 <tr class="separator:a51dbb0798d0c94c3f57b77b6b11abb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8176c774c21ec2077495f9bdb2172f4e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8176c774c21ec2077495f9bdb2172f4e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isInPath</b> (int x, int y)</td></tr>
+<tr class="memitem:a8176c774c21ec2077495f9bdb2172f4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a8176c774c21ec2077495f9bdb2172f4e">isInPath</a> (int x, int y)</td></tr>
+<tr class="memdesc:a8176c774c21ec2077495f9bdb2172f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function boolean IsInPath mengembalikan true jika (x,y) merupakan <a class="el" href="classRoad.html">Road</a>.  <a href="#a8176c774c21ec2077495f9bdb2172f4e">More...</a><br /></td></tr>
 <tr class="separator:a8176c774c21ec2077495f9bdb2172f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76864623186f5a184b1759dbc0075be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab76864623186f5a184b1759dbc0075be"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Show</b> ()</td></tr>
 <tr class="separator:ab76864623186f5a184b1759dbc0075be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49fcd39d8c5b581c53207cc53db60aab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49fcd39d8c5b581c53207cc53db60aab"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Tour</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a49fcd39d8c5b581c53207cc53db60aab">Tour</a> ()</td></tr>
+<tr class="memdesc:a49fcd39d8c5b581c53207cc53db60aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure Tour melakukan Tour keliling <a class="el" href="classZoo.html">Zoo</a>. <br /></td></tr>
 <tr class="separator:a49fcd39d8c5b581c53207cc53db60aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cdf56966accd462a353d0016af9d593"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3cdf56966accd462a353d0016af9d593"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetHeight</b> () const </td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a3cdf56966accd462a353d0016af9d593">GetHeight</a> () const </td></tr>
+<tr class="memdesc:a3cdf56966accd462a353d0016af9d593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function GetWidth mengembalikan jumlah kolom dari <a class="el" href="classZoo.html">Zoo</a>. <br /></td></tr>
 <tr class="separator:a3cdf56966accd462a353d0016af9d593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15686b55e0d2c422b6fa231c834c4870"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15686b55e0d2c422b6fa231c834c4870"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>GetWidth</b> () const </td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a15686b55e0d2c422b6fa231c834c4870">GetWidth</a> () const </td></tr>
+<tr class="memdesc:a15686b55e0d2c422b6fa231c834c4870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function GetWidth mengembalikan jumlah baris dari <a class="el" href="classZoo.html">Zoo</a>. <br /></td></tr>
 <tr class="separator:a15686b55e0d2c422b6fa231c834c4870"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d507aa36fb6db248a46238dff152fc7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1d507aa36fb6db248a46238dff152fc7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearPath</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a1d507aa36fb6db248a46238dff152fc7">ClearPath</a> ()</td></tr>
+<tr class="memdesc:a1d507aa36fb6db248a46238dff152fc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Proedure ClearPath menghapus semua path yang sudah dilalui sehingga seperti semula. <br /></td></tr>
 <tr class="separator:a1d507aa36fb6db248a46238dff152fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3424ac48cc5bba55a11b410cbb29040"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3424ac48cc5bba55a11b410cbb29040"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ShowFood</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#ad3424ac48cc5bba55a11b410cbb29040">ShowFood</a> ()</td></tr>
+<tr class="memdesc:ad3424ac48cc5bba55a11b410cbb29040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menampilkan makanan pada <a class="el" href="classZoo.html">Zoo</a>. <br /></td></tr>
 <tr class="separator:ad3424ac48cc5bba55a11b410cbb29040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af393e04cb107ead6ddf33241ece15c47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af393e04cb107ead6ddf33241ece15c47"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>MoveAnimal</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#af393e04cb107ead6ddf33241ece15c47">MoveAnimal</a> ()</td></tr>
+<tr class="memdesc:af393e04cb107ead6ddf33241ece15c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menggerakkan animal pada <a class="el" href="classZoo.html">Zoo</a>. <br /></td></tr>
 <tr class="separator:af393e04cb107ead6ddf33241ece15c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac14b77f4aa847efd439d98583b4cc1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac14b77f4aa847efd439d98583b4cc1b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Animate</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#aac14b77f4aa847efd439d98583b4cc1b">Animate</a> ()</td></tr>
+<tr class="memdesc:aac14b77f4aa847efd439d98583b4cc1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Melakukan looping MoveAnimal berulang-ulang sehingga dapat terlihat gerakannya. <br /></td></tr>
 <tr class="separator:aac14b77f4aa847efd439d98583b4cc1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d9ece8961fd334ddcb10fd02f19275"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72d9ece8961fd334ddcb10fd02f19275"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ShowByEdge</b> (int a, int b, int c, int d)</td></tr>
+<tr class="memitem:a72d9ece8961fd334ddcb10fd02f19275"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#a72d9ece8961fd334ddcb10fd02f19275">ShowByEdge</a> (int a, int b, int c, int d)</td></tr>
+<tr class="memdesc:a72d9ece8961fd334ddcb10fd02f19275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menampilkan kelas <a class="el" href="classZoo.html">Zoo</a> berdasarkan.  <a href="#a72d9ece8961fd334ddcb10fd02f19275">More...</a><br /></td></tr>
 <tr class="separator:a72d9ece8961fd334ddcb10fd02f19275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65ebe1fa60f6cf2a7cc55f78ff06ba5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab65ebe1fa60f6cf2a7cc55f78ff06ba5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classZoo.html#ab65ebe1fa60f6cf2a7cc55f78ff06ba5">~Zoo</a> ()</td></tr>
+<tr class="memdesc:ab65ebe1fa60f6cf2a7cc55f78ff06ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor kelas <a class="el" href="classZoo.html">Zoo</a>. <br /></td></tr>
+<tr class="separator:ab65ebe1fa60f6cf2a7cc55f78ff06ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a27c9424fdd277ee7fb10942f5dc7ba63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Zoo::Zoo </td>
+          <td>(</td>
+          <td class="paramtype">ifstream &amp;&#160;</td>
+          <td class="paramname"><em>infile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">infile</td><td>file eksternal input Konstruktor <a class="el" href="classZoo.html">Zoo</a> I.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki konstruktor F.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki konstruktor Perancang kelas: Irfan </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7ac98739901be3877d54365bf70b7fc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCell.html">Cell</a> * Zoo::GetMember </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function getMember mengambil isi <a class="el" href="classCell.html">Cell</a> dari koordinat (i,j) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>absis lokasi </td></tr>
+    <tr><td class="paramname">j</td><td>ordinat lokasi I.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method mengambil isi <a class="el" href="classCell.html">Cell</a> dari koordinat (i,j) F.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method mengambil isi <a class="el" href="classCell.html">Cell</a> dari koordinat (i,j) Perancang kelas: Irfan </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a0451247a1e1ada43b4db55bfb27b2916"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zoo::Initialize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>row</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>col</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ifstream &amp;&#160;</td>
+          <td class="paramname"><em>infile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procedure intialize menginisiasi terbentuknya <a class="el" href="classCage.html">Cage</a> dengan input file eksternal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">row</td><td>jumlah baris </td></tr>
+    <tr><td class="paramname">col</td><td>jumlah kolom </td></tr>
+    <tr><td class="paramname">infile</td><td>file eksternal input I.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method menginisiasi terbentuknya <a class="el" href="classCage.html">Cage</a> dengan input file eksternal F.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method menginisiasi terbentuknya <a class="el" href="classCage.html">Cage</a> dengan input file eksternal Perancang kelas: Irfan </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a51dbb0798d0c94c3f57b77b6b11abb92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zoo::InitializeCage </td>
+          <td>(</td>
+          <td class="paramtype">ifstream &amp;&#160;</td>
+          <td class="paramname"><em>infile</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procedure intializeCage menginisiasi terbentuknya <a class="el" href="classCage.html">Cage</a> dengan input file eksternal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">infile</td><td>file eksternal input </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8176c774c21ec2077495f9bdb2172f4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Zoo::isInPath </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function boolean IsInPath mengembalikan true jika (x,y) merupakan <a class="el" href="classRoad.html">Road</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>absis dari lokasi </td></tr>
+    <tr><td class="paramname">y</td><td>ordinat dari lokasi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2334e111bd9ba1323f75084e72e2b549"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classHabitat.html">Habitat</a> ** Zoo::ParseCage </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>nh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ifstream &amp;&#160;</td>
+          <td class="paramname"><em>infile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function ParseCage mengembalikan array of pointer to <a class="el" href="classHabitat.html">Habitat</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nh</td><td>banyaknya sel habitat dalam satu <a class="el" href="classCage.html">Cage</a> </td></tr>
+    <tr><td class="paramname">infile</td><td>file eksternal input I.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method mengembalikan array of pointer to <a class="el" href="classHabitat.html">Habitat</a> F.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method mengembalikan array of pointer to <a class="el" href="classHabitat.html">Habitat</a> Perancang kelas: Irfan </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3a0b975693810ddab18a08d78dca8b63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zoo::setMember </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classCell.html">Cell</a> *&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procedure setMember men set pada koordinat (i,j) isi Cellnya apa. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>absis lokasi </td></tr>
+    <tr><td class="paramname">j</td><td>ordinat lokasi </td></tr>
+    <tr><td class="paramname">c</td><td>pointer to <a class="el" href="classCell.html">Cell</a> I.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method men set pada koordinat (i,j) isi Cellnya apa F.S.: Kelas <a class="el" href="classZoo.html">Zoo</a> belum memiliki method men set pada koordinat (i,j) isi Cellnya apa Perancang kelas: Irfan </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a72d9ece8961fd334ddcb10fd02f19275"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Zoo::ShowByEdge </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Menampilkan kelas <a class="el" href="classZoo.html">Zoo</a> berdasarkan. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>batas atas </td></tr>
+    <tr><td class="paramname">b</td><td>batas bawah </td></tr>
+    <tr><td class="paramname">c</td><td>batas kiri </td></tr>
+    <tr><td class="paramname">d</td><td>batas kanan </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>zoo/<a class="el" href="zoo_8h_source.html">zoo.h</a></li>
 <li>zoo/zoo.cpp</li>

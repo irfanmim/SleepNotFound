@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['getcage',['GetCage',['../classCageList.html#a6f0b176ff42974d6b4dbdff84d6ea5a5',1,'CageList']]],
+  ['getanimal',['GetAnimal',['../classHabitat.html#ac2a97a8db63bbdaf21c08c9142f82c8b',1,'Habitat']]],
+  ['getcage',['GetCage',['../classCageList.html#adb33edf20094b8fd7dfa246887848eed',1,'CageList']]],
+  ['getcagestatus',['GetCageStatus',['../classHabitat.html#a4ccefadc5d90a3c88be0b5b834e35613',1,'Habitat']]],
+  ['getexit',['getExit',['../classZoo.html#ad39e2dc6c4f54fb49bcdb92ac116ae15',1,'Zoo']]],
   ['getfood',['GetFood',['../classCarnivore.html#a1032e38dee235a21c3a6b5d77e9a7906',1,'Carnivore::GetFood()'],['../classHerbivore.html#a2c63fd82a3919c52ca2d34c94d204ca4',1,'Herbivore::GetFood()'],['../classOmnivore.html#a701d76169b7ac6581fa4b9434902f04b',1,'Omnivore::GetFood()']]],
+  ['gethabbycoor',['GetHabByCoor',['../classCage.html#a459ae23b80fff73cb998f5d4edfc4a20',1,'Cage']]],
+  ['gethabcode',['GetHabCode',['../classHabitat.html#a3ba09f3044af3db6e894db0035f21b91',1,'Habitat']]],
+  ['gethabitat',['GetHabitat',['../classCage.html#a255b22b39ecaf2ce99a39250b9118449',1,'Cage']]],
+  ['getheight',['GetHeight',['../classZoo.html#a3cdf56966accd462a353d0016af9d593',1,'Zoo']]],
+  ['getmember',['GetMember',['../classZoo.html#a7ac98739901be3877d54365bf70b7fc5',1,'Zoo']]],
+  ['getnbanimal',['GetNbAnimal',['../classAnimal.html#aea7f0287e8ab52c497acf001b141c54d',1,'Animal']]],
+  ['getnh',['GetNH',['../classCage.html#ac3935cae2e1559afa786998a2fb7093b',1,'Cage']]],
   ['getsize',['GetSize',['../classCageList.html#a27cef01cc36f1a160d273677841fedfc',1,'CageList']]],
   ['getweight',['GetWeight',['../classAnimal.html#a5d8a5a5c881f46e0de6438f902eb57ee',1,'Animal']]],
-  ['gorilla',['Gorilla',['../classGorilla.html#a3ca15e178e8ca79e2d1c5be84c9788e9',1,'Gorilla']]]
+  ['getwidth',['GetWidth',['../classZoo.html#a15686b55e0d2c422b6fa231c834c4870',1,'Zoo']]],
+  ['getx',['GetX',['../classCell.html#a91e44d6a6b1b4ac59babaec3cb99ea66',1,'Cell::GetX()'],['../classPoint.html#a17268f57fa918fa8119e96f014573902',1,'Point::GetX()']]],
+  ['gety',['GetY',['../classCell.html#a67badd925fbe193a1a29557c1917e00f',1,'Cell::GetY()'],['../classPoint.html#a1b715f6d7008f2ef92e57135b8443987',1,'Point::GetY()']]],
+  ['gorilla',['Gorilla',['../classGorilla.html#a3ca15e178e8ca79e2d1c5be84c9788e9',1,'Gorilla']]],
+  ['gotoxy',['GoToXY',['../classDriver.html#a04dc7a5d7be6e80e87e2de15bb6e648d',1,'Driver']]]
 ];

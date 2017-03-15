@@ -5,5 +5,7 @@ var searchData=
   ['tiger',['Tiger',['../classTiger.html',1,'Tiger'],['../classTiger.html#aa4604524d55c97444310b333228ad456',1,'Tiger::Tiger()']]],
   ['total_5fcfood',['total_cfood',['../classCarnivore.html#ab449b336745a74e84784bfc13489ec15',1,'Carnivore']]],
   ['total_5fhfood',['total_hfood',['../classHerbivore.html#a8bd02e6119cd6950a37a8ef3e262fa0a',1,'Herbivore']]],
-  ['total_5fofood',['total_ofood',['../classOmnivore.html#ac4e106c20ef52747fb78f22765beaa64',1,'Omnivore']]]
+  ['total_5fofood',['total_ofood',['../classOmnivore.html#ac4e106c20ef52747fb78f22765beaa64',1,'Omnivore']]],
+  ['tour',['Tour',['../classZoo.html#a49fcd39d8c5b581c53207cc53db60aab',1,'Zoo']]],
+  ['tourzoo',['TourZoo',['../classDriver.html#aa56ed0eaa789f78765708e15032d6534',1,'Driver']]]
 ];

@@ -8,5 +8,6 @@ var searchData=
   ['cfood',['cfood',['../classCarnivore.html#af1b6929b2e0d7204ad0c0a865fe6e96b',1,'Carnivore']]],
   ['cheetah',['Cheetah',['../classCheetah.html',1,'Cheetah'],['../classCheetah.html#aa8bec3ae2c2bb25535f805c0509a0e6b',1,'Cheetah::Cheetah()']]],
   ['chimpanzee',['Chimpanzee',['../classChimpanzee.html',1,'Chimpanzee'],['../classChimpanzee.html#ae10ec6978fa4747f20ee73fcc0e5bba8',1,'Chimpanzee::Chimpanzee()']]],
+  ['clearpath',['ClearPath',['../classZoo.html#a1d507aa36fb6db248a46238dff152fc7',1,'Zoo']]],
   ['coala',['Coala',['../classCoala.html',1,'Coala'],['../classCoala.html#ae9ad5eb4dc897fe15c78ff8f9f0af1b7',1,'Coala::Coala()']]]
 ];

@@ -6,5 +6,6 @@ var searchData=
   ['cendrawasih',['Cendrawasih',['../classCendrawasih.html#ad86651b1341d460fb7cf1c9593133ab7',1,'Cendrawasih']]],
   ['cheetah',['Cheetah',['../classCheetah.html#aa8bec3ae2c2bb25535f805c0509a0e6b',1,'Cheetah']]],
   ['chimpanzee',['Chimpanzee',['../classChimpanzee.html#ae10ec6978fa4747f20ee73fcc0e5bba8',1,'Chimpanzee']]],
+  ['clearpath',['ClearPath',['../classZoo.html#a1d507aa36fb6db248a46238dff152fc7',1,'Zoo']]],
   ['coala',['Coala',['../classCoala.html#ae9ad5eb4dc897fe15c78ff8f9f0af1b7',1,'Coala']]]
 ];
