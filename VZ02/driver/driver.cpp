@@ -3,17 +3,22 @@
 #include <iostream>
 using namespace std;
 
-Driver::Driver(ifstream& infile):z(infile){
+Driver::Driver(ifstream& infile):z(infile) {
   InitMenu();
   quit = false;
   z.InitializeCage(infile);
 }
 
-void Driver::DisplayMenu(){
+void Driver::DisplayMenu() {
   do {
-    system("clear");
 
-    cout << "WELCOME TO VIRTUAL ZOO" << endl << endl;
+
+cout << "+=====================================================================+" << endl;
+cout << "     __    __ __      __  ___ __         __ ___             ___ __  __ " << endl;
+cout << "|  ||_ |  /  /  \\|\\/||_    | /  \\  \\  /||__) | /  \\ /\\ |     _//  \\/  \\" << endl;
+cout << "|/\\||__|__\\__\\__/|  ||__   | \\__/   \\/ || \\  | \\__//--\\|__  /__\\__/\\__/" << endl << endl;
+cout << "+=====================================================================+" << endl << endl << endl;                                                                      
+
 
     for (int i = 0; i < menu.size(); i++) {
       if (i != menu.size() - 1) {
@@ -27,31 +32,31 @@ void Driver::DisplayMenu(){
     
     if (inp == 1) {
       ShowZoo();
-      cout << endl << "Press any key to continue...";
+      cout << endl << "Press any key to continue..." << endl;
       cin.ignore(10,'\n');
       cin.get();
     }
     else if (inp == 2) {
       TourZoo();
-      cout << endl << "Press any key to continue...";
+      cout << endl << "Press any key to continue..." << endl;
       cin.ignore(10,'\n');
       cin.get();
     }
     else if (inp == 3) {
       quit = true;
     }
-  } while(!quit);
+  } while (!quit);
 }
 
-void Driver::ShowZoo(){
+void Driver::ShowZoo() {
   z.Show();
 }
 
-void Driver::TourZoo(){
+void Driver::TourZoo() {
   z.Tour();
 }
 
-void Driver::InitMenu(){
+void Driver::InitMenu() {
   menu.push_back("Pilihan menu : ");
   menu.push_back("1. Display Virtual Zoo");
   menu.push_back("2. Tour Virtual Zoo ");
