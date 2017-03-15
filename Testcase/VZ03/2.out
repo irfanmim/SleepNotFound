@@ -1,0 +1,2296 @@
++=====================================================================+
+     __    __ __      __  ___ __         __ ___             ___ __  __ 
+|  ||_ |  /  /  \|\/||_    | /  \  \  /||__) | /  \ /\ |     _//  \/  \
+|/\||__|__\__\__/|  ||__   | \__/   \/ || \  | \__//--\|__  /__\__/\__/
+
++=====================================================================+
+
+
+Pilihan menu : 
+1. Display Virtual Zoo
+2. Tour Virtual Zoo 
+3. Show Movement 
+4. Show Total Food 
+5. Quit 
+
+Masukkan input : 
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+######## wwWWMWWWWww######### #########################
+#$$$$$$$                                              )
+#$$$$$$$ ########################## ########aaakAAkAAa#
+#$$$$$$$ ########################## ########aaaAAkAAAa#
+#$$$$$$$ ##########################                   #
+#$$$$$$$ ###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+######## wwWWMWWWWww######### #########################
+#$$$$$$$                                              )
+#$$$$$$$ ########################## ########aaakAAkAAa#
+#$$$$$$$ ########################## ########aaaAAkAAAa#
+#$$$$$$$ ##########################                   #
+#$$$$$$$@###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+######## wwWWMWWWWww######### #########################
+#$$$$$$$                                              )
+#$$$$$$$ ########################## ########aaakAAkAAa#
+#$$$$$$$ ########################## ########aaaAAkAAAa#
+#$$$$$$$@##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+######## wwWWMWWWWww######### #########################
+#$$$$$$$                                              )
+#$$$$$$$ ########################## ########aaakAAkAAa#
+#$$$$$$$@########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+######## wwWWMWWWWww######### #########################
+#$$$$$$$                                              )
+#$$$$$$$@########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+######## wwWWMWWWWww######### #########################
+#$$$$$$$@                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW wwWWMWWWWww######### #########################
+########@wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW wwQWWMWWWww######### #########################
+#wwWWWWW@wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Webek, webek*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW wwWWWQWWWww######### #########################
+#wwWWWWW@wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Webek, webek*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW wwOWWWOWWww######### #########################
+#wwW?WWW@wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Webek, webek*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)                             #########################
+#wwWWWWW@wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Webek, webek*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       @                     #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -@                    #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       --@                   #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ---@                  #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ----@                 #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -----@                #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ------@               #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -------@              #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       --------@             #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ---------@            #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan lumba-lumba melakukan dolphin jump ! Wuuuoooowww !! (*o*) *
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan paus hampir tidak muat di habitatnya*
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+*Ikan pari bentuknya aneh sekali ... :| *
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ----------@           #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -----------@          #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ------------@         #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -------------@        #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       --------------@       #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ---------------@      #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ----------------@     #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -----------------@    #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ------------------@   #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       -------------------@  #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       --------------------@ #########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL #################### #########################
+)       ---------------------@#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa########## #########################
+#llLLLLL ####################@#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####                              )
+#llLLhLL aaAAkAAAAa##########@#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     @                        )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -@                       )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     --@                      )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ---@                     )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ----@                    )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -----@                   )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ------@                  )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -------@                 )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     --------@                )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ---------@               )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ----------@              )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -----------@             )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ------------@            )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -------------@           )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     --------------@          )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ---------------@         )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ----------------@        )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -----------------@       )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ------------------@      )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -------------------@     )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     --------------------@    )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ---------------------@   )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ----------------------@  )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+*Burung merak memamerkan sayapnya, sombong sekali :(*
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -----------------------@ )
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     ------------------------@)
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+
++==================================+
+      __ ___             ___ __  __ 
+\  /||__) | /  \ /\ |     _//  \/  \
+ \/ || \  | \__//--\|__  /__\__/\__/
+
++==================================+
+
+########(##############################################
+#lllllll aaAAeAAAAaaa            #########lllllnLLLLll#
+#lllLLLL aaAAAAAAAaaa ########## #########lllllnLLLnll#
+#lllLLLL                                              #
+#llliLLL ################################ lllllyLLLLll#
+######## lllllllllll####$$$$$#$$$$$###### lllllLLLLLll#
+#llLLtLL llaLLrLLLll#####$$$$$$$$$####### #############
+#llLLLLL llLLrLLLLll#######$$$$$######### lllllmLLLLll#
+######## llpLLpLLLll#########$$########## lllllmLLLmll#
+#llLLgLL                 ################ #############
+#llLLLLL aabAAAbAAa##### ################ lllll&LLLLll#
+#llLLLLL aacAAcAAAa##### ################ lllll&LLL&ll#
+######## aakAAkAAAa#####     -------------------------)
+#llLLhLL aaAAkAAAAa##########-#########################
+#llLLLLL ####################-#########################
+)       ----------------------#########################
+#wwWWWWW-wwOWWWOWWww######### #########################
+#wwW?WWW-wwWWWQWWWww######### #########################
+#wwWWWWW-wwQWWMWWWww######### #########################
+#wwWWWWW-wwWWMWWWWww######### #########################
+########-wwWWMWWWWww######### #########################
+#$$$$$$$-                                             )
+#$$$$$$$-########################## ########aaakAAkAAa#
+#$$$$$$$-########################## ########aaaAAkAAAa#
+#$$$$$$$-##########################                   #
+#$$$$$$$-###################################aaabAAAAAa#
+########)##############################################
+
+Press any key to continue...+=====================================================================+
+     __    __ __      __  ___ __         __ ___             ___ __  __ 
+|  ||_ |  /  /  \|\/||_    | /  \  \  /||__) | /  \ /\ |     _//  \/  \
+|/\||__|__\__\__/|  ||__   | \__/   \/ || \  | \__//--\|__  /__\__/\__/
+
++=====================================================================+
+
+
+Pilihan menu : 
+1. Display Virtual Zoo
+2. Tour Virtual Zoo 
+3. Show Movement 
+4. Show Total Food 
+5. Quit 
+
+Masukkan input : 
